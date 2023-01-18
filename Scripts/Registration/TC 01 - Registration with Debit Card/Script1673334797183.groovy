@@ -25,9 +25,9 @@ import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import io.appium.java_client.android.nativekey.AndroidKey as AndroidKey
 import io.appium.java_client.android.nativekey.KeyEvent as KeyEvent
 
-Mobile.startApplication('C:\\Users\\rr309548\\Downloads\\04012023_ajman_bank.apk', false)
+Mobile.startApplication('kobiton-store:490925', false)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('1.Registration and Login/Welcome Page/Button_Existing Customer'), 0)
 
@@ -56,7 +56,7 @@ Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('1.Registration and Login/Card Details Page/Button_Next on Card details'), 0)
 
-Mobile.delay(50, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(30, FailureHandling.STOP_ON_FAILURE)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
@@ -113,6 +113,8 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('1.Registration and Login/mPIN Page/Button_Next mPIN Page'), 0)
 
 Mobile.delay(4, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.swipe(135, 1840, 447, 259)
 
 Mobile.tap(findTestObject('1.Registration and Login/mPIN Page/Button_Maybe later Biometric'), 0)
 

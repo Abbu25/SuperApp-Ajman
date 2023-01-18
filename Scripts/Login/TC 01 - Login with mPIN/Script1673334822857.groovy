@@ -25,7 +25,7 @@ import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import io.appium.java_client.android.nativekey.AndroidKey as AndroidKey
 import io.appium.java_client.android.nativekey.KeyEvent as KeyEvent
 
-Mobile.startApplication('C:\\Users\\rr309548\\Downloads\\04012023_ajman_bank.apk', false)
+Mobile.startApplication('kobiton-store:490925', false)
 
 Mobile.delay(15, FailureHandling.STOP_ON_FAILURE)
 
