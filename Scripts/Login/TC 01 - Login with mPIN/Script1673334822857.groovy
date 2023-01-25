@@ -25,7 +25,7 @@ import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import io.appium.java_client.android.nativekey.AndroidKey as AndroidKey
 import io.appium.java_client.android.nativekey.KeyEvent as KeyEvent
 
-Mobile.startApplication('kobiton-store:490925', false)
+WebUI.callTestCase(findTestCase('Utilities/BrowserStackIntegration'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(15, FailureHandling.STOP_ON_FAILURE)
 
