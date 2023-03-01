@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 01 - Login with mPIN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aca3d311-5f8c-4b31-8fc1-b2ec5bc8fce7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3bea34d-4013-4938-afdb-ed0fb03a07cc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'011074763011'</defaultValue>
+      <description></description>
+      <id>c3bea34d-4013-4938-afdb-ed0fb03a07cc</id>
+      <masked>false</masked>
+      <name>accountNumber</name>
+   </variable>
+</TestCaseEntity>

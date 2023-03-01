@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC 01 - Login with mPIN</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c1e14984-d5b7-4163-b7a3-af3a6b822a7a</testCaseGuid>
-</TestCaseEntity>

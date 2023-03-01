@@ -12,41 +12,32 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>435f830f-7468-468c-a865-2fc873b34c64</testSuiteGuid>
    <testCaseLink>
-      <guid>43e12dfb-11f0-475e-b663-86f7afb7c7e8</guid>
+      <guid>a5d82670-0d55-4642-a942-1686d8f00399</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Registration/TC 01 - Registration with Debit Card</testCaseId>
+      <testCaseId>Test Cases/Utilities/Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1d3dd38b-f038-4809-9445-68c75d2bd8b8</guid>
+      <guid>423629c2-75a8-478c-9c5f-96109370c922</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payments/TC 01 - New Bill Payment - Copy</testCaseId>
+      <testCaseId>Test Cases/Utilities/Account Selection Based on AccountNumber</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>46270881-4846-4d54-a68b-ef954bad30ea</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/New Bill Payment/Bill</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a92ab384-7323-46bf-a650-2d8fadae18dd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9c5e4e2d-d8a2-48c6-b2a6-30030c23aa9e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6e2a9559-a1af-4a73-ad62-ade069e67284</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>370ffce7-b0c2-4944-bd0e-526a3b89cd63</variableId>
+         <testDataLinkId>46270881-4846-4d54-a68b-ef954bad30ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountNumber</value>
+         <variableId>1337382d-7125-439a-9e2f-10ff365cd214</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

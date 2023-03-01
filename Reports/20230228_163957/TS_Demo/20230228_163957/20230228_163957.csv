@@ -1,0 +1,126 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Demo,,,,2023-02-28 16:40:09,2023-02-28 16:46:48,6m - 39.391s,PASSED
+,,,,,,,
+Test Cases/Demo/TC 01 - Registration with Debit Card,,,,2023-02-28 16:40:10,2023-02-28 16:41:51,1m - 41.051s,PASSED
+Start listener action : enableSauceLabs,,,,2023-02-28 16:40:10,2023-02-28 16:40:10,0.053s,PASSED
+"startExistingApplication(""com.cbt.ajmandigital"", CONTINUE_ON_FAILURE)",,,,2023-02-28 16:40:11,2023-02-28 16:40:44,32.796s,PASSED
+"waitForElementPresent(findTestObject(""1.Registration and Login/Welcome Page/button_Already a Customer""), 0)",,,,2023-02-28 16:40:44,2023-02-28 16:40:59,14.915s,PASSED
+"tap(findTestObject(""1.Registration and Login/Welcome Page/button_Already a Customer""), 0)",,,,2023-02-28 16:40:59,2023-02-28 16:41:00,1.650s,PASSED
+"waitForElementPresent(findTestObject(""1.Registration and Login/Card Details Page/Radio Button_Debit Card""), 0)",,,,2023-02-28 16:41:00,2023-02-28 16:41:01,0.438s,PASSED
+"tap(findTestObject(""1.Registration and Login/Card Details Page/Radio Button_Debit Card""), 0)",,,,2023-02-28 16:41:01,2023-02-28 16:41:01,0.463s,PASSED
+"setText(findTestObject(""1.Registration and Login/Card Details Page/Text Box_Card Number""), ""5244550100131688"", 0)",,,,2023-02-28 16:41:01,2023-02-28 16:41:02,0.821s,PASSED
+"setText(findTestObject(""1.Registration and Login/Card Details Page/Text Box_Card Pin""), ""4631"", 0)",,,,2023-02-28 16:41:02,2023-02-28 16:41:03,0.941s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-02-28 16:41:03,2023-02-28 16:41:05,2.126s,PASSED
+takeScreenshot(),,,,2023-02-28 16:41:05,2023-02-28 16:41:06,1.014s,PASSED
+"tap(findTestObject(""1.Registration and Login/Card Details Page/Button_Next on Card details""), 0)",,,,2023-02-28 16:41:06,2023-02-28 16:41:07,1.044s,PASSED
+"waitForElementPresent(findTestObject(""1.Registration and Login/OTP Page/label_Enter OTP""), 60)",,,,2023-02-28 16:41:07,2023-02-28 16:41:16,8.693s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_OTP""), [:], CONTINUE_ON_FAILURE)",,,,2023-02-28 16:41:16,2023-02-28 16:41:23,7.666s,PASSED
+"tap(findTestObject(""1.Registration and Login/OTP Page/Button_Verify OTP""), 0)",,,,2023-02-28 16:41:23,2023-02-28 16:41:25,1.630s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-02-28 16:41:25,2023-02-28 16:41:30,5.020s,PASSED
+"setText(findTestObject(""1.Registration and Login/mPIN Page/Text Box_Create mPIN""), ""102030"", 0)",,,,2023-02-28 16:41:30,2023-02-28 16:41:31,0.599s,PASSED
+"setText(findTestObject(""1.Registration and Login/mPIN Page/Text Box_Confirm mPIN Entry""), ""102030"", 0)",,,,2023-02-28 16:41:31,2023-02-28 16:41:32,0.891s,PASSED
+"tap(findTestObject(""1.Registration and Login/mPIN Page/Button_Next mPIN Page""), 0)",,,,2023-02-28 16:41:32,2023-02-28 16:41:33,1.230s,PASSED
+"waitForElementPresent(findTestObject(""1.Registration and Login/mPIN Page/Button_Maybe later Biometric""), 0)",,,,2023-02-28 16:41:33,2023-02-28 16:41:34,1.027s,PASSED
+"tap(findTestObject(""1.Registration and Login/mPIN Page/Button_Maybe later Biometric""), 0)",,,,2023-02-28 16:41:34,2023-02-28 16:41:35,1.340s,PASSED
+"waitForElementPresent(findTestObject(""2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings""), 0)",,,,2023-02-28 16:41:35,2023-02-28 16:41:41,5.627s,PASSED
+takeScreenshot(),,,,2023-02-28 16:41:41,2023-02-28 16:41:42,1.299s,PASSED
+"callTestCase(findTestCase(""Utilities/Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-02-28 16:41:42,2023-02-28 16:41:50,7.638s,PASSED
+closeApplication(),,,,2023-02-28 16:41:50,2023-02-28 16:41:51,0.940s,PASSED
+Start listener action : autoUpdateJobStatus,,,,2023-02-28 16:41:51,2023-02-28 16:41:51,0.001s,PASSED
+,,,,,,,
+Test Cases/Demo/TC 01 - Login with mPIN,,,,2023-02-28 16:41:51,2023-02-28 16:42:37,46.616s,PASSED
+Start listener action : enableSauceLabs,,,,2023-02-28 16:41:51,2023-02-28 16:41:51,0.002s,PASSED
+"startExistingApplication(""com.cbt.ajmandigital"", STOP_ON_FAILURE)",,,,2023-02-28 16:41:53,2023-02-28 16:42:16,22.939s,PASSED
+"waitForElementPresent(findTestObject(""1.Registration and Login/Login Page/button_ForgotmPIN""), 0)",,,,2023-02-28 16:42:16,2023-02-28 16:42:16,0.591s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_mPIN""), [:], STOP_ON_FAILURE)",,,,2023-02-28 16:42:16,2023-02-28 16:42:23,6.722s,PASSED
+"waitForElementPresent(findTestObject(""2.Dashboard/Accounts/AccountDetails""), 60)",,,,2023-02-28 16:42:23,2023-02-28 16:42:28,5.343s,PASSED
+takeScreenshot(),,,,2023-02-28 16:42:28,2023-02-28 16:42:30,1.114s,PASSED
+"content = getAttribute(findTestObject(""2.Dashboard/Accounts/AccountDetails""), ""contentDescription"", 0)",,,,2023-02-28 16:42:30,2023-02-28 16:42:30,0.466s,PASSED
+println(content),,,,2023-02-28 16:42:30,2023-02-28 16:42:30,0.007s,PASSED
+"line = content.split(""\R"")",,,,2023-02-28 16:42:30,2023-02-28 16:42:30,0.006s,PASSED
+println(line[4]),,,,2023-02-28 16:42:30,2023-02-28 16:42:30,0.001s,PASSED
+if (accountNumber == line[4]),,,,2023-02-28 16:42:30,2023-02-28 16:42:30,0.002s,PASSED
+"callTestCase(findTestCase(""Utilities/Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-02-28 16:42:30,2023-02-28 16:42:37,6.732s,PASSED
+closeApplication(),,,,2023-02-28 16:42:37,2023-02-28 16:42:37,0.588s,PASSED
+Start listener action : autoUpdateJobStatus,,,,2023-02-28 16:42:37,2023-02-28 16:42:37,0.000s,PASSED
+,,,,,,,
+Test Cases/Demo/TC 01 - Tranfer with in Ajman,,,,2023-02-28 16:42:37,2023-02-28 16:44:50,2m - 12.778s,PASSED
+Start listener action : enableSauceLabs,,,,2023-02-28 16:42:38,2023-02-28 16:42:38,0.002s,PASSED
+"callTestCase(findTestCase(""Utilities/Login""), [:], CONTINUE_ON_FAILURE)",,,,2023-02-28 16:42:39,2023-02-28 16:43:13,34.382s,PASSED
+"tap(findTestObject(""3.Payments/Payments_page/tab_PAY""), 0)",,,,2023-02-28 16:43:13,2023-02-28 16:43:14,1.083s,PASSED
+"waitForElementPresent(findTestObject(""4.Transfers/Button_Ajman Transfer""), 0)",,,,2023-02-28 16:43:14,2023-02-28 16:43:16,1.311s,PASSED
+"tap(findTestObject(""4.Transfers/Button_Ajman Transfer""), 0)",,,,2023-02-28 16:43:16,2023-02-28 16:43:18,2.102s,PASSED
+"waitForElementPresent(findTestObject(""4.Transfers/Text Box_ IBAN Account Number""), 0)",,,,2023-02-28 16:43:18,2023-02-28 16:43:21,3.389s,PASSED
+"callTestCase(findTestCase(""Utilities/Account Selection Based on AccountNumber""), [""accountNumber"":accountNumber], CONTINUE_ON_FAILURE)",,,,2023-02-28 16:43:21,2023-02-28 16:43:29,7.560s,PASSED
+"tap(findTestObject(""4.Transfers/Text Box_ IBAN Account Number""), 0)",,,,2023-02-28 16:43:29,2023-02-28 16:43:29,0.461s,PASSED
+"setText(findTestObject(""4.Transfers/Text Box_ IBAN Account Number""), ""011000833011"", 0)",,,,2023-02-28 16:43:29,2023-02-28 16:43:31,1.273s,PASSED
+takeScreenshot(),,,,2023-02-28 16:43:31,2023-02-28 16:43:32,1.435s,PASSED
+"tap(findTestObject(""4.Transfers/Button_Verify mPIN""), 0)",,,,2023-02-28 16:43:32,2023-02-28 16:43:33,0.890s,PASSED
+"waitForElementPresent(findTestObject(""4.Transfers/Button_Next""), 0)",,,,2023-02-28 16:43:33,2023-02-28 16:43:39,5.657s,PASSED
+"tap(findTestObject(""4.Transfers/Button_Next""), 0)",,,,2023-02-28 16:43:39,2023-02-28 16:43:40,1.546s,PASSED
+delay(3),,,,2023-02-28 16:43:40,2023-02-28 16:43:43,3.007s,PASSED
+"setText(findTestObject(""4.Transfers/Text Box_Amount""), amount, 0)",,,,2023-02-28 16:43:43,2023-02-28 16:43:44,0.874s,PASSED
+takeScreenshot(),,,,2023-02-28 16:43:44,2023-02-28 16:43:45,0.962s,PASSED
+"tap(findTestObject(""4.Transfers/Button_Next""), 0)",,,,2023-02-28 16:43:45,2023-02-28 16:43:46,1.274s,PASSED
+delay(3),,,,2023-02-28 16:43:46,2023-02-28 16:43:49,3.010s,PASSED
+"swipe(135, 1840, 447, 259)",,,,2023-02-28 16:43:49,2023-02-28 16:43:50,1.213s,PASSED
+"tap(findTestObject(""4.Transfers/Button_Confirm""), 0)",,,,2023-02-28 16:43:50,2023-02-28 16:43:51,0.649s,PASSED
+delay(5),,,,2023-02-28 16:43:51,2023-02-28 16:43:56,5.010s,PASSED
+"tapAtPosition(137, 771)",,,,2023-02-28 16:43:56,2023-02-28 16:43:56,0.337s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_mPIN""), [:], STOP_ON_FAILURE)",,,,2023-02-28 16:43:56,2023-02-28 16:44:01,4.967s,PASSED
+"tap(findTestObject(""4.Transfers/Button_Verify mPIN""), 0)",,,,2023-02-28 16:44:01,2023-02-28 16:44:03,1.301s,PASSED
+delay(5),,,,2023-02-28 16:44:03,2023-02-28 16:44:08,5.008s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_OTP""), [:], STOP_ON_FAILURE)",,,,2023-02-28 16:44:08,2023-02-28 16:44:14,6.538s,PASSED
+"tap(findTestObject(""4.Transfers/Button_VerifyOTP""), 0)",,,,2023-02-28 16:44:14,2023-02-28 16:44:16,1.705s,PASSED
+"waitForElementPresent(findTestObject(""4.Transfers/Button_BackToPayment""), 180)",,,,2023-02-28 16:44:16,2023-02-28 16:44:37,20.932s,PASSED
+takeScreenshot(),,,,2023-02-28 16:44:37,2023-02-28 16:44:38,0.705s,PASSED
+"content = getAttribute(findTestObject(""3.Payments/Payment Success page/label_SuccessPage""), ""contentDescription"", 0)",,,,2023-02-28 16:44:38,2023-02-28 16:44:38,0.368s,PASSED
+println(content),,,,2023-02-28 16:44:38,2023-02-28 16:44:38,0.001s,PASSED
+"line = content.split(""\R"")",,,,2023-02-28 16:44:38,2023-02-28 16:44:38,0.000s,PASSED
+println(line[0]),,,,2023-02-28 16:44:38,2023-02-28 16:44:38,0.000s,PASSED
+if (amount == line[0]),,,,2023-02-28 16:44:38,2023-02-28 16:44:38,0.000s,PASSED
+"tap(findTestObject(""3.Payments/Payment Success page/Button_Back To Payment""), 0)",,,,2023-02-28 16:44:38,2023-02-28 16:44:39,1.029s,PASSED
+"callTestCase(findTestCase(""Utilities/Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-02-28 16:44:39,2023-02-28 16:44:50,10.563s,PASSED
+closeApplication(),,,,2023-02-28 16:44:50,2023-02-28 16:44:50,0.580s,PASSED
+Start listener action : autoUpdateJobStatus,,,,2023-02-28 16:44:50,2023-02-28 16:44:50,0.002s,PASSED
+,,,,,,,
+Test Cases/Demo/TC 01 - New Bill Payment,,,,2023-02-28 16:44:50,2023-02-28 16:46:48,1m - 58.224s,PASSED
+Start listener action : enableSauceLabs,,,,2023-02-28 16:44:50,2023-02-28 16:44:50,0.000s,PASSED
+"callTestCase(findTestCase(""Utilities/Login""), [:], CONTINUE_ON_FAILURE)",,,,2023-02-28 16:44:52,2023-02-28 16:45:25,33.248s,PASSED
+"tap(findTestObject(""3.Payments/Payments_page/tab_PAY""), 0)",,,,2023-02-28 16:45:25,2023-02-28 16:45:26,0.988s,PASSED
+"tap(findTestObject(""3.Payments/Payments_page/tab_Bills""), 0)",,,,2023-02-28 16:45:26,2023-02-28 16:45:28,1.716s,PASSED
+"tap(findTestObject(""3.Payments/Payments_page/button_NewBill""), 0)",,,,2023-02-28 16:45:28,2023-02-28 16:45:30,1.608s,PASSED
+delay(2),,,,2023-02-28 16:45:30,2023-02-28 16:45:32,2.006s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Label_Select Biller"", [""biller"":biller]), 0)",,,,2023-02-28 16:45:32,2023-02-28 16:45:33,1.686s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Label_Select Sub Biller"", [""subBiller"":subBiller]), 0)",,,,2023-02-28 16:45:33,2023-02-28 16:45:37,3.709s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,,2023-02-28 16:45:37,2023-02-28 16:45:42,5.011s,PASSED
+"callTestCase(findTestCase(""Utilities/Account Selection Based on AccountNumber""), [""accountNumber"":accountNumber], CONTINUE_ON_FAILURE)",,,,2023-02-28 16:45:42,2023-02-28 16:45:43,0.588s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Text Box_Account Number Entry""), 0)",,,,2023-02-28 16:45:43,2023-02-28 16:45:43,0.443s,PASSED
+"setText(findTestObject(""3.Payments/Pay To New Biller/Text Box_Account Number Entry""), consumerNumber, 0)",,,,2023-02-28 16:45:43,2023-02-28 16:45:44,1.182s,PASSED
+pressBack(),,,,2023-02-28 16:45:44,2023-02-28 16:45:45,0.758s,PASSED
+takeScreenshot(),,,,2023-02-28 16:45:45,2023-02-28 16:45:47,1.810s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Button_Next""), 0)",,,,2023-02-28 16:45:47,2023-02-28 16:45:48,0.894s,PASSED
+"waitForElementPresent(findTestObject(""3.Payments/Amount/Text Box_Amount Entry""), 0)",,,,2023-02-28 16:45:48,2023-02-28 16:45:55,7.276s,PASSED
+"tap(findTestObject(""3.Payments/Amount/Text Box_Amount Entry""), 0)",,,,2023-02-28 16:45:55,2023-02-28 16:45:55,0.447s,PASSED
+"clearText(findTestObject(""3.Payments/Amount/Text Box_Amount Entry""), 0)",,,,2023-02-28 16:45:55,2023-02-28 16:45:56,0.667s,PASSED
+"setText(findTestObject(""3.Payments/Amount/Text Box_Amount Entry""), amount, 0)",,,,2023-02-28 16:45:56,2023-02-28 16:45:57,0.764s,PASSED
+takeScreenshot(),,,,2023-02-28 16:45:57,2023-02-28 16:45:58,0.723s,PASSED
+"tap(findTestObject(""3.Payments/Amount/Button_Next""), 0)",,,,2023-02-28 16:45:58,2023-02-28 16:45:58,0.433s,PASSED
+"tap(findTestObject(""3.Payments/Payment Confirmation Page/Button_Confirm""), 0)",,,,2023-02-28 16:45:58,2023-02-28 16:46:00,1.982s,PASSED
+delay(5),,,,2023-02-28 16:46:00,2023-02-28 16:46:05,5.012s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_mPIN""), [:], STOP_ON_FAILURE)",,,,2023-02-28 16:46:05,2023-02-28 16:46:10,5.306s,PASSED
+"tap(findTestObject(""3.Payments/Payment Confirmation Page/Button_Verify""), 0)",,,,2023-02-28 16:46:10,2023-02-28 16:46:11,0.917s,PASSED
+delay(5),,,,2023-02-28 16:46:11,2023-02-28 16:46:16,5.019s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_OTP""), [:], STOP_ON_FAILURE)",,,,2023-02-28 16:46:16,2023-02-28 16:46:23,6.792s,PASSED
+"tap(findTestObject(""4.Transfers/Button_VerifyOTP""), 0)",,,,2023-02-28 16:46:23,2023-02-28 16:46:24,1.299s,PASSED
+"waitForElementPresent(findTestObject(""3.Payments/Payment Success page/Button_Back To Payment""), 180)",,,,2023-02-28 16:46:24,2023-02-28 16:46:35,11.127s,PASSED
+takeScreenshot(),,,,2023-02-28 16:46:35,2023-02-28 16:46:36,0.925s,PASSED
+"content = getAttribute(findTestObject(""3.Payments/Payment Success page/label_SuccessPage""), ""contentDescription"", 0)",,,,2023-02-28 16:46:36,2023-02-28 16:46:37,0.271s,PASSED
+println(content),,,,2023-02-28 16:46:37,2023-02-28 16:46:37,0.001s,PASSED
+"line = content.split(""\R"")",,,,2023-02-28 16:46:37,2023-02-28 16:46:37,0.001s,PASSED
+println(line[0]),,,,2023-02-28 16:46:37,2023-02-28 16:46:37,0.001s,PASSED
+if (amount == line[0]),,,,2023-02-28 16:46:37,2023-02-28 16:46:37,0.002s,PASSED
+"tap(findTestObject(""3.Payments/Payment Success page/Button_Back To Payment""), 0)",,,,2023-02-28 16:46:37,2023-02-28 16:46:37,0.368s,PASSED
+"callTestCase(findTestCase(""Utilities/Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-02-28 16:46:37,2023-02-28 16:46:48,10.713s,PASSED
+closeApplication(),,,,2023-02-28 16:46:48,2023-02-28 16:46:48,0.610s,PASSED
+Start listener action : autoUpdateJobStatus,,,,2023-02-28 16:46:48,2023-02-28 16:46:48,0.000s,PASSED

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 01 - Registration with Card</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed7543c9-fc40-4979-aa38-7fedda9ef2bd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04a982d8-296b-4290-9652-7c0d630842ff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0f48f02a-3167-436d-9073-cf5abb8b6f08</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ef63e07-07b4-4ead-838d-e304b79289ee</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4e3cad5-aaf2-4bed-a0b0-d2133ea45e61</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Debit Card'</defaultValue>
+      <description></description>
+      <id>04a982d8-296b-4290-9652-7c0d630842ff</id>
+      <masked>false</masked>
+      <name>cardType</name>
+   </variable>
+   <variable>
+      <defaultValue>'5244550100131902'</defaultValue>
+      <description></description>
+      <id>0f48f02a-3167-436d-9073-cf5abb8b6f08</id>
+      <masked>false</masked>
+      <name>cardNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234'</defaultValue>
+      <description></description>
+      <id>0ef63e07-07b4-4ead-838d-e304b79289ee</id>
+      <masked>false</masked>
+      <name>cardPin</name>
+   </variable>
+   <variable>
+      <defaultValue>'102030'</defaultValue>
+      <description></description>
+      <id>c4e3cad5-aaf2-4bed-a0b0-d2133ea45e61</id>
+      <masked>false</masked>
+      <name>mPIN</name>
+   </variable>
+</TestCaseEntity>

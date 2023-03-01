@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 02 - Registration with Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b28ed48-c2d0-47e5-b961-8bd9e1b874d7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>956b7c9f-7155-4e66-ba68-514c8ce6fdd6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a4f5c2b1-9bc8-461e-aebf-ac5791c02317</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e17b87f-acca-43f0-bca1-7b9d845137d8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'784198836490817'</defaultValue>
+      <description></description>
+      <id>956b7c9f-7155-4e66-ba68-514c8ce6fdd6</id>
+      <masked>false</masked>
+      <name>emirates_ID</name>
+   </variable>
+   <variable>
+      <defaultValue>'011000698014'</defaultValue>
+      <description></description>
+      <id>a4f5c2b1-9bc8-461e-aebf-ac5791c02317</id>
+      <masked>false</masked>
+      <name>accountNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'503644496'</defaultValue>
+      <description></description>
+      <id>7e17b87f-acca-43f0-bca1-7b9d845137d8</id>
+      <masked>false</masked>
+      <name>mobileNumber</name>
+   </variable>
+</TestCaseEntity>

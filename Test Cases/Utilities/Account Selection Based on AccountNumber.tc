@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Account Selection Based on AccountNumber</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61e15317-5b9e-4313-8fcc-061cf9f4c473</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1337382d-7125-439a-9e2f-10ff365cd214</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1337382d-7125-439a-9e2f-10ff365cd214</id>
+      <masked>false</masked>
+      <name>accountNumber</name>
+   </variable>
+</TestCaseEntity>

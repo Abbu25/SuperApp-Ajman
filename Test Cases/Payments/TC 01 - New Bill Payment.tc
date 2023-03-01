@@ -4,57 +4,96 @@
    <name>TC 01 - New Bill Payment</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ae563f46-4300-4150-8b10-83b607856733</testCaseGuid>
+   <testCaseGuid>a5901229-0059-4a79-95f6-79eec1aaee71</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>696a2d3c-0d48-4514-b0b6-395d3de9c66c</variableId>
+      <variableId>1c8a173e-7715-4f25-bbf1-de867014e02a</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>66d71e20-1529-48c2-abb4-f62b1173f4ac</variableId>
+      <variableId>d11737e7-2878-4def-b4d3-bf4e4fb43312</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b6847726-bb80-4983-8f80-fed4d79a38c0</variableId>
+      <variableId>23c0b761-7e7d-404d-961d-d041e2b58226</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d04fee54-2477-41c5-933e-007e447d2497</variableId>
+      <variableId>9c03eab2-d1d7-450b-a579-9270ecbff602</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aac7a7e2-bf4b-46ad-b9fa-6935519ddf2a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f97d2022-9e31-426a-91d2-ae473ae1439e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d9a96f7b-76e2-40fc-b163-5df875286196</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'FEWA'</defaultValue>
       <description></description>
-      <id>696a2d3c-0d48-4514-b0b6-395d3de9c66c</id>
+      <id>1c8a173e-7715-4f25-bbf1-de867014e02a</id>
       <masked>false</masked>
       <name>biller</name>
    </variable>
    <variable>
       <defaultValue>'FEWA'</defaultValue>
       <description></description>
-      <id>66d71e20-1529-48c2-abb4-f62b1173f4ac</id>
+      <id>d11737e7-2878-4def-b4d3-bf4e4fb43312</id>
       <masked>false</masked>
       <name>subBiller</name>
    </variable>
    <variable>
       <defaultValue>'210000137777'</defaultValue>
       <description></description>
-      <id>b6847726-bb80-4983-8f80-fed4d79a38c0</id>
+      <id>23c0b761-7e7d-404d-961d-d041e2b58226</id>
+      <masked>false</masked>
+      <name>consumerNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'1.00'</defaultValue>
+      <description></description>
+      <id>9c03eab2-d1d7-450b-a579-9270ecbff602</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>'011000186020'</defaultValue>
+      <description></description>
+      <id>aac7a7e2-bf4b-46ad-b9fa-6935519ddf2a</id>
       <masked>false</masked>
       <name>accountNumber</name>
    </variable>
    <variable>
-      <defaultValue>'12000'</defaultValue>
+      <defaultValue>'partial'</defaultValue>
       <description></description>
-      <id>d04fee54-2477-41c5-933e-007e447d2497</id>
+      <id>f97d2022-9e31-426a-91d2-ae473ae1439e</id>
       <masked>false</masked>
-      <name>amount</name>
+      <name>paymentType</name>
+   </variable>
+   <variable>
+      <defaultValue>'6843'</defaultValue>
+      <description></description>
+      <id>d9a96f7b-76e2-40fc-b163-5df875286196</id>
+      <masked>false</masked>
+      <name>SalikPIN</name>
    </variable>
 </TestCaseEntity>
