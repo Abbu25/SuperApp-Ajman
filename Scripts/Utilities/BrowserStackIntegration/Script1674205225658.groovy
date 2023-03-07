@@ -39,7 +39,7 @@ caps.setCapability('browserstack.user', 'akhilg_bcP6MO')
 caps.setCapability('browserstack.key', 'RcXLz7Sh5mbzziaT81Jd')
 
 // Set URL of the application under test
-caps.setCapability('app', 'bs://7ca0d82e87441ed71a307a05d6adba85324711bb')
+caps.setCapability('app', 'bs://8e1bdaf1e2220e857eeee2a8c8d2d59f4ba08396')
 
 // Specify device and os_version for testing
 caps.setCapability('device', 'Google Pixel 3')

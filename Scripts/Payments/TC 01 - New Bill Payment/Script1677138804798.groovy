@@ -43,7 +43,7 @@ Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Label_Select Sub Biller'
 Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber'), [('accountNumber') : accountNumber], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+    FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Text Box_Account Number Entry'), 0)
 
@@ -63,18 +63,18 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Button_Next'), 0)
 
-Mobile.waitForElementPresent(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 0)
+Mobile.waitForElementPresent(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 0, FailureHandling.OPTIONAL)
 
 String[] due
 
 if (paymentType.equals('partial')) {
-    Mobile.tap(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 0)
+    Mobile.tap(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 2, FailureHandling.OPTIONAL)
 
-    Mobile.clearText(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 0)
+    Mobile.clearText(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 2, FailureHandling.OPTIONAL)
 
-    Mobile.setText(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), amount, 0)
+    Mobile.setText(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), amount, 2, FailureHandling.OPTIONAL)
 } else {
-    dueamount = Mobile.getAttribute(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 'text', 0)
+    dueamount = Mobile.getAttribute(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 'text', 2, FailureHandling.OPTIONAL)
 
     due = dueamount.split(',', 0)
 
@@ -83,7 +83,7 @@ if (paymentType.equals('partial')) {
 
 Mobile.takeScreenshot()
 
-Mobile.tap(findTestObject('3.Payments/Amount/Button_Next'), 0)
+Mobile.tap(findTestObject('3.Payments/Amount/Button_Next'), 2, FailureHandling.OPTIONAL)
 
 Mobile.waitForElementPresent(findTestObject('3.Payments/Payment Confirmation Page/Button_Confirm'), 0)
 
@@ -106,27 +106,23 @@ Mobile.waitForElementPresent(findTestObject('3.Payments/Payment Success page/But
 
 Mobile.takeScreenshot()
 
-if (Mobile.verifyElementExist(findTestObject('3.Payments/Payment Success page/Button_Share'), 5, FailureHandling.CONTINUE_ON_FAILURE)){
+if (Mobile.verifyElementExist(findTestObject('3.Payments/Payment Success page/Button_Share'), 5, FailureHandling.CONTINUE_ON_FAILURE)) {
+    content = Mobile.getAttribute(findTestObject('3.Payments/Payment Success page/label_SuccessPage'), 'contentDescription', 
+        0)
 
-content = Mobile.getAttribute(findTestObject('3.Payments/Payment Success page/label_SuccessPage'), 'contentDescription', 
-    0)
+    println(content)
 
-println(content)
+    String[] line = content.split('\\R')
 
-String[] line = content.split('\\R')
+    println(line[0])
 
-println(line[0])
-
-
-	if(amount == (line[0])) {
-		
-        KeywordUtil.markPassed('Bill Payment with FCY Successfully')
-  } else {
-	  
-      KeywordUtil.markFailed('Bill Payment Faild')
+    if (amount == (line[0])) {
+        KeywordUtil.markPassed("${biller} Bill Payment Successfully")
+    } else {
+        KeywordUtil.markFailed("${biller} Bill Payment Faild")
     }
-}else {
-	KeywordUtil.markFailed('Bill Payment Faild')
+} else {
+    KeywordUtil.markFailed("${biller} Bill Payment Faild")
 }
 
 Mobile.tap(findTestObject('3.Payments/Payment Success page/Button_Back To Payment'), 0)

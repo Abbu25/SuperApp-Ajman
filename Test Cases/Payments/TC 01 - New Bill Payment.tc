@@ -48,42 +48,42 @@
       <variableId>d9a96f7b-76e2-40fc-b163-5df875286196</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'FEWA'</defaultValue>
+      <defaultValue>'ADDC'</defaultValue>
       <description></description>
       <id>1c8a173e-7715-4f25-bbf1-de867014e02a</id>
       <masked>false</masked>
       <name>biller</name>
    </variable>
    <variable>
-      <defaultValue>'FEWA'</defaultValue>
+      <defaultValue>'ADDC'</defaultValue>
       <description></description>
       <id>d11737e7-2878-4def-b4d3-bf4e4fb43312</id>
       <masked>false</masked>
       <name>subBiller</name>
    </variable>
    <variable>
-      <defaultValue>'210000137777'</defaultValue>
+      <defaultValue>'8235355929'</defaultValue>
       <description></description>
       <id>23c0b761-7e7d-404d-961d-d041e2b58226</id>
       <masked>false</masked>
       <name>consumerNumber</name>
    </variable>
    <variable>
-      <defaultValue>'1.00'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>9c03eab2-d1d7-450b-a579-9270ecbff602</id>
       <masked>false</masked>
       <name>amount</name>
    </variable>
    <variable>
-      <defaultValue>'011000186020'</defaultValue>
+      <defaultValue>'011074763011'</defaultValue>
       <description></description>
       <id>aac7a7e2-bf4b-46ad-b9fa-6935519ddf2a</id>
       <masked>false</masked>
       <name>accountNumber</name>
    </variable>
    <variable>
-      <defaultValue>'partial'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>f97d2022-9e31-426a-91d2-ae473ae1439e</id>
       <masked>false</masked>

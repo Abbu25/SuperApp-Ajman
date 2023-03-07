@@ -1,0 +1,2765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BS_Demo" time="882.242" tests="8" failures="1" errors="0">
+   <testsuite name="BS_Demo" tests="8" failures="1" errors="0" time="882.242" skipped="0" timestamp="2023-03-06 15:32:23" hostname="Dell - DESKTOP-RBJSP3C.bbrouter" id="Test Suites/BS Demo/BS_Demo">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 9 Pro (Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\appium.log, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097043777.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097083076.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097124590.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097191095.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097203243.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097242381.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097308464.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097316642.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097358084.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097424069.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097431619.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097468758.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097532146.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097540250.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097642821.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097651634.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097761601.png, C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097769568.png"/>
+         <property name="hostName" value="Dell - DESKTOP-RBJSP3C.bbrouter"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="Redmi Note 9 Pro"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="b76dcbe1"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 9 Pro (Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/Registration/TC 01 - Registration with Card" time="147.569" classname="Test Cases/Registration/TC 01 - Registration with Card" status="PASSED">
+         <system-out><![CDATA[2023-03-06 15:32:24 - [TEST_CASE][PASSED] - Test Cases/Registration/TC 01 - Registration with Card: Test Cases/Registration/TC 01 - Registration with Card
+
+2023-03-06 15:32:24 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:32:24 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:32:24 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:32:26 - [TEST_STEP][PASSED] - startExistingApplication("com.cbt.ajmandigital", CONTINUE_ON_FAILURE): Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:32:26 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-03-06 15:32:29 - [MESSAGE][INFO] - Appium server started on port 62,103
+
+2023-03-06 15:32:56 - [MESSAGE][PASSED] - Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:32:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("1.Registration and Login/Welcome Page/button_Already a Customer"), 60): Element 'Object Repository/1.Registration and Login/Welcome Page/button_Already a Customer' is present
+
+2023-03-06 15:33:56 - [MESSAGE][PASSED] - Element 'Object Repository/1.Registration and Login/Welcome Page/button_Already a Customer' is present
+
+2023-03-06 15:33:56 - [TEST_STEP][PASSED] - tap(findTestObject("1.Registration and Login/Welcome Page/button_Already a Customer"), 0): Tapped on element 'Object Repository/1.Registration and Login/Welcome Page/button_Already a Customer'
+
+2023-03-06 15:33:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:33:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1.Registration and Login/Welcome Page/button_Already a Customer'
+
+2023-03-06 15:33:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("1.Registration and Login/Card Details Page/Radio Button_Debit Card"), 0): Element 'Object Repository/1.Registration and Login/Card Details Page/Radio Button_Debit Card' is present
+
+2023-03-06 15:33:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:33:58 - [MESSAGE][PASSED] - Element 'Object Repository/1.Registration and Login/Card Details Page/Radio Button_Debit Card' is present
+
+2023-03-06 15:33:58 - [TEST_STEP][PASSED] - if (cardType.equals("Debit Card")): Tapped on element 'Object Repository/1.Registration and Login/Card Details Page/Radio Button_Debit Card'
+
+2023-03-06 15:33:58 - [TEST_STEP][PASSED] - tap(findTestObject("1.Registration and Login/Card Details Page/Radio Button_Debit Card"), 0): Tapped on element 'Object Repository/1.Registration and Login/Card Details Page/Radio Button_Debit Card'
+
+2023-03-06 15:33:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:33:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1.Registration and Login/Card Details Page/Radio Button_Debit Card'
+
+2023-03-06 15:33:59 - [TEST_STEP][PASSED] - setText(findTestObject("1.Registration and Login/Card Details Page/Text Box_Card Number"), cardNumber, 0): Text '5244550100131688' has been set to element 'Object Repository/1.Registration and Login/Card Details Page/Text Box_Card Number'
+
+2023-03-06 15:33:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:00 - [MESSAGE][PASSED] - Text '5244550100131688' has been set to element 'Object Repository/1.Registration and Login/Card Details Page/Text Box_Card Number'
+
+2023-03-06 15:34:00 - [TEST_STEP][PASSED] - setText(findTestObject("1.Registration and Login/Card Details Page/Text Box_Card Pin"), cardPin, 0): Text '1234' has been set to element 'Object Repository/1.Registration and Login/Card Details Page/Text Box_Card Pin'
+
+2023-03-06 15:34:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:01 - [MESSAGE][PASSED] - Text '1234' has been set to element 'Object Repository/1.Registration and Login/Card Details Page/Text Box_Card Pin'
+
+2023-03-06 15:34:01 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-03-06 15:34:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-06 15:34:03 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:34:05 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097043777.png]]
+
+2023-03-06 15:34:05 - [TEST_STEP][PASSED] - tap(findTestObject("1.Registration and Login/Card Details Page/Button_Next on Card details"), 0): Tapped on element 'Object Repository/1.Registration and Login/Card Details Page/Button_Next on Card details'
+
+2023-03-06 15:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1.Registration and Login/Card Details Page/Button_Next on Card details'
+
+2023-03-06 15:34:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("1.Registration and Login/OTP Page/label_Enter OTP"), 0): Element 'Object Repository/1.Registration and Login/OTP Page/label_Enter OTP' is present
+
+2023-03-06 15:34:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:17 - [MESSAGE][PASSED] - Element 'Object Repository/1.Registration and Login/OTP Page/label_Enter OTP' is present
+
+2023-03-06 15:34:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_OTP"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:34:18 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_OTP: Test Cases/Utilities/Enter_OTP
+
+2023-03-06 15:34:18 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:34:18 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_6)): null
+
+2023-03-06 15:34:19 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_5)): null
+
+2023-03-06 15:34:20 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_4)): null
+
+2023-03-06 15:34:21 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:34:22 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:34:23 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:34:24 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:34:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:34:26 - [TEST_STEP][PASSED] - tap(findTestObject("1.Registration and Login/OTP Page/Button_Verify OTP"), 0): Tapped on element 'Object Repository/1.Registration and Login/OTP Page/Button_Verify OTP'
+
+2023-03-06 15:34:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1.Registration and Login/OTP Page/Button_Verify OTP'
+
+2023-03-06 15:34:27 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2023-03-06 15:34:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:34:32 - [TEST_STEP][PASSED] - setText(findTestObject("1.Registration and Login/mPIN Page/Text Box_Create mPIN"), mPIN, 0): Text '102030' has been set to element 'Object Repository/1.Registration and Login/mPIN Page/Text Box_Create mPIN'
+
+2023-03-06 15:34:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:32 - [MESSAGE][PASSED] - Text '102030' has been set to element 'Object Repository/1.Registration and Login/mPIN Page/Text Box_Create mPIN'
+
+2023-03-06 15:34:32 - [TEST_STEP][PASSED] - setText(findTestObject("1.Registration and Login/mPIN Page/Text Box_Confirm mPIN Entry"), mPIN, 0): Text '102030' has been set to element 'Object Repository/1.Registration and Login/mPIN Page/Text Box_Confirm mPIN Entry'
+
+2023-03-06 15:34:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:33 - [MESSAGE][PASSED] - Text '102030' has been set to element 'Object Repository/1.Registration and Login/mPIN Page/Text Box_Confirm mPIN Entry'
+
+2023-03-06 15:34:33 - [TEST_STEP][PASSED] - tap(findTestObject("1.Registration and Login/mPIN Page/Button_Next mPIN Page"), 0): Tapped on element 'Object Repository/1.Registration and Login/mPIN Page/Button_Next mPIN Page'
+
+2023-03-06 15:34:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1.Registration and Login/mPIN Page/Button_Next mPIN Page'
+
+2023-03-06 15:34:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("1.Registration and Login/mPIN Page/Button_Maybe later Biometric"), 0): Element 'Object Repository/1.Registration and Login/mPIN Page/Button_Maybe later Biometric' is present
+
+2023-03-06 15:34:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:37 - [MESSAGE][PASSED] - Element 'Object Repository/1.Registration and Login/mPIN Page/Button_Maybe later Biometric' is present
+
+2023-03-06 15:34:37 - [TEST_STEP][PASSED] - tap(findTestObject("1.Registration and Login/mPIN Page/Button_Maybe later Biometric"), 0): Tapped on element 'Object Repository/1.Registration and Login/mPIN Page/Button_Maybe later Biometric'
+
+2023-03-06 15:34:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/1.Registration and Login/mPIN Page/Button_Maybe later Biometric'
+
+2023-03-06 15:34:38 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 0)): null
+
+2023-03-06 15:34:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:42 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:34:42 - [TEST_STEP][PASSED] - markPassed(User Registered Successfully with $cardType): User Registered Successfully with Debit Card
+
+2023-03-06 15:34:43 - [MESSAGE][PASSED] - User Registered Successfully with Debit Card
+
+2023-03-06 15:34:43 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:34:44 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097083076.png]]
+
+2023-03-06 15:34:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Logout"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:34:44 - [TEST_CASE][PASSED] - Test Cases/Utilities/Logout: Test Cases/Utilities/Logout
+
+2023-03-06 15:34:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 60): Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:34:45 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:34:45 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:34:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:34:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 0): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:34:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:46 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:34:46 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:34:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:34:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings"), 0): Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:34:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:48 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:34:48 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:34:49 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:34:49 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:34:50 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:34:50 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Button_Logout"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:34:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:34:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:34:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:34:51 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:34:51 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TC 01 - Login with mPIN" time="44.209" classname="Test Cases/Login/TC 01 - Login with mPIN" status="PASSED">
+         <system-out><![CDATA[2023-03-06 15:34:52 - [TEST_CASE][PASSED] - Test Cases/Login/TC 01 - Login with mPIN: Test Cases/Login/TC 01 - Login with mPIN
+
+2023-03-06 15:34:52 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:34:52 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:34:52 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:34:53 - [TEST_STEP][PASSED] - startExistingApplication("com.cbt.ajmandigital", CONTINUE_ON_FAILURE): Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:35:13 - [MESSAGE][PASSED] - Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:35:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("1.Registration and Login/Login Page/button_ForgotmPIN"), 0): Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:35:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:35:14 - [MESSAGE][PASSED] - Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:35:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_mPIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:35:14 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_mPIN: Test Cases/Utilities/Enter_mPIN
+
+2023-03-06 15:35:15 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:35:15 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:35:15 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:35:16 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:35:17 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:35:17 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:35:18 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:35:19 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:35:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:35:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 60): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:35:24 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:35:24 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:35:25 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097124590.png]]
+
+2023-03-06 15:35:25 - [TEST_STEP][PASSED] - content = getAttribute(findTestObject("2.Dashboard/Accounts/AccountDetails"), "contentDescription", 0): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' has attribute 'contentDescription' is 'Available Balance
+8,063.98
+AED
+Current Account
+011074763023'
+
+2023-03-06 15:35:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:35:26 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' has attribute 'contentDescription' is 'Available Balance
+8,063.98
+AED
+Current Account
+011074763023'
+
+2023-03-06 15:35:26 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Accounts/label_Finances"), 0): Tapped on element 'Object Repository/2.Dashboard/Accounts/label_Finances'
+
+2023-03-06 15:35:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:35:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Accounts/label_Finances'
+
+2023-03-06 15:35:26 - [TEST_STEP][PASSED] - content1 = getAttribute(findTestObject("2.Dashboard/Accounts/Finance Account Details"), "contentDescription", 0): Element 'Object Repository/2.Dashboard/Accounts/Finance Account Details' has attribute 'contentDescription' is 'Outstanding Balance
+52,250.00
+AED
+Murabaha Finance - Retail
+LD2303978741'
+
+2023-03-06 15:35:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:35:27 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/Finance Account Details' has attribute 'contentDescription' is 'Outstanding Balance
+52,250.00
+AED
+Murabaha Finance - Retail
+LD2303978741'
+
+2023-03-06 15:35:27 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Accounts/label_Deposits"), 0): Tapped on element 'Object Repository/2.Dashboard/Accounts/label_Deposits'
+
+2023-03-06 15:35:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:35:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Accounts/label_Deposits'
+
+2023-03-06 15:35:28 - [TEST_STEP][PASSED] - content2 = getAttribute(findTestObject("2.Dashboard/Accounts/AccountDetails"), "contentDescription", 0): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' has attribute 'contentDescription' is 'Available Balance
+52,513.00
+AED
+MUDARABA DEPOSIT - 3M
+MM2301428463'
+
+2023-03-06 15:35:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:35:28 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' has attribute 'contentDescription' is 'Available Balance
+52,513.00
+AED
+MUDARABA DEPOSIT - 3M
+MM2301428463'
+
+2023-03-06 15:35:28 - [TEST_STEP][PASSED] - println(content): null
+
+2023-03-06 15:35:28 - [TEST_STEP][PASSED] - line = content.split("\R"): null
+
+2023-03-06 15:35:28 - [TEST_STEP][PASSED] - line1 = content1.split("\R"): null
+
+2023-03-06 15:35:28 - [TEST_STEP][PASSED] - line2 = content2.split("\R"): null
+
+2023-03-06 15:35:28 - [TEST_STEP][PASSED] - println(line[4]): null
+
+2023-03-06 15:35:28 - [TEST_STEP][PASSED] - if (accountNumber == line[4] && financeAccountNumber == line1[4] && depositAccountNumber == line2[4]): Pass
+
+2023-03-06 15:35:28 - [TEST_STEP][PASSED] - markPassed("Pass"): Pass
+
+2023-03-06 15:35:28 - [MESSAGE][PASSED] - Pass
+
+2023-03-06 15:35:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Logout"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:35:28 - [TEST_CASE][PASSED] - Test Cases/Utilities/Logout: Test Cases/Utilities/Logout
+
+2023-03-06 15:35:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 60): Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:35:29 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:35:29 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:35:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:35:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:35:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 0): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:35:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:35:30 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:35:30 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:35:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:35:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:35:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings"), 0): Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:35:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:35:32 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:35:32 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:35:33 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:35:33 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:35:34 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:35:34 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Button_Logout"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:35:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:35:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:35:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:35:36 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:35:36 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payments/TC 01 - New Bill Payment" time="119.282" classname="Test Cases/Payments/TC 01 - New Bill Payment" status="PASSED">
+         <system-out><![CDATA[2023-03-06 15:35:36 - [TEST_CASE][PASSED] - Test Cases/Payments/TC 01 - New Bill Payment: Test Cases/Payments/TC 01 - New Bill Payment
+
+2023-03-06 15:35:36 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:35:36 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:35:36 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:35:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Login' successfully
+
+2023-03-06 15:35:37 - [TEST_CASE][PASSED] - Test Cases/Utilities/Login: Test Cases/Utilities/Login
+
+2023-03-06 15:35:37 - [TEST_STEP][PASSED] - startExistingApplication("com.cbt.ajmandigital", STOP_ON_FAILURE): Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:35:56 - [MESSAGE][PASSED] - Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:35:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("1.Registration and Login/Login Page/button_ForgotmPIN"), 0): Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:35:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:35:57 - [MESSAGE][PASSED] - Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:35:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_mPIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:35:57 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_mPIN: Test Cases/Utilities/Enter_mPIN
+
+2023-03-06 15:35:57 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:35:57 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:35:57 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:35:58 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:35:59 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:36:01 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:36:02 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:36:02 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:36:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:36:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 60): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:36:09 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:36:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Login' successfully
+
+2023-03-06 15:36:09 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/tab_PAY"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/tab_PAY'
+
+2023-03-06 15:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:36:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/tab_PAY'
+
+2023-03-06 15:36:09 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/tab_Bills"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/tab_Bills'
+
+2023-03-06 15:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:36:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/tab_Bills'
+
+2023-03-06 15:36:12 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/button_NewBill"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/button_NewBill'
+
+2023-03-06 15:36:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:36:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/button_NewBill'
+
+2023-03-06 15:36:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-06 15:36:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-06 15:36:16 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Label_Select Biller", ["biller":biller]), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Biller'
+
+2023-03-06 15:36:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:36:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Biller'
+
+2023-03-06 15:36:17 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Label_Select Sub Biller", ["subBiller":subBiller]), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Sub Biller'
+
+2023-03-06 15:36:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:36:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Sub Biller'
+
+2023-03-06 15:36:22 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2023-03-06 15:36:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:36:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Account Selection Based on AccountNumber"), ["accountNumber":accountNumber], OPTIONAL): Call Test Case 'Test Cases/Utilities/Account Selection Based on AccountNumber' successfully
+
+2023-03-06 15:36:27 - [TEST_CASE][PASSED] - Test Cases/Utilities/Account Selection Based on AccountNumber: Test Cases/Utilities/Account Selection Based on AccountNumber
+
+2023-03-06 15:36:27 - [TEST_STEP][PASSED] - count = 1: null
+
+2023-03-06 15:36:27 - [TEST_STEP][PASSED] - AccountDetails = getAttribute(findTestObject("2.Dashboard/Accounts/Account Selection", ["index":count]), "contentDescription", 0): Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+3,259,083.25
+AED
+Savings Account
+011074763011'
+
+2023-03-06 15:36:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:36:28 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+3,259,083.25
+AED
+Savings Account
+011074763011'
+
+2023-03-06 15:36:28 - [TEST_STEP][PASSED] - element = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-03-06 15:36:28 - [TEST_STEP][PASSED] - element = AccountDetails.split("\R"): null
+
+2023-03-06 15:36:28 - [TEST_STEP][PASSED] - println(element[4]): null
+
+2023-03-06 15:36:28 - [TEST_STEP][PASSED] - println(accountNumber): null
+
+2023-03-06 15:36:28 - [TEST_STEP][PASSED] - while (accountNumber != element[4]): null
+
+2023-03-06 15:36:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Account Selection Based on AccountNumber' successfully
+
+2023-03-06 15:36:28 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Text Box_Account Number Entry"), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:36:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:36:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:36:29 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Pay To New Biller/Text Box_Account Number Entry"), consumerNumber, 0): Text '210000137777' has been set to element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:36:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:36:30 - [MESSAGE][PASSED] - Text '210000137777' has been set to element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:36:30 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-03-06 15:36:31 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-03-06 15:36:31 - [TEST_STEP][PASSED] - if (biller == "Salik"): null
+
+2023-03-06 15:36:31 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:36:32 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097191095.png]]
+
+2023-03-06 15:36:32 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Button_Next"), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Button_Next'
+
+2023-03-06 15:36:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:36:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Button_Next'
+
+2023-03-06 15:36:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 0, OPTIONAL): Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' is present
+
+2023-03-06 15:36:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:36:41 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' is present
+
+2023-03-06 15:36:41 - [TEST_STEP][PASSED] - due = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-03-06 15:36:41 - [TEST_STEP][PASSED] - if (paymentType.equals("partial")): Text '1.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:36:41 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 2, OPTIONAL): Tapped on element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:36:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:36:41 - [TEST_STEP][PASSED] - clearText(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 2, OPTIONAL): Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' text is cleared
+
+2023-03-06 15:36:42 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' text is cleared
+
+2023-03-06 15:36:42 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), amount, 2, OPTIONAL): Text '1.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:36:43 - [MESSAGE][PASSED] - Text '1.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:36:43 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:36:44 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097203243.png]]
+
+2023-03-06 15:36:44 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Amount/Button_Next"), 2, OPTIONAL): Tapped on element 'Object Repository/3.Payments/Amount/Button_Next'
+
+2023-03-06 15:36:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Amount/Button_Next'
+
+2023-03-06 15:36:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Confirmation Page/Button_Confirm"), 0): Element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm' is present
+
+2023-03-06 15:36:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:36:45 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm' is present
+
+2023-03-06 15:36:45 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Confirmation Page/Button_Confirm"), 0): Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm'
+
+2023-03-06 15:36:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:36:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm'
+
+2023-03-06 15:36:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-06 15:36:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:36:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_mPIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:36:51 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_mPIN: Test Cases/Utilities/Enter_mPIN
+
+2023-03-06 15:36:51 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:36:51 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:36:52 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:36:52 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:36:53 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:36:53 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:36:54 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:36:55 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:36:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:36:56 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Confirmation Page/Button_Verify"), 0): Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Verify'
+
+2023-03-06 15:36:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:36:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Verify'
+
+2023-03-06 15:36:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-06 15:37:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:37:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_OTP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:37:02 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_OTP: Test Cases/Utilities/Enter_OTP
+
+2023-03-06 15:37:02 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:37:02 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_6)): null
+
+2023-03-06 15:37:02 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_5)): null
+
+2023-03-06 15:37:03 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_4)): null
+
+2023-03-06 15:37:04 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:37:05 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:37:06 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:37:07 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:37:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:37:09 - [TEST_STEP][PASSED] - tap(findTestObject("4.Transfers/Button_VerifyOTP"), 0): Tapped on element 'Object Repository/4.Transfers/Button_VerifyOTP'
+
+2023-03-06 15:37:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:37:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/4.Transfers/Button_VerifyOTP'
+
+2023-03-06 15:37:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 180): Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:37:22 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:37:22 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:37:23 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097242381.png]]
+
+2023-03-06 15:37:23 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("3.Payments/Payment Success page/Button_Share"), 5, CONTINUE_ON_FAILURE)): null
+
+2023-03-06 15:37:23 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/Button_Share' is exist
+
+2023-03-06 15:37:23 - [TEST_STEP][PASSED] - content = getAttribute(findTestObject("3.Payments/Payment Success page/label_SuccessPage"), "contentDescription", 0): Element 'Object Repository/3.Payments/Payment Success page/label_SuccessPage' has attribute 'contentDescription' is '1.00
+AED
+Paid To
+FEWA
+FEWA
+210000137777
+Reference ID
+2210226125963'
+
+2023-03-06 15:37:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:37:23 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/label_SuccessPage' has attribute 'contentDescription' is '1.00
+AED
+Paid To
+FEWA
+FEWA
+210000137777
+Reference ID
+2210226125963'
+
+2023-03-06 15:37:23 - [TEST_STEP][PASSED] - println(content): null
+
+2023-03-06 15:37:23 - [TEST_STEP][PASSED] - line = content.split("\R"): null
+
+2023-03-06 15:37:23 - [TEST_STEP][PASSED] - println(line[0]): null
+
+2023-03-06 15:37:23 - [TEST_STEP][PASSED] - if (amount == line[0]): Bill Payment with FCY Successfully
+
+2023-03-06 15:37:23 - [TEST_STEP][PASSED] - markPassed("Bill Payment with FCY Successfully"): Bill Payment with FCY Successfully
+
+2023-03-06 15:37:23 - [MESSAGE][PASSED] - Bill Payment with FCY Successfully
+
+2023-03-06 15:37:23 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 0): Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment'
+
+2023-03-06 15:37:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:37:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment'
+
+2023-03-06 15:37:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Logout"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:37:24 - [TEST_CASE][PASSED] - Test Cases/Utilities/Logout: Test Cases/Utilities/Logout
+
+2023-03-06 15:37:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 60): Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:37:26 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:37:26 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:37:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:37:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 0): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:37:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:37:30 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:37:30 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:37:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:37:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:37:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings"), 0): Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:37:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:37:32 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:37:32 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:37:33 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:37:33 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:37:34 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:37:34 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Button_Logout"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:37:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:37:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:37:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:37:35 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:37:35 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payments/TC 01 - New Bill Payment" time="114.989" classname="Test Cases/Payments/TC 01 - New Bill Payment" status="PASSED">
+         <system-out><![CDATA[2023-03-06 15:37:35 - [TEST_CASE][PASSED] - Test Cases/Payments/TC 01 - New Bill Payment: Test Cases/Payments/TC 01 - New Bill Payment
+
+2023-03-06 15:37:35 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:37:35 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:37:35 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:37:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Login' successfully
+
+2023-03-06 15:37:36 - [TEST_CASE][PASSED] - Test Cases/Utilities/Login: Test Cases/Utilities/Login
+
+2023-03-06 15:37:36 - [TEST_STEP][PASSED] - startExistingApplication("com.cbt.ajmandigital", STOP_ON_FAILURE): Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:37:55 - [MESSAGE][PASSED] - Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:37:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("1.Registration and Login/Login Page/button_ForgotmPIN"), 0): Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:37:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:37:56 - [MESSAGE][PASSED] - Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:37:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_mPIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:37:56 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_mPIN: Test Cases/Utilities/Enter_mPIN
+
+2023-03-06 15:37:56 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:37:56 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:37:56 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:37:57 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:37:58 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:37:59 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:37:59 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:38:00 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:38:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:38:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 60): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:38:05 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:38:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Login' successfully
+
+2023-03-06 15:38:05 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/tab_PAY"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/tab_PAY'
+
+2023-03-06 15:38:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/tab_PAY'
+
+2023-03-06 15:38:07 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/tab_Bills"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/tab_Bills'
+
+2023-03-06 15:38:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/tab_Bills'
+
+2023-03-06 15:38:08 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/button_NewBill"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/button_NewBill'
+
+2023-03-06 15:38:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/button_NewBill'
+
+2023-03-06 15:38:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-06 15:38:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-06 15:38:12 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Label_Select Biller", ["biller":biller]), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Biller'
+
+2023-03-06 15:38:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Biller'
+
+2023-03-06 15:38:15 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Label_Select Sub Biller", ["subBiller":subBiller]), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Sub Biller'
+
+2023-03-06 15:38:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Sub Biller'
+
+2023-03-06 15:38:17 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2023-03-06 15:38:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:38:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Account Selection Based on AccountNumber"), ["accountNumber":accountNumber], OPTIONAL): Call Test Case 'Test Cases/Utilities/Account Selection Based on AccountNumber' successfully
+
+2023-03-06 15:38:22 - [TEST_CASE][PASSED] - Test Cases/Utilities/Account Selection Based on AccountNumber: Test Cases/Utilities/Account Selection Based on AccountNumber
+
+2023-03-06 15:38:22 - [TEST_STEP][PASSED] - count = 1: null
+
+2023-03-06 15:38:22 - [TEST_STEP][PASSED] - AccountDetails = getAttribute(findTestObject("2.Dashboard/Accounts/Account Selection", ["index":count]), "contentDescription", 0): Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+3,259,082.25
+AED
+Savings Account
+011074763011'
+
+2023-03-06 15:38:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:23 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+3,259,082.25
+AED
+Savings Account
+011074763011'
+
+2023-03-06 15:38:23 - [TEST_STEP][PASSED] - element = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-03-06 15:38:23 - [TEST_STEP][PASSED] - element = AccountDetails.split("\R"): null
+
+2023-03-06 15:38:23 - [TEST_STEP][PASSED] - println(element[4]): null
+
+2023-03-06 15:38:23 - [TEST_STEP][PASSED] - println(accountNumber): null
+
+2023-03-06 15:38:23 - [TEST_STEP][PASSED] - while (accountNumber != element[4]): null
+
+2023-03-06 15:38:23 - [TEST_STEP][PASSED] - swipe(1026, 614, 54, 614): Swiped from 1,026,614 to 54,614
+
+2023-03-06 15:38:24 - [MESSAGE][PASSED] - Swiped from 1,026,614 to 54,614
+
+2023-03-06 15:38:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-06 15:38:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-06 15:38:26 - [TEST_STEP][PASSED] - (count++): null
+
+2023-03-06 15:38:26 - [TEST_STEP][PASSED] - AccountDetails = getAttribute(findTestObject("2.Dashboard/Accounts/Account Selection", ["index":count]), "contentDescription", 0): Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+8,063.98
+AED
+Current Account
+011074763023'
+
+2023-03-06 15:38:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:26 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+8,063.98
+AED
+Current Account
+011074763023'
+
+2023-03-06 15:38:26 - [TEST_STEP][PASSED] - element = AccountDetails.split("\R"): null
+
+2023-03-06 15:38:26 - [TEST_STEP][PASSED] - println(element[4]): null
+
+2023-03-06 15:38:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Account Selection Based on AccountNumber' successfully
+
+2023-03-06 15:38:26 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Text Box_Account Number Entry"), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:38:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:38:27 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Pay To New Biller/Text Box_Account Number Entry"), consumerNumber, 0): Text '599588538' has been set to element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:38:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:27 - [MESSAGE][PASSED] - Text '599588538' has been set to element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:38:27 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-03-06 15:38:28 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-03-06 15:38:28 - [TEST_STEP][PASSED] - if (biller == "Salik"): null
+
+2023-03-06 15:38:28 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:38:29 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097308464.png]]
+
+2023-03-06 15:38:29 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Button_Next"), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Button_Next'
+
+2023-03-06 15:38:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Button_Next'
+
+2023-03-06 15:38:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 0, OPTIONAL): Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' is present
+
+2023-03-06 15:38:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:34 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' is present
+
+2023-03-06 15:38:34 - [TEST_STEP][PASSED] - due = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-03-06 15:38:34 - [TEST_STEP][PASSED] - if (paymentType.equals("partial")): Text '100.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:38:34 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 2, OPTIONAL): Tapped on element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:38:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:38:35 - [TEST_STEP][PASSED] - clearText(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 2, OPTIONAL): Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' text is cleared
+
+2023-03-06 15:38:35 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' text is cleared
+
+2023-03-06 15:38:35 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), amount, 2, OPTIONAL): Text '100.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:38:36 - [MESSAGE][PASSED] - Text '100.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:38:36 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:38:37 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097316642.png]]
+
+2023-03-06 15:38:37 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Amount/Button_Next"), 2, OPTIONAL): Tapped on element 'Object Repository/3.Payments/Amount/Button_Next'
+
+2023-03-06 15:38:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Amount/Button_Next'
+
+2023-03-06 15:38:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Confirmation Page/Button_Confirm"), 0): Element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm' is present
+
+2023-03-06 15:38:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:38 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm' is present
+
+2023-03-06 15:38:38 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Confirmation Page/Button_Confirm"), 0): Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm'
+
+2023-03-06 15:38:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm'
+
+2023-03-06 15:38:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-06 15:38:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:38:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_mPIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:38:45 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_mPIN: Test Cases/Utilities/Enter_mPIN
+
+2023-03-06 15:38:45 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:38:45 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:38:45 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:38:46 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:38:46 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:38:47 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:38:48 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:38:49 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:38:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:38:50 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Confirmation Page/Button_Verify"), 0): Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Verify'
+
+2023-03-06 15:38:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:38:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Verify'
+
+2023-03-06 15:38:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-06 15:38:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:38:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_OTP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:38:55 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_OTP: Test Cases/Utilities/Enter_OTP
+
+2023-03-06 15:38:55 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:38:55 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_6)): null
+
+2023-03-06 15:38:55 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_5)): null
+
+2023-03-06 15:38:57 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_4)): null
+
+2023-03-06 15:38:58 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:38:59 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:39:00 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:39:01 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:39:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:39:03 - [TEST_STEP][PASSED] - tap(findTestObject("4.Transfers/Button_VerifyOTP"), 0): Tapped on element 'Object Repository/4.Transfers/Button_VerifyOTP'
+
+2023-03-06 15:39:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:39:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/4.Transfers/Button_VerifyOTP'
+
+2023-03-06 15:39:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 180): Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:39:18 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:39:18 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:39:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097358084.png]]
+
+2023-03-06 15:39:18 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("3.Payments/Payment Success page/Button_Share"), 5, CONTINUE_ON_FAILURE)): null
+
+2023-03-06 15:39:19 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/Button_Share' is exist
+
+2023-03-06 15:39:19 - [TEST_STEP][PASSED] - content = getAttribute(findTestObject("3.Payments/Payment Success page/label_SuccessPage"), "contentDescription", 0): Element 'Object Repository/3.Payments/Payment Success page/label_SuccessPage' has attribute 'contentDescription' is '100.00
+AED
+Paid To
+DU
+du Postpaid
+599588538
+Reference ID
+22101101765620'
+
+2023-03-06 15:39:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:39:19 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/label_SuccessPage' has attribute 'contentDescription' is '100.00
+AED
+Paid To
+DU
+du Postpaid
+599588538
+Reference ID
+22101101765620'
+
+2023-03-06 15:39:19 - [TEST_STEP][PASSED] - println(content): null
+
+2023-03-06 15:39:19 - [TEST_STEP][PASSED] - line = content.split("\R"): null
+
+2023-03-06 15:39:19 - [TEST_STEP][PASSED] - println(line[0]): null
+
+2023-03-06 15:39:19 - [TEST_STEP][PASSED] - if (amount == line[0]): Bill Payment with FCY Successfully
+
+2023-03-06 15:39:19 - [TEST_STEP][PASSED] - markPassed("Bill Payment with FCY Successfully"): Bill Payment with FCY Successfully
+
+2023-03-06 15:39:19 - [MESSAGE][PASSED] - Bill Payment with FCY Successfully
+
+2023-03-06 15:39:19 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 0): Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment'
+
+2023-03-06 15:39:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:39:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment'
+
+2023-03-06 15:39:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Logout"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:39:19 - [TEST_CASE][PASSED] - Test Cases/Utilities/Logout: Test Cases/Utilities/Logout
+
+2023-03-06 15:39:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 60): Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:39:21 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:39:21 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:39:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:39:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:39:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 0): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:39:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:39:25 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:39:25 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:39:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:39:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:39:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings"), 0): Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:39:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:39:27 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:39:27 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:39:28 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:39:28 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:39:29 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:39:29 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Button_Logout"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:39:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:39:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:39:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:39:30 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:39:30 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payments/TC 01 - New Bill Payment" time="112.108" classname="Test Cases/Payments/TC 01 - New Bill Payment" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Payments/TC 01 - New Bill Payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Bill Payment Faild
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at TC 01 - New Bill Payment.run(TC 01 - New Bill Payment:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678096931182.run(TempTestSuite1678096931182.groovy:36)
+"/>
+         <system-out><![CDATA[2023-03-06 15:39:31 - [TEST_CASE][FAILED] - Test Cases/Payments/TC 01 - New Bill Payment: Test Cases/Payments/TC 01 - New Bill Payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Bill Payment Faild
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at TC 01 - New Bill Payment.run(TC 01 - New Bill Payment:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678096931182.run(TempTestSuite1678096931182.groovy:36)
+
+
+2023-03-06 15:39:31 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:39:31 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:39:31 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:39:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Login' successfully
+
+2023-03-06 15:39:31 - [TEST_CASE][PASSED] - Test Cases/Utilities/Login: Test Cases/Utilities/Login
+
+2023-03-06 15:39:31 - [TEST_STEP][PASSED] - startExistingApplication("com.cbt.ajmandigital", STOP_ON_FAILURE): Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:39:48 - [MESSAGE][PASSED] - Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:39:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("1.Registration and Login/Login Page/button_ForgotmPIN"), 0): Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:39:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:39:49 - [MESSAGE][PASSED] - Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:39:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_mPIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:39:49 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_mPIN: Test Cases/Utilities/Enter_mPIN
+
+2023-03-06 15:39:49 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:39:49 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:39:49 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:39:50 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:39:51 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:39:51 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:39:52 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:39:52 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:39:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:39:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 60): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:39:58 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:39:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Login' successfully
+
+2023-03-06 15:39:58 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/tab_PAY"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/tab_PAY'
+
+2023-03-06 15:39:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:39:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/tab_PAY'
+
+2023-03-06 15:39:59 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/tab_Bills"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/tab_Bills'
+
+2023-03-06 15:39:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:40:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/tab_Bills'
+
+2023-03-06 15:40:00 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/button_NewBill"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/button_NewBill'
+
+2023-03-06 15:40:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:40:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/button_NewBill'
+
+2023-03-06 15:40:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-06 15:40:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-06 15:40:04 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Label_Select Biller", ["biller":biller]), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Biller'
+
+2023-03-06 15:40:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:40:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Biller'
+
+2023-03-06 15:40:05 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Label_Select Sub Biller", ["subBiller":subBiller]), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Sub Biller'
+
+2023-03-06 15:40:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:40:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Sub Biller'
+
+2023-03-06 15:40:16 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2023-03-06 15:40:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:40:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Account Selection Based on AccountNumber"), ["accountNumber":accountNumber], OPTIONAL): Call Test Case 'Test Cases/Utilities/Account Selection Based on AccountNumber' successfully
+
+2023-03-06 15:40:21 - [TEST_CASE][PASSED] - Test Cases/Utilities/Account Selection Based on AccountNumber: Test Cases/Utilities/Account Selection Based on AccountNumber
+
+2023-03-06 15:40:21 - [TEST_STEP][PASSED] - count = 1: null
+
+2023-03-06 15:40:21 - [TEST_STEP][PASSED] - AccountDetails = getAttribute(findTestObject("2.Dashboard/Accounts/Account Selection", ["index":count]), "contentDescription", 0): Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+3,259,082.25
+AED
+Savings Account
+011074763011'
+
+2023-03-06 15:40:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:40:21 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+3,259,082.25
+AED
+Savings Account
+011074763011'
+
+2023-03-06 15:40:21 - [TEST_STEP][PASSED] - element = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-03-06 15:40:21 - [TEST_STEP][PASSED] - element = AccountDetails.split("\R"): null
+
+2023-03-06 15:40:21 - [TEST_STEP][PASSED] - println(element[4]): null
+
+2023-03-06 15:40:21 - [TEST_STEP][PASSED] - println(accountNumber): null
+
+2023-03-06 15:40:21 - [TEST_STEP][PASSED] - while (accountNumber != element[4]): null
+
+2023-03-06 15:40:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Account Selection Based on AccountNumber' successfully
+
+2023-03-06 15:40:21 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Text Box_Account Number Entry"), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:40:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:40:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:40:22 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Pay To New Biller/Text Box_Account Number Entry"), consumerNumber, 0): Text '8235355929' has been set to element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:40:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:40:23 - [MESSAGE][PASSED] - Text '8235355929' has been set to element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:40:23 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-03-06 15:40:24 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-03-06 15:40:24 - [TEST_STEP][PASSED] - if (biller == "Salik"): null
+
+2023-03-06 15:40:24 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:40:25 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097424069.png]]
+
+2023-03-06 15:40:25 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Button_Next"), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Button_Next'
+
+2023-03-06 15:40:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:40:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Button_Next'
+
+2023-03-06 15:40:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 0, OPTIONAL): Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' is present
+
+2023-03-06 15:40:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:40:30 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' is present
+
+2023-03-06 15:40:30 - [TEST_STEP][PASSED] - due = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-03-06 15:40:30 - [TEST_STEP][PASSED] - if (paymentType.equals("partial")): Text '1.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:40:30 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 2, OPTIONAL): Tapped on element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:40:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:40:30 - [TEST_STEP][PASSED] - clearText(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 2, OPTIONAL): Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' text is cleared
+
+2023-03-06 15:40:31 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' text is cleared
+
+2023-03-06 15:40:31 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), amount, 2, OPTIONAL): Text '1.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:40:31 - [MESSAGE][PASSED] - Text '1.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:40:31 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:40:32 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097431619.png]]
+
+2023-03-06 15:40:32 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Amount/Button_Next"), 2, OPTIONAL): Tapped on element 'Object Repository/3.Payments/Amount/Button_Next'
+
+2023-03-06 15:40:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Amount/Button_Next'
+
+2023-03-06 15:40:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Confirmation Page/Button_Confirm"), 0): Element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm' is present
+
+2023-03-06 15:40:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:40:33 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm' is present
+
+2023-03-06 15:40:33 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Confirmation Page/Button_Confirm"), 0): Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm'
+
+2023-03-06 15:40:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:40:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm'
+
+2023-03-06 15:40:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-06 15:40:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:40:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_mPIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:40:40 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_mPIN: Test Cases/Utilities/Enter_mPIN
+
+2023-03-06 15:40:40 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:40:40 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:40:40 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:40:40 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:40:41 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:40:42 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:40:43 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:40:43 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:40:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:40:44 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Confirmation Page/Button_Verify"), 0): Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Verify'
+
+2023-03-06 15:40:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:40:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Verify'
+
+2023-03-06 15:40:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-06 15:40:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:40:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_OTP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:40:50 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_OTP: Test Cases/Utilities/Enter_OTP
+
+2023-03-06 15:40:50 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:40:50 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_6)): null
+
+2023-03-06 15:40:50 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_5)): null
+
+2023-03-06 15:40:51 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_4)): null
+
+2023-03-06 15:40:52 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:40:53 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:40:54 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:40:55 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:40:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:40:56 - [TEST_STEP][PASSED] - tap(findTestObject("4.Transfers/Button_VerifyOTP"), 0): Tapped on element 'Object Repository/4.Transfers/Button_VerifyOTP'
+
+2023-03-06 15:40:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:40:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/4.Transfers/Button_VerifyOTP'
+
+2023-03-06 15:40:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 180): Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:41:08 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:41:08 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:41:10 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097468758.png]]
+
+2023-03-06 15:41:10 - [TEST_STEP][PASSED] - if (verifyElementExist(findTestObject("3.Payments/Payment Success page/Button_Share"), 5, CONTINUE_ON_FAILURE)): null
+
+2023-03-06 15:41:10 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/Button_Share' is exist
+
+2023-03-06 15:41:10 - [TEST_STEP][PASSED] - content = getAttribute(findTestObject("3.Payments/Payment Success page/label_SuccessPage"), "contentDescription", 0): Element 'Object Repository/3.Payments/Payment Success page/label_SuccessPage' has attribute 'contentDescription' is '200.51
+AED
+Paid To
+ADDC
+ADDC
+8235355929
+Reference ID
+22102078454601'
+
+2023-03-06 15:41:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:41:10 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/label_SuccessPage' has attribute 'contentDescription' is '200.51
+AED
+Paid To
+ADDC
+ADDC
+8235355929
+Reference ID
+22102078454601'
+
+2023-03-06 15:41:10 - [TEST_STEP][PASSED] - println(content): null
+
+2023-03-06 15:41:10 - [TEST_STEP][PASSED] - line = content.split("\R"): null
+
+2023-03-06 15:41:10 - [TEST_STEP][PASSED] - println(line[0]): null
+
+2023-03-06 15:41:10 - [TEST_STEP][PASSED] - if (amount == line[0]): null
+
+2023-03-06 15:41:10 - [TEST_STEP][FAILED] - else: Bill Payment Faild
+
+2023-03-06 15:41:10 - [TEST_STEP][FAILED] - markFailed("Bill Payment Faild"): Bill Payment Faild
+
+2023-03-06 15:41:10 - [MESSAGE][FAILED] - Bill Payment Faild
+
+2023-03-06 15:41:10 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 0): Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment'
+
+2023-03-06 15:41:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:41:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment'
+
+2023-03-06 15:41:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Logout"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:41:11 - [TEST_CASE][PASSED] - Test Cases/Utilities/Logout: Test Cases/Utilities/Logout
+
+2023-03-06 15:41:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 60): Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:41:13 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:41:13 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:41:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:41:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:41:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 0): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:41:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:41:17 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:41:17 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:41:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:41:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:41:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings"), 0): Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:41:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:41:20 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:41:20 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:41:21 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:41:21 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:41:22 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:41:22 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Button_Logout"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:41:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:41:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:41:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:41:23 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:41:23 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1]]></system-out>
+         <system-err><![CDATA[2023-03-06 15:39:31 - [TEST_CASE][FAILED] - Test Cases/Payments/TC 01 - New Bill Payment: Test Cases/Payments/TC 01 - New Bill Payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Bill Payment Faild
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at TC 01 - New Bill Payment.run(TC 01 - New Bill Payment:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678096931182.run(TempTestSuite1678096931182.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payments/TC 01 - Saved Bill Payment" time="112.523" classname="Test Cases/Payments/TC 01 - Saved Bill Payment" status="PASSED">
+         <system-out><![CDATA[2023-03-06 15:41:23 - [TEST_CASE][PASSED] - Test Cases/Payments/TC 01 - Saved Bill Payment: Test Cases/Payments/TC 01 - Saved Bill Payment
+
+2023-03-06 15:41:23 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:41:23 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:41:23 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:41:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Login' successfully
+
+2023-03-06 15:41:24 - [TEST_CASE][PASSED] - Test Cases/Utilities/Login: Test Cases/Utilities/Login
+
+2023-03-06 15:41:24 - [TEST_STEP][PASSED] - startExistingApplication("com.cbt.ajmandigital", STOP_ON_FAILURE): Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:41:43 - [MESSAGE][PASSED] - Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:41:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("1.Registration and Login/Login Page/button_ForgotmPIN"), 0): Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:41:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:41:44 - [MESSAGE][PASSED] - Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:41:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_mPIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:41:44 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_mPIN: Test Cases/Utilities/Enter_mPIN
+
+2023-03-06 15:41:44 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:41:44 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:41:44 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:41:45 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:41:46 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:41:47 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:41:47 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:41:48 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:41:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:41:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 60): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:41:53 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:41:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Login' successfully
+
+2023-03-06 15:41:53 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/tab_PAY"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/tab_PAY'
+
+2023-03-06 15:41:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:41:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/tab_PAY'
+
+2023-03-06 15:41:54 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/tab_Bills"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/tab_Bills'
+
+2023-03-06 15:41:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:41:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/tab_Bills'
+
+2023-03-06 15:41:56 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/button_NewBill"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/button_NewBill'
+
+2023-03-06 15:41:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:41:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/button_NewBill'
+
+2023-03-06 15:41:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-06 15:41:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-06 15:41:58 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Label_Select Biller", ["biller":biller]), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Biller'
+
+2023-03-06 15:41:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:41:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Biller'
+
+2023-03-06 15:41:59 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Label_Select Sub Biller", ["subBiller":subBiller]), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Sub Biller'
+
+2023-03-06 15:41:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Sub Biller'
+
+2023-03-06 15:42:04 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2023-03-06 15:42:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:42:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Account Selection Based on AccountNumber"), ["accountNumber":accountNumber], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Account Selection Based on AccountNumber' successfully
+
+2023-03-06 15:42:09 - [TEST_CASE][PASSED] - Test Cases/Utilities/Account Selection Based on AccountNumber: Test Cases/Utilities/Account Selection Based on AccountNumber
+
+2023-03-06 15:42:09 - [TEST_STEP][PASSED] - count = 1: null
+
+2023-03-06 15:42:09 - [TEST_STEP][PASSED] - AccountDetails = getAttribute(findTestObject("2.Dashboard/Accounts/Account Selection", ["index":count]), "contentDescription", 0): Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+3,258,881.74
+AED
+Savings Account
+011074763011'
+
+2023-03-06 15:42:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:09 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+3,258,881.74
+AED
+Savings Account
+011074763011'
+
+2023-03-06 15:42:09 - [TEST_STEP][PASSED] - element = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-03-06 15:42:09 - [TEST_STEP][PASSED] - element = AccountDetails.split("\R"): null
+
+2023-03-06 15:42:09 - [TEST_STEP][PASSED] - println(element[4]): null
+
+2023-03-06 15:42:09 - [TEST_STEP][PASSED] - println(accountNumber): null
+
+2023-03-06 15:42:09 - [TEST_STEP][PASSED] - while (accountNumber != element[4]): null
+
+2023-03-06 15:42:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Account Selection Based on AccountNumber' successfully
+
+2023-03-06 15:42:09 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Text Box_Account Number Entry"), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:42:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:42:10 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Pay To New Biller/Text Box_Account Number Entry"), consumerNumber, 0): Text '210000137777' has been set to element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:42:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:11 - [MESSAGE][PASSED] - Text '210000137777' has been set to element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:42:11 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-03-06 15:42:12 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-03-06 15:42:12 - [TEST_STEP][PASSED] - if (biller == "Salik"): null
+
+2023-03-06 15:42:12 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:42:13 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097532146.png]]
+
+2023-03-06 15:42:13 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Button_Next"), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Button_Next'
+
+2023-03-06 15:42:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Button_Next'
+
+2023-03-06 15:42:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 0): Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' is present
+
+2023-03-06 15:42:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:18 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' is present
+
+2023-03-06 15:42:18 - [TEST_STEP][PASSED] - due = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-03-06 15:42:18 - [TEST_STEP][PASSED] - if (paymentType.equals("partial")): Text '1.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:42:18 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 0): Tapped on element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:42:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:42:18 - [TEST_STEP][PASSED] - clearText(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 0): Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' text is cleared
+
+2023-03-06 15:42:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:19 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' text is cleared
+
+2023-03-06 15:42:19 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), amount, 0): Text '1.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:42:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:20 - [MESSAGE][PASSED] - Text '1.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:42:20 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:42:21 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097540250.png]]
+
+2023-03-06 15:42:21 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Amount/Button_Next"), 0): Tapped on element 'Object Repository/3.Payments/Amount/Button_Next'
+
+2023-03-06 15:42:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Amount/Button_Next'
+
+2023-03-06 15:42:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Confirmation Page/Button_Confirm"), 0): Element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm' is present
+
+2023-03-06 15:42:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:22 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm' is present
+
+2023-03-06 15:42:22 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Confirmation Page/Button_Confirm"), 0): Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm'
+
+2023-03-06 15:42:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm'
+
+2023-03-06 15:42:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-06 15:42:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:42:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_mPIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:42:28 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_mPIN: Test Cases/Utilities/Enter_mPIN
+
+2023-03-06 15:42:28 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:42:28 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:42:28 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:42:28 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:42:29 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:42:29 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:42:30 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:42:31 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:42:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:42:32 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Confirmation Page/Button_Verify"), 0): Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Verify'
+
+2023-03-06 15:42:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Verify'
+
+2023-03-06 15:42:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-06 15:42:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:42:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_OTP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:42:38 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_OTP: Test Cases/Utilities/Enter_OTP
+
+2023-03-06 15:42:38 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:42:38 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_6)): null
+
+2023-03-06 15:42:38 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_5)): null
+
+2023-03-06 15:42:39 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_4)): null
+
+2023-03-06 15:42:40 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:42:41 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:42:42 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:42:43 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:42:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:42:44 - [TEST_STEP][PASSED] - tap(findTestObject("4.Transfers/Button_VerifyOTP"), 0): Tapped on element 'Object Repository/4.Transfers/Button_VerifyOTP'
+
+2023-03-06 15:42:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/4.Transfers/Button_VerifyOTP'
+
+2023-03-06 15:42:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 30): Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:42:56 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:42:56 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Success page/Button_Add ToMy Bills"), 0): Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Add ToMy Bills'
+
+2023-03-06 15:42:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:42:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Add ToMy Bills'
+
+2023-03-06 15:42:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Save Bill/textBox_Nickname"), 30): Element 'Object Repository/3.Payments/Save Bill/textBox_Nickname' is present
+
+2023-03-06 15:42:58 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Save Bill/textBox_Nickname' is present
+
+2023-03-06 15:42:58 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Save Bill/textBox_Nickname"), 0): Tapped on element 'Object Repository/3.Payments/Save Bill/textBox_Nickname'
+
+2023-03-06 15:42:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Save Bill/textBox_Nickname'
+
+2023-03-06 15:43:00 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Save Bill/textBox_Nickname"), biller, 0): Text 'FEWA' has been set to element 'Object Repository/3.Payments/Save Bill/textBox_Nickname'
+
+2023-03-06 15:43:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:00 - [MESSAGE][PASSED] - Text 'FEWA' has been set to element 'Object Repository/3.Payments/Save Bill/textBox_Nickname'
+
+2023-03-06 15:43:00 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Save Bill/button_Verify"), 0): Tapped on element 'Object Repository/3.Payments/Save Bill/button_Verify'
+
+2023-03-06 15:43:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Save Bill/button_Verify'
+
+2023-03-06 15:43:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 30): Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:43:03 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:43:03 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 0): Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment'
+
+2023-03-06 15:43:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment'
+
+2023-03-06 15:43:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payments_page/button_NewBill"), 0): Element 'Object Repository/3.Payments/Payments_page/button_NewBill' is present
+
+2023-03-06 15:43:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:06 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payments_page/button_NewBill' is present
+
+2023-03-06 15:43:06 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("3.Payments/Save Bill/vrify_Saved Biller", ["biller":biller, "consumerNumber":consumerNumber]), 0)): null
+
+2023-03-06 15:43:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:06 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Save Bill/vrify_Saved Biller' is present
+
+2023-03-06 15:43:06 - [TEST_STEP][PASSED] - markPassed(Biller $biller Saved Successfully with consumer number $subBiller): Biller FEWA Saved Successfully with consumer number FEWA
+
+2023-03-06 15:43:06 - [MESSAGE][PASSED] - Biller FEWA Saved Successfully with consumer number FEWA
+
+2023-03-06 15:43:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Logout"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:43:06 - [TEST_CASE][PASSED] - Test Cases/Utilities/Logout: Test Cases/Utilities/Logout
+
+2023-03-06 15:43:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 60): Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:43:06 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:43:06 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:43:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:43:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 0): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:43:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:10 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:43:10 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:43:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:43:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings"), 0): Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:43:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:12 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:43:12 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:43:13 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:43:13 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:43:14 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:43:14 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Button_Logout"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:43:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:43:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:43:15 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:43:15 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payments/TC 01 - Saved Bill Payment" time="115.164" classname="Test Cases/Payments/TC 01 - Saved Bill Payment" status="PASSED">
+         <system-out><![CDATA[2023-03-06 15:43:15 - [TEST_CASE][PASSED] - Test Cases/Payments/TC 01 - Saved Bill Payment: Test Cases/Payments/TC 01 - Saved Bill Payment
+
+2023-03-06 15:43:15 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:43:15 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:43:15 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:43:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Login' successfully
+
+2023-03-06 15:43:16 - [TEST_CASE][PASSED] - Test Cases/Utilities/Login: Test Cases/Utilities/Login
+
+2023-03-06 15:43:16 - [TEST_STEP][PASSED] - startExistingApplication("com.cbt.ajmandigital", STOP_ON_FAILURE): Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:43:33 - [MESSAGE][PASSED] - Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:43:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("1.Registration and Login/Login Page/button_ForgotmPIN"), 0): Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:43:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:34 - [MESSAGE][PASSED] - Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:43:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_mPIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:43:34 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_mPIN: Test Cases/Utilities/Enter_mPIN
+
+2023-03-06 15:43:34 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:43:34 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:43:34 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:43:35 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:43:36 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:43:36 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:43:37 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:43:38 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:43:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:43:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 60): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:43:43 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:43:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Login' successfully
+
+2023-03-06 15:43:43 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/tab_PAY"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/tab_PAY'
+
+2023-03-06 15:43:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/tab_PAY'
+
+2023-03-06 15:43:45 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/tab_Bills"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/tab_Bills'
+
+2023-03-06 15:43:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/tab_Bills'
+
+2023-03-06 15:43:45 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/button_NewBill"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/button_NewBill'
+
+2023-03-06 15:43:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/button_NewBill'
+
+2023-03-06 15:43:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-06 15:43:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-06 15:43:48 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Label_Select Biller", ["biller":biller]), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Biller'
+
+2023-03-06 15:43:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Biller'
+
+2023-03-06 15:43:49 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Label_Select Sub Biller", ["subBiller":subBiller]), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Sub Biller'
+
+2023-03-06 15:43:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Sub Biller'
+
+2023-03-06 15:43:51 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2023-03-06 15:43:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:43:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Account Selection Based on AccountNumber"), ["accountNumber":accountNumber], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Account Selection Based on AccountNumber' successfully
+
+2023-03-06 15:43:56 - [TEST_CASE][PASSED] - Test Cases/Utilities/Account Selection Based on AccountNumber: Test Cases/Utilities/Account Selection Based on AccountNumber
+
+2023-03-06 15:43:56 - [TEST_STEP][PASSED] - count = 1: null
+
+2023-03-06 15:43:56 - [TEST_STEP][PASSED] - AccountDetails = getAttribute(findTestObject("2.Dashboard/Accounts/Account Selection", ["index":count]), "contentDescription", 0): Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+3,258,880.74
+AED
+Savings Account
+011074763011'
+
+2023-03-06 15:43:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:43:57 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+3,258,880.74
+AED
+Savings Account
+011074763011'
+
+2023-03-06 15:43:57 - [TEST_STEP][PASSED] - element = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-03-06 15:43:57 - [TEST_STEP][PASSED] - element = AccountDetails.split("\R"): null
+
+2023-03-06 15:43:57 - [TEST_STEP][PASSED] - println(element[4]): null
+
+2023-03-06 15:43:57 - [TEST_STEP][PASSED] - println(accountNumber): null
+
+2023-03-06 15:43:57 - [TEST_STEP][PASSED] - while (accountNumber != element[4]): null
+
+2023-03-06 15:43:57 - [TEST_STEP][PASSED] - swipe(1026, 614, 54, 614): Swiped from 1,026,614 to 54,614
+
+2023-03-06 15:43:58 - [MESSAGE][PASSED] - Swiped from 1,026,614 to 54,614
+
+2023-03-06 15:43:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-06 15:44:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-06 15:44:00 - [TEST_STEP][PASSED] - (count++): null
+
+2023-03-06 15:44:00 - [TEST_STEP][PASSED] - AccountDetails = getAttribute(findTestObject("2.Dashboard/Accounts/Account Selection", ["index":count]), "contentDescription", 0): Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+7,963.98
+AED
+Current Account
+011074763023'
+
+2023-03-06 15:44:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:00 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+7,963.98
+AED
+Current Account
+011074763023'
+
+2023-03-06 15:44:00 - [TEST_STEP][PASSED] - element = AccountDetails.split("\R"): null
+
+2023-03-06 15:44:00 - [TEST_STEP][PASSED] - println(element[4]): null
+
+2023-03-06 15:44:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Account Selection Based on AccountNumber' successfully
+
+2023-03-06 15:44:00 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Text Box_Account Number Entry"), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:44:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:44:01 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Pay To New Biller/Text Box_Account Number Entry"), consumerNumber, 0): Text '599588538' has been set to element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:44:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:02 - [MESSAGE][PASSED] - Text '599588538' has been set to element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:44:02 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-03-06 15:44:02 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-03-06 15:44:02 - [TEST_STEP][PASSED] - if (biller == "Salik"): null
+
+2023-03-06 15:44:02 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:44:04 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097642821.png]]
+
+2023-03-06 15:44:04 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Button_Next"), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Button_Next'
+
+2023-03-06 15:44:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Button_Next'
+
+2023-03-06 15:44:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 0): Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' is present
+
+2023-03-06 15:44:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:09 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' is present
+
+2023-03-06 15:44:09 - [TEST_STEP][PASSED] - due = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-03-06 15:44:09 - [TEST_STEP][PASSED] - if (paymentType.equals("partial")): Text '100.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:44:09 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 0): Tapped on element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:44:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:44:10 - [TEST_STEP][PASSED] - clearText(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 0): Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' text is cleared
+
+2023-03-06 15:44:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:10 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' text is cleared
+
+2023-03-06 15:44:10 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), amount, 0): Text '100.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:44:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:11 - [MESSAGE][PASSED] - Text '100.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:44:11 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:44:12 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097651634.png]]
+
+2023-03-06 15:44:12 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Amount/Button_Next"), 0): Tapped on element 'Object Repository/3.Payments/Amount/Button_Next'
+
+2023-03-06 15:44:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Amount/Button_Next'
+
+2023-03-06 15:44:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Confirmation Page/Button_Confirm"), 0): Element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm' is present
+
+2023-03-06 15:44:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:13 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm' is present
+
+2023-03-06 15:44:13 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Confirmation Page/Button_Confirm"), 0): Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm'
+
+2023-03-06 15:44:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm'
+
+2023-03-06 15:44:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-06 15:44:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:44:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_mPIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:44:20 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_mPIN: Test Cases/Utilities/Enter_mPIN
+
+2023-03-06 15:44:20 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:44:20 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:44:20 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:44:20 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:44:21 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:44:22 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:44:23 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:44:24 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:44:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:44:25 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Confirmation Page/Button_Verify"), 0): Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Verify'
+
+2023-03-06 15:44:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Verify'
+
+2023-03-06 15:44:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-06 15:44:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:44:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_OTP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:44:31 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_OTP: Test Cases/Utilities/Enter_OTP
+
+2023-03-06 15:44:31 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:44:31 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_6)): null
+
+2023-03-06 15:44:31 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_5)): null
+
+2023-03-06 15:44:32 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_4)): null
+
+2023-03-06 15:44:33 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:44:33 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:44:35 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:44:36 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:44:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:44:37 - [TEST_STEP][PASSED] - tap(findTestObject("4.Transfers/Button_VerifyOTP"), 0): Tapped on element 'Object Repository/4.Transfers/Button_VerifyOTP'
+
+2023-03-06 15:44:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/4.Transfers/Button_VerifyOTP'
+
+2023-03-06 15:44:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 30): Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:44:52 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:44:52 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Success page/Button_Add ToMy Bills"), 0): Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Add ToMy Bills'
+
+2023-03-06 15:44:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Add ToMy Bills'
+
+2023-03-06 15:44:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Save Bill/textBox_Nickname"), 30): Element 'Object Repository/3.Payments/Save Bill/textBox_Nickname' is present
+
+2023-03-06 15:44:53 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Save Bill/textBox_Nickname' is present
+
+2023-03-06 15:44:53 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Save Bill/textBox_Nickname"), 0): Tapped on element 'Object Repository/3.Payments/Save Bill/textBox_Nickname'
+
+2023-03-06 15:44:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Save Bill/textBox_Nickname'
+
+2023-03-06 15:44:54 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Save Bill/textBox_Nickname"), biller, 0): Text 'Du' has been set to element 'Object Repository/3.Payments/Save Bill/textBox_Nickname'
+
+2023-03-06 15:44:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:55 - [MESSAGE][PASSED] - Text 'Du' has been set to element 'Object Repository/3.Payments/Save Bill/textBox_Nickname'
+
+2023-03-06 15:44:55 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Save Bill/button_Verify"), 0): Tapped on element 'Object Repository/3.Payments/Save Bill/button_Verify'
+
+2023-03-06 15:44:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Save Bill/button_Verify'
+
+2023-03-06 15:44:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 30): Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:44:58 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:44:58 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 0): Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment'
+
+2023-03-06 15:44:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:44:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment'
+
+2023-03-06 15:44:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payments_page/button_NewBill"), 0): Element 'Object Repository/3.Payments/Payments_page/button_NewBill' is present
+
+2023-03-06 15:44:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:01 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payments_page/button_NewBill' is present
+
+2023-03-06 15:45:01 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("3.Payments/Save Bill/vrify_Saved Biller", ["biller":biller, "consumerNumber":consumerNumber]), 0)): null
+
+2023-03-06 15:45:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:01 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Save Bill/vrify_Saved Biller' is present
+
+2023-03-06 15:45:01 - [TEST_STEP][PASSED] - markPassed(Biller $biller Saved Successfully with consumer number $subBiller): Biller Du Saved Successfully with consumer number du Postpaid
+
+2023-03-06 15:45:01 - [MESSAGE][PASSED] - Biller Du Saved Successfully with consumer number du Postpaid
+
+2023-03-06 15:45:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Logout"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:45:01 - [TEST_CASE][PASSED] - Test Cases/Utilities/Logout: Test Cases/Utilities/Logout
+
+2023-03-06 15:45:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 60): Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:45:02 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:45:02 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:45:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:45:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 0): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:45:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:04 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:45:04 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:45:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:45:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings"), 0): Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:45:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:06 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:45:06 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:45:07 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:45:07 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:45:08 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:45:08 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Button_Logout"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:45:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:45:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:45:11 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:45:11 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payments/TC 01 - Saved Bill Payment" time="114.869" classname="Test Cases/Payments/TC 01 - Saved Bill Payment" status="PASSED">
+         <system-out><![CDATA[2023-03-06 15:45:11 - [TEST_CASE][PASSED] - Test Cases/Payments/TC 01 - Saved Bill Payment: Test Cases/Payments/TC 01 - Saved Bill Payment
+
+2023-03-06 15:45:11 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:45:11 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:45:11 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+2023-03-06 15:45:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Login"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Login' successfully
+
+2023-03-06 15:45:11 - [TEST_CASE][PASSED] - Test Cases/Utilities/Login: Test Cases/Utilities/Login
+
+2023-03-06 15:45:11 - [TEST_STEP][PASSED] - startExistingApplication("com.cbt.ajmandigital", STOP_ON_FAILURE): Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:45:30 - [MESSAGE][PASSED] - Starting app with application ID: 'com.cbt.ajmandigital'
+
+2023-03-06 15:45:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("1.Registration and Login/Login Page/button_ForgotmPIN"), 0): Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:45:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:31 - [MESSAGE][PASSED] - Element 'Object Repository/1.Registration and Login/Login Page/button_ForgotmPIN' is present
+
+2023-03-06 15:45:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_mPIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:45:31 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_mPIN: Test Cases/Utilities/Enter_mPIN
+
+2023-03-06 15:45:31 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:45:31 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:45:31 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:45:33 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:45:33 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:45:34 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:45:34 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:45:35 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:45:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:45:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 60): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:45:40 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:45:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Login' successfully
+
+2023-03-06 15:45:40 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/tab_PAY"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/tab_PAY'
+
+2023-03-06 15:45:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/tab_PAY'
+
+2023-03-06 15:45:41 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/tab_Bills"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/tab_Bills'
+
+2023-03-06 15:45:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/tab_Bills'
+
+2023-03-06 15:45:43 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payments_page/button_NewBill"), 0): Tapped on element 'Object Repository/3.Payments/Payments_page/button_NewBill'
+
+2023-03-06 15:45:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payments_page/button_NewBill'
+
+2023-03-06 15:45:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-03-06 15:45:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-03-06 15:45:46 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Label_Select Biller", ["biller":biller]), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Biller'
+
+2023-03-06 15:45:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Biller'
+
+2023-03-06 15:45:47 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Label_Select Sub Biller", ["subBiller":subBiller]), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Sub Biller'
+
+2023-03-06 15:45:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Label_Select Sub Biller'
+
+2023-03-06 15:45:53 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2023-03-06 15:45:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:45:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Account Selection Based on AccountNumber"), ["accountNumber":accountNumber], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Account Selection Based on AccountNumber' successfully
+
+2023-03-06 15:45:58 - [TEST_CASE][PASSED] - Test Cases/Utilities/Account Selection Based on AccountNumber: Test Cases/Utilities/Account Selection Based on AccountNumber
+
+2023-03-06 15:45:58 - [TEST_STEP][PASSED] - count = 1: null
+
+2023-03-06 15:45:58 - [TEST_STEP][PASSED] - AccountDetails = getAttribute(findTestObject("2.Dashboard/Accounts/Account Selection", ["index":count]), "contentDescription", 0): Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+3,258,880.74
+AED
+Savings Account
+011074763011'
+
+2023-03-06 15:45:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:59 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/Account Selection' has attribute 'contentDescription' is 'Available Balance
+3,258,880.74
+AED
+Savings Account
+011074763011'
+
+2023-03-06 15:45:59 - [TEST_STEP][PASSED] - element = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-03-06 15:45:59 - [TEST_STEP][PASSED] - element = AccountDetails.split("\R"): null
+
+2023-03-06 15:45:59 - [TEST_STEP][PASSED] - println(element[4]): null
+
+2023-03-06 15:45:59 - [TEST_STEP][PASSED] - println(accountNumber): null
+
+2023-03-06 15:45:59 - [TEST_STEP][PASSED] - while (accountNumber != element[4]): null
+
+2023-03-06 15:45:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Account Selection Based on AccountNumber' successfully
+
+2023-03-06 15:45:59 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Text Box_Account Number Entry"), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:45:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:45:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:45:59 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Pay To New Biller/Text Box_Account Number Entry"), consumerNumber, 0): Text '8235355929' has been set to element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:45:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:00 - [MESSAGE][PASSED] - Text '8235355929' has been set to element 'Object Repository/3.Payments/Pay To New Biller/Text Box_Account Number Entry'
+
+2023-03-06 15:46:00 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-03-06 15:46:01 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-03-06 15:46:01 - [TEST_STEP][PASSED] - if (biller == "Salik"): null
+
+2023-03-06 15:46:01 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:46:02 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097761601.png]]
+
+2023-03-06 15:46:02 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Pay To New Biller/Button_Next"), 0): Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Button_Next'
+
+2023-03-06 15:46:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Pay To New Biller/Button_Next'
+
+2023-03-06 15:46:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 0): Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' is present
+
+2023-03-06 15:46:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:07 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' is present
+
+2023-03-06 15:46:07 - [TEST_STEP][PASSED] - due = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2023-03-06 15:46:07 - [TEST_STEP][PASSED] - if (paymentType.equals("partial")): Text '1.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:46:07 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 0): Tapped on element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:46:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:46:08 - [TEST_STEP][PASSED] - clearText(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), 0): Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' text is cleared
+
+2023-03-06 15:46:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:09 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry' text is cleared
+
+2023-03-06 15:46:09 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Amount/Text Box_Amount Entry"), amount, 0): Text '1.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:46:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:09 - [MESSAGE][PASSED] - Text '1.00' has been set to element 'Object Repository/3.Payments/Amount/Text Box_Amount Entry'
+
+2023-03-06 15:46:09 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2023-03-06 15:46:10 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\Dell\\git\\SuperApp-Ajman\\Reports\\20230306_153211\\BS Demo\\BS_Demo\\20230306_153211\\1678097769568.png]]
+
+2023-03-06 15:46:10 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Amount/Button_Next"), 0): Tapped on element 'Object Repository/3.Payments/Amount/Button_Next'
+
+2023-03-06 15:46:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Amount/Button_Next'
+
+2023-03-06 15:46:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Confirmation Page/Button_Confirm"), 0): Element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm' is present
+
+2023-03-06 15:46:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:11 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm' is present
+
+2023-03-06 15:46:11 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Confirmation Page/Button_Confirm"), 0): Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm'
+
+2023-03-06 15:46:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Confirm'
+
+2023-03-06 15:46:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-06 15:46:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:46:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_mPIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:46:17 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_mPIN: Test Cases/Utilities/Enter_mPIN
+
+2023-03-06 15:46:17 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:46:17 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:46:18 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:46:19 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:46:19 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:46:20 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:46:20 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_0)): null
+
+2023-03-06 15:46:21 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:46:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_mPIN' successfully
+
+2023-03-06 15:46:22 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Confirmation Page/Button_Verify"), 0): Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Verify'
+
+2023-03-06 15:46:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Confirmation Page/Button_Verify'
+
+2023-03-06 15:46:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2023-03-06 15:46:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-03-06 15:46:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Enter_OTP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:46:28 - [TEST_CASE][PASSED] - Test Cases/Utilities/Enter_OTP: Test Cases/Utilities/Enter_OTP
+
+2023-03-06 15:46:28 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2023-03-06 15:46:28 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_6)): null
+
+2023-03-06 15:46:28 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_5)): null
+
+2023-03-06 15:46:29 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_4)): null
+
+2023-03-06 15:46:30 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_3)): null
+
+2023-03-06 15:46:31 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_2)): null
+
+2023-03-06 15:46:32 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.DIGIT_1)): null
+
+2023-03-06 15:46:33 - [TEST_STEP][PASSED] - driver.pressKey(new io.appium.java_client.android.nativekey.KeyEvent(io.appium.java_client.android.nativekey.AndroidKey.ENTER)): null
+
+2023-03-06 15:46:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Enter_OTP' successfully
+
+2023-03-06 15:46:34 - [TEST_STEP][PASSED] - tap(findTestObject("4.Transfers/Button_VerifyOTP"), 0): Tapped on element 'Object Repository/4.Transfers/Button_VerifyOTP'
+
+2023-03-06 15:46:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/4.Transfers/Button_VerifyOTP'
+
+2023-03-06 15:46:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 30): Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:46:48 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:46:48 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Success page/Button_Add ToMy Bills"), 0): Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Add ToMy Bills'
+
+2023-03-06 15:46:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Add ToMy Bills'
+
+2023-03-06 15:46:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Save Bill/textBox_Nickname"), 30): Element 'Object Repository/3.Payments/Save Bill/textBox_Nickname' is present
+
+2023-03-06 15:46:50 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Save Bill/textBox_Nickname' is present
+
+2023-03-06 15:46:50 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Save Bill/textBox_Nickname"), 0): Tapped on element 'Object Repository/3.Payments/Save Bill/textBox_Nickname'
+
+2023-03-06 15:46:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Save Bill/textBox_Nickname'
+
+2023-03-06 15:46:50 - [TEST_STEP][PASSED] - setText(findTestObject("3.Payments/Save Bill/textBox_Nickname"), biller, 0): Text 'ADDC' has been set to element 'Object Repository/3.Payments/Save Bill/textBox_Nickname'
+
+2023-03-06 15:46:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:51 - [MESSAGE][PASSED] - Text 'ADDC' has been set to element 'Object Repository/3.Payments/Save Bill/textBox_Nickname'
+
+2023-03-06 15:46:51 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Save Bill/button_Verify"), 0): Tapped on element 'Object Repository/3.Payments/Save Bill/button_Verify'
+
+2023-03-06 15:46:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Save Bill/button_Verify'
+
+2023-03-06 15:46:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 30): Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:46:54 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment' is present
+
+2023-03-06 15:46:54 - [TEST_STEP][PASSED] - tap(findTestObject("3.Payments/Payment Success page/Button_Back To Payment"), 0): Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment'
+
+2023-03-06 15:46:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/3.Payments/Payment Success page/Button_Back To Payment'
+
+2023-03-06 15:46:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("3.Payments/Payments_page/button_NewBill"), 0): Element 'Object Repository/3.Payments/Payments_page/button_NewBill' is present
+
+2023-03-06 15:46:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:57 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Payments_page/button_NewBill' is present
+
+2023-03-06 15:46:57 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("3.Payments/Save Bill/vrify_Saved Biller", ["biller":biller, "consumerNumber":consumerNumber]), 0)): null
+
+2023-03-06 15:46:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:58 - [MESSAGE][PASSED] - Element 'Object Repository/3.Payments/Save Bill/vrify_Saved Biller' is present
+
+2023-03-06 15:46:58 - [TEST_STEP][PASSED] - markPassed(Biller $biller Saved Successfully with consumer number $subBiller): Biller ADDC Saved Successfully with consumer number ADDC
+
+2023-03-06 15:46:58 - [MESSAGE][PASSED] - Biller ADDC Saved Successfully with consumer number ADDC
+
+2023-03-06 15:46:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Utilities/Logout"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:46:58 - [TEST_CASE][PASSED] - Test Cases/Utilities/Logout: Test Cases/Utilities/Logout
+
+2023-03-06 15:46:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 60): Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:46:58 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home' is present
+
+2023-03-06 15:46:58 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Icon_Home"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:46:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:46:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Icon_Home'
+
+2023-03-06 15:46:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Accounts/AccountDetails"), 0): Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:46:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:47:00 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Accounts/AccountDetails' is present
+
+2023-03-06 15:47:00 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:47:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:47:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'
+
+2023-03-06 15:47:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings"), 0): Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:47:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:47:03 - [MESSAGE][PASSED] - Element 'Object Repository/2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings' is present
+
+2023-03-06 15:47:03 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:47:04 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:47:04 - [TEST_STEP][PASSED] - swipe(135, 1840, 447, 259): Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:47:05 - [MESSAGE][PASSED] - Swiped from 135,1,840 to 447,259
+
+2023-03-06 15:47:05 - [TEST_STEP][PASSED] - tap(findTestObject("2.Dashboard/Profile Settings/Button_Logout"), 0): Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:47:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-06 15:47:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/2.Dashboard/Profile Settings/Button_Logout'
+
+2023-03-06 15:47:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Utilities/Logout' successfully
+
+2023-03-06 15:47:06 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Android - b76dcbe1
+
+2023-03-06 15:47:06 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Android - b76dcbe1]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-06 15:32:23 - [TEST_SUITE][FAILED] - BS_Demo: Test Cases/Payments/TC 01 - New Bill Payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Bill Payment Faild
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at TC 01 - New Bill Payment.run(TC 01 - New Bill Payment:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678096931182.run(TempTestSuite1678096931182.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-03-06 15:32:23 - [TEST_SUITE][FAILED] - BS_Demo: Test Cases/Payments/TC 01 - New Bill Payment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Bill Payment Faild
+	at com.kms.katalon.core.util.KeywordUtil.markFailed(KeywordUtil.java:19)
+	at com.kms.katalon.core.util.KeywordUtil$markFailed$1.call(Unknown Source)
+	at TC 01 - New Bill Payment.run(TC 01 - New Bill Payment:122)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678096931182.run(TempTestSuite1678096931182.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

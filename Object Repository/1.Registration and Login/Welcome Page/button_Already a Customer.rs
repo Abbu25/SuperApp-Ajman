@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Already a Customer</name>
    <tag></tag>
-   <elementGuidId>799a1365-d532-47a2-8b04-b36090932bed</elementGuidId>
+   <elementGuidId>e6dd8352-11c0-4ef6-90f0-8dc2a03ef59f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <locator>Already a Customer? Register</locator>

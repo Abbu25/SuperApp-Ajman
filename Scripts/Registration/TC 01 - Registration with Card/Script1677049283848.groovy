@@ -28,7 +28,11 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 Mobile.startExistingApplication('com.cbt.ajmandigital', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('1.Registration and Login/Welcome Page/button_Already a Customer'), 60)
+Mobile.waitForElementPresent(findTestObject('1.Registration and Login/Welcome Page/button_Skip'), 30, FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('1.Registration and Login/Welcome Page/button_Skip'), 0)
+
+Mobile.waitForElementPresent(findTestObject('1.Registration and Login/Welcome Page/button_Already a Customer'), 15, FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('1.Registration and Login/Welcome Page/button_Already a Customer'), 0)
 
@@ -68,18 +72,13 @@ Mobile.waitForElementPresent(findTestObject('1.Registration and Login/mPIN Page/
 
 Mobile.tap(findTestObject('1.Registration and Login/mPIN Page/Button_Maybe later Biometric'), 0)
 
-if (Mobile.verifyElementExist(findTestObject('2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings'), 0, FailureHandling.CONTINUE_ON_FAILURE)) {
-    KeywordUtil.markPassed('User Registered Successfully with ${cardType}')
-
+if (Mobile.waitForElementPresent(findTestObject('2.Dashboard/Accounts/AccountDetails'), 0)) {
+    KeywordUtil.markPassed("User Registered Successfully with $cardType")
 } else {
     KeywordUtil.markFailed('User registration faild')
 }
 
-Mobile.waitForElementPresent(findTestObject('2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings'), 0)
-
 Mobile.takeScreenshot()
 
 WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.closeApplication()
 

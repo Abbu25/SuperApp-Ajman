@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Demo,,,,2023-03-02 13:13:42,2023-03-02 13:18:47,5m - 5.012s,FAILED
+,,,,,,,
+Test Cases/Demo/TC 01 - Registration with Debit Card,,,,2023-03-02 13:13:42,2023-03-02 13:16:01,2m - 18.588s,PASSED
+Start listener action : enableSauceLabs,,,,2023-03-02 13:13:42,2023-03-02 13:13:42,0.042s,PASSED
+"callTestCase(findTestCase(""Utilities/BrowserStackIntegration""), [:], CONTINUE_ON_FAILURE)",,,,2023-03-02 13:13:43,2023-03-02 13:14:27,43.242s,PASSED
+"waitForElementPresent(findTestObject(""1.Registration and Login/Welcome Page/button_Already a Customer""), 0)",,,,2023-03-02 13:14:27,2023-03-02 13:14:35,7.890s,PASSED
+"tap(findTestObject(""1.Registration and Login/Welcome Page/button_Already a Customer""), 0)",,,,2023-03-02 13:14:35,2023-03-02 13:14:37,2.163s,PASSED
+"waitForElementPresent(findTestObject(""1.Registration and Login/Card Details Page/Radio Button_Debit Card""), 0)",,,,2023-03-02 13:14:37,2023-03-02 13:14:39,1.920s,PASSED
+"tap(findTestObject(""1.Registration and Login/Card Details Page/Radio Button_Debit Card""), 0)",,,,2023-03-02 13:14:39,2023-03-02 13:14:41,2.229s,PASSED
+"setText(findTestObject(""1.Registration and Login/Card Details Page/Text Box_Card Number""), ""5244550100131688"", 0)",,,,2023-03-02 13:14:41,2023-03-02 13:14:44,2.703s,PASSED
+"setText(findTestObject(""1.Registration and Login/Card Details Page/Text Box_Card Pin""), ""4631"", 0)",,,,2023-03-02 13:14:44,2023-03-02 13:14:46,2.667s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2023-03-02 13:14:46,2023-03-02 13:14:48,2.061s,PASSED
+takeScreenshot(),,,,2023-03-02 13:14:48,2023-03-02 13:14:51,2.670s,PASSED
+"tap(findTestObject(""1.Registration and Login/Card Details Page/Button_Next on Card details""), 0)",,,,2023-03-02 13:14:51,2023-03-02 13:14:53,2.214s,PASSED
+"waitForElementPresent(findTestObject(""1.Registration and Login/OTP Page/label_Enter OTP""), 60)",,,,2023-03-02 13:14:53,2023-03-02 13:15:05,12.004s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_OTP""), [:], CONTINUE_ON_FAILURE)",,,,2023-03-02 13:15:05,2023-03-02 13:15:14,8.775s,PASSED
+"tap(findTestObject(""1.Registration and Login/OTP Page/Button_Verify OTP""), 0)",,,,2023-03-02 13:15:14,2023-03-02 13:15:17,2.912s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2023-03-02 13:15:17,2023-03-02 13:15:22,5.018s,PASSED
+"setText(findTestObject(""1.Registration and Login/mPIN Page/Text Box_Create mPIN""), ""102030"", 0)",,,,2023-03-02 13:15:22,2023-03-02 13:15:25,2.680s,PASSED
+"setText(findTestObject(""1.Registration and Login/mPIN Page/Text Box_Confirm mPIN Entry""), ""102030"", 0)",,,,2023-03-02 13:15:25,2023-03-02 13:15:27,2.600s,PASSED
+"tap(findTestObject(""1.Registration and Login/mPIN Page/Button_Next mPIN Page""), 0)",,,,2023-03-02 13:15:27,2023-03-02 13:15:30,2.257s,PASSED
+"waitForElementPresent(findTestObject(""1.Registration and Login/mPIN Page/Button_Maybe later Biometric""), 0)",,,,2023-03-02 13:15:30,2023-03-02 13:15:31,1.816s,PASSED
+"tap(findTestObject(""1.Registration and Login/mPIN Page/Button_Maybe later Biometric""), 0)",,,,2023-03-02 13:15:31,2023-03-02 13:15:34,2.217s,PASSED
+"waitForElementPresent(findTestObject(""2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings""), 0)",,,,2023-03-02 13:15:34,2023-03-02 13:15:39,5.829s,PASSED
+takeScreenshot(),,,,2023-03-02 13:15:39,2023-03-02 13:15:42,2.821s,PASSED
+"callTestCase(findTestCase(""Utilities/Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-03-02 13:15:42,2023-03-02 13:16:01,18.708s,PASSED
+Start listener action : autoUpdateJobStatus,,,,2023-03-02 13:16:01,2023-03-02 13:16:01,0.002s,PASSED
+,,,,,,,
+Test Cases/Demo/TC 01 - Login with mPIN,,,,2023-03-02 13:16:01,2023-03-02 13:18:47,2m - 45.871s,FAILED
+Start listener action : enableSauceLabs,,,,2023-03-02 13:16:02,2023-03-02 13:16:02,0.002s,PASSED
+"callTestCase(findTestCase(""Utilities/BrowserStackIntegration""), [:], CONTINUE_ON_FAILURE)",,,,2023-03-02 13:16:03,2023-03-02 13:16:36,32.224s,PASSED
+"waitForElementPresent(findTestObject(""1.Registration and Login/Login Page/button_ForgotmPIN""), 0)",,,,2023-03-02 13:16:36,2023-03-02 13:17:06,30.716s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_mPIN""), [:], STOP_ON_FAILURE)",,,,2023-03-02 13:17:06,2023-03-02 13:17:09,2.909s,PASSED
+"waitForElementPresent(findTestObject(""2.Dashboard/Accounts/AccountDetails""), 60)",,,,2023-03-02 13:17:09,2023-03-02 13:18:10,1m - 0.399s,PASSED
+takeScreenshot(),,,,2023-03-02 13:18:10,2023-03-02 13:18:12,2.815s,PASSED
+"content = getAttribute(findTestObject(""2.Dashboard/Accounts/AccountDetails""), ""contentDescription"", 0)",,,,2023-03-02 13:18:12,2023-03-02 13:18:43,30.364s,FAILED
+"tap(findTestObject(""2.Dashboard/Accounts/label_Finances""), 0)",,,,2023-03-02 13:18:43,2023-03-02 13:18:47,4.009s,ERROR
+Start listener action : autoUpdateJobStatus,,,,2023-03-02 13:18:47,2023-03-02 13:18:47,0.002s,PASSED
