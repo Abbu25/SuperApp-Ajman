@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 01 - Change Mobile Number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57106e6b-4d50-419e-a447-ae2d13d64df4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f45dc2ee-edc1-4baf-9949-8b69f88f692b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'503644497'</defaultValue>
+      <description></description>
+      <id>f45dc2ee-edc1-4baf-9949-8b69f88f692b</id>
+      <masked>false</masked>
+      <name>MobileNumber</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 02 - Change Email Address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aad3564d-1a4d-4324-8a1b-b52b68e3707e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe84f5b9-7949-4370-966d-2584405ce30b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'abdullah@testing.com'</defaultValue>
+      <description></description>
+      <id>fe84f5b9-7949-4370-966d-2584405ce30b</id>
+      <masked>false</masked>
+      <name>EmailAddress</name>
+   </variable>
+</TestCaseEntity>

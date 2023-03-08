@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Demo</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>d20fe3a5-d254-4ad8-9b25-5cca65222d1e</testSuiteGuid>
+   <testCaseLink>
+      <guid>5c722fbd-7d4c-4a4d-b79b-7fc2f07115c8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Demo/TC 01 - Login with mPIN and Dashboard validation</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>efe4bc66-7cd9-4eff-b225-2018b763af35</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>efe4bc66-7cd9-4eff-b225-2018b763af35</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>VerifyAccountNumber</value>
+         <variableId>3b140f31-1763-4910-b04d-9f3d0ef54bd4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>efe4bc66-7cd9-4eff-b225-2018b763af35</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>VerifyFinanceAccountNumber</value>
+         <variableId>cd26012c-baeb-414a-b757-bd4002f807fb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>efe4bc66-7cd9-4eff-b225-2018b763af35</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>VerifyDepositAccountNumber</value>
+         <variableId>96df5c7e-aa7d-4ea3-bba5-1471f1b27cb7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

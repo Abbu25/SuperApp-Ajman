@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 01 - Tranfer with in Ajman (1)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4cd9ea02-bccc-403d-9650-1f8d4dff8e74</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3f1b1461-dd3d-4e48-8a93-d57ee8fccc63</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>342aeb0d-763a-4677-962c-ed23a761b857</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4589ea64-340a-4b8b-965e-3814cd7cbb50</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'100.00'</defaultValue>
+      <description></description>
+      <id>3f1b1461-dd3d-4e48-8a93-d57ee8fccc63</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>'USD'</defaultValue>
+      <description></description>
+      <id>342aeb0d-763a-4677-962c-ed23a761b857</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'011074763023'</defaultValue>
+      <description></description>
+      <id>4589ea64-340a-4b8b-965e-3814cd7cbb50</id>
+      <masked>false</masked>
+      <name>accountNumber</name>
+   </variable>
+</TestCaseEntity>

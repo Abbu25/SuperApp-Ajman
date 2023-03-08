@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 01 - Login with mPIN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9743684a-d7b4-4f43-a0b7-3c2f8a6bec3c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a5e69cd-4761-4fcd-81bf-9924e421af39</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76a1e8e2-0a8c-4614-bed6-74b0fb4a024c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea20256d-c8aa-4cac-a120-f559fa24bc05</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'011074763023'</defaultValue>
+      <description></description>
+      <id>4a5e69cd-4761-4fcd-81bf-9924e421af39</id>
+      <masked>false</masked>
+      <name>accountNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'LD2303978741'</defaultValue>
+      <description></description>
+      <id>76a1e8e2-0a8c-4614-bed6-74b0fb4a024c</id>
+      <masked>false</masked>
+      <name>financeAccountNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'MM2301428463'</defaultValue>
+      <description></description>
+      <id>ea20256d-c8aa-4cac-a120-f559fa24bc05</id>
+      <masked>false</masked>
+      <name>depositAccountNumber</name>
+   </variable>
+</TestCaseEntity>
