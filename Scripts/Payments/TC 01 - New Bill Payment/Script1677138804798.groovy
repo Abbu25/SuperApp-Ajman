@@ -28,6 +28,12 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.callTestCase(findTestCase('Utilities/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
+String dirName = System.getProperty("user.dir")
+
+filePath = dirName + ExcelPath
+
+int rowNum=(rowNum.toInteger())+1
+
 Mobile.tap(findTestObject('3.Payments/Payments_page/tab_PAY'), 0)
 
 Mobile.tap(findTestObject('3.Payments/Payments_page/tab_Bills'), 0)
@@ -114,18 +120,25 @@ if (Mobile.verifyElementExist(findTestObject('3.Payments/Payment Success page/Bu
 
     String[] line = content.split('\\R')
 
+    ActualResult = content
+
     println(line[0])
 
-    if (amount == (line[0])) {
-        KeywordUtil.markPassed("${biller} Bill Payment Successfully")
+    if (amount == line[0]) {
+        KeywordUtil.markPassed("$biller Bill Payment Successfully")
+
+        CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, ActualResult, filePath)
     } else {
-        KeywordUtil.markFailed("${biller} Bill Payment Faild")
+        KeywordUtil.markFailed("$biller Bill Payment Faild")
+
+        CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName , rowNum, ActualResult, filePath)
     }
 } else {
-    KeywordUtil.markFailed("${biller} Bill Payment Faild")
+    KeywordUtil.markFailed("$biller Bill Payment Faild")
 }
 
 Mobile.tap(findTestObject('3.Payments/Payment Success page/Button_Back To Payment'), 0)
 
 WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC 01 - Registration with Debit Card</name>
+   <name>TC 01 - Registration with Debit Card (1)</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b689bd01-a4de-41e6-a3e7-e17628bb2cda</testCaseGuid>

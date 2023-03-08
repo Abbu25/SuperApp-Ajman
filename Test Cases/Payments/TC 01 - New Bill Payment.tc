@@ -47,29 +47,53 @@
       <value></value>
       <variableId>d9a96f7b-76e2-40fc-b163-5df875286196</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ab1952c7-34af-4a29-99fc-7ef10f1708a9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5f50673d-1ee5-4deb-b579-c0d3857ade82</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ac455a2-a96c-4ee7-80b2-9f973534dfc4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c49e571f-8ef2-4be4-8d05-b0bade7b837c</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'ADDC'</defaultValue>
+      <defaultValue>'FEWA'</defaultValue>
       <description></description>
       <id>1c8a173e-7715-4f25-bbf1-de867014e02a</id>
       <masked>false</masked>
       <name>biller</name>
    </variable>
    <variable>
-      <defaultValue>'ADDC'</defaultValue>
+      <defaultValue>'FEWA'</defaultValue>
       <description></description>
       <id>d11737e7-2878-4def-b4d3-bf4e4fb43312</id>
       <masked>false</masked>
       <name>subBiller</name>
    </variable>
    <variable>
-      <defaultValue>'8235355929'</defaultValue>
+      <defaultValue>'210000137777'</defaultValue>
       <description></description>
       <id>23c0b761-7e7d-404d-961d-d041e2b58226</id>
       <masked>false</masked>
       <name>consumerNumber</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'1.00'</defaultValue>
       <description></description>
       <id>9c03eab2-d1d7-450b-a579-9270ecbff602</id>
       <masked>false</masked>
@@ -95,5 +119,33 @@
       <id>d9a96f7b-76e2-40fc-b163-5df875286196</id>
       <masked>false</masked>
       <name>SalikPIN</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>ab1952c7-34af-4a29-99fc-7ef10f1708a9</id>
+      <masked>false</masked>
+      <name>rowNum</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5f50673d-1ee5-4deb-b579-c0d3857ade82</id>
+      <masked>false</masked>
+      <name>ActualResult</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7ac455a2-a96c-4ee7-80b2-9f973534dfc4</id>
+      <masked>false</masked>
+      <name>ExcelPath</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c49e571f-8ef2-4be4-8d05-b0bade7b837c</id>
+      <masked>false</masked>
+      <name>SheetName</name>
    </variable>
 </TestCaseEntity>

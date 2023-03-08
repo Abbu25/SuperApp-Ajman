@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca6a2ae9-6a66-4817-9a60-88a16bce7a95</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42816229-bc43-41c4-97e1-da1846a9cb5e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('New Bill Payment/Bill').getValue(1, 2)</defaultValue>
+      <description></description>
+      <id>42816229-bc43-41c4-97e1-da1846a9cb5e</id>
+      <masked>false</masked>
+      <name>rowNum</name>
+   </variable>
+</TestCaseEntity>

@@ -1,18 +1,18 @@
 {
-  "keywordFileContentHash": "78D2D202485C2B7C7EF74EB38E2C8887",
+  "keywordFileContentHash": "87304152BC6CA8F1DBEBF6444F0E19AB",
   "keywordClasses": [
     {
       "name": "myPack.WriteExcel",
       "keywordMethods": [
         {
-          "name": "isElementPresent_Mobile",
+          "name": "writeResult",
           "parameters": [
             {
-              "name": "to",
+              "name": "sheetName",
               "initialExpression": "",
               "type": {
-                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
-                "unresolvedClassName": "TestObject",
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
@@ -21,7 +21,7 @@
               }
             },
             {
-              "name": "timeout",
+              "name": "rowNum",
               "initialExpression": "",
               "type": {
                 "fullClassName": "int",
@@ -32,14 +32,35 @@
                 "genericsTypes": [],
                 "errorOnParsing": false
               }
+            },
+            {
+              "name": "value",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "ExcelPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
             }
           ],
-          "javadoc": "/**\n\t * Check if element present in timeout\n\t * @param to Katalon test object\n\t * @param timeout time to wait for element to show up\n\t * @return true if element present, otherwise false\n\t */"
-        },
-        {
-          "name": "getCurrentSessionMobileDriver",
-          "parameters": [],
-          "javadoc": "/**\n\t * Get mobile driver for current session\n\t * @return mobile driver for current session\n\t */"
+          "javadoc": ""
         }
       ]
     }

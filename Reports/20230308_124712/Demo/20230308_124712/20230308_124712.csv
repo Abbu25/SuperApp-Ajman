@@ -1,0 +1,123 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo,,,,2023-03-08 12:47:21,2023-03-08 12:53:36,6m - 14.886s,PASSED
+,,,,,,,
+Test Cases/Payments/TC 01 - New Bill Payment,,,,2023-03-08 12:47:22,2023-03-08 12:50:03,2m - 41.033s,PASSED
+Start listener action : enableSauceLabs,,,,2023-03-08 12:47:22,2023-03-08 12:47:22,0.056s,PASSED
+"callTestCase(findTestCase(""Utilities/Login""), [:], CONTINUE_ON_FAILURE)",,,,2023-03-08 12:47:24,2023-03-08 12:48:36,1m - 11.738s,PASSED
+"dirName = System.getProperty(""user.dir"")",,,,2023-03-08 12:48:36,2023-03-08 12:48:36,0.000s,PASSED
+filePath = dirName + ExcelPath,,,,2023-03-08 12:48:36,2023-03-08 12:48:36,0.004s,PASSED
+rowNum = rowNum.toInteger() + 1,,,,2023-03-08 12:48:36,2023-03-08 12:48:36,0.003s,PASSED
+"tap(findTestObject(""3.Payments/Payments_page/tab_PAY""), 0)",,,,2023-03-08 12:48:36,2023-03-08 12:48:36,0.412s,PASSED
+"tap(findTestObject(""3.Payments/Payments_page/tab_Bills""), 0)",,,,2023-03-08 12:48:36,2023-03-08 12:48:38,2.378s,PASSED
+"tap(findTestObject(""3.Payments/Payments_page/button_NewBill""), 0)",,,,2023-03-08 12:48:38,2023-03-08 12:48:40,1.567s,PASSED
+delay(2),,,,2023-03-08 12:48:40,2023-03-08 12:48:42,2.031s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Label_Select Biller"", [""biller"":biller]), 0)",,,,2023-03-08 12:48:42,2023-03-08 12:48:43,1.005s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Label_Select Sub Biller"", [""subBiller"":subBiller]), 0)",,,,2023-03-08 12:48:43,2023-03-08 12:48:49,5.742s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,,2023-03-08 12:48:49,2023-03-08 12:48:54,5.013s,PASSED
+"callTestCase(findTestCase(""Utilities/Account Selection Based on AccountNumber""), [""accountNumber"":accountNumber], OPTIONAL)",,,,2023-03-08 12:48:54,2023-03-08 12:48:55,1.146s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Text Box_Account Number Entry""), 0)",,,,2023-03-08 12:48:55,2023-03-08 12:48:55,0.416s,PASSED
+"setText(findTestObject(""3.Payments/Pay To New Biller/Text Box_Account Number Entry""), consumerNumber, 0)",,,,2023-03-08 12:48:55,2023-03-08 12:48:57,1.152s,PASSED
+pressBack(),,,,2023-03-08 12:48:57,2023-03-08 12:48:57,0.728s,PASSED
+"if (biller == ""Salik"")",,,,2023-03-08 12:48:57,2023-03-08 12:48:57,0.000s,PASSED
+takeScreenshot(),,,,2023-03-08 12:48:57,2023-03-08 12:48:58,1.224s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Button_Next""), 0)",,,,2023-03-08 12:48:58,2023-03-08 12:48:59,0.836s,PASSED
+"waitForElementPresent(findTestObject(""3.Payments/Amount/Text Box_Amount Entry""), 0, OPTIONAL)",,,,2023-03-08 12:48:59,2023-03-08 12:49:07,7.697s,PASSED
+due = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2023-03-08 12:49:07,2023-03-08 12:49:07,0.000s,PASSED
+"if (paymentType.equals(""partial""))",,,,2023-03-08 12:49:07,2023-03-08 12:49:09,1.916s,PASSED
+takeScreenshot(),,,,2023-03-08 12:49:09,2023-03-08 12:49:10,0.723s,PASSED
+"tap(findTestObject(""3.Payments/Amount/Button_Next""), 2, OPTIONAL)",,,,2023-03-08 12:49:10,2023-03-08 12:49:11,1.231s,PASSED
+"waitForElementPresent(findTestObject(""3.Payments/Payment Confirmation Page/Button_Confirm""), 0)",,,,2023-03-08 12:49:11,2023-03-08 12:49:11,0.286s,PASSED
+"tap(findTestObject(""3.Payments/Payment Confirmation Page/Button_Confirm""), 0)",,,,2023-03-08 12:49:11,2023-03-08 12:49:12,1.285s,PASSED
+delay(5),,,,2023-03-08 12:49:12,2023-03-08 12:49:17,5.013s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_mPIN""), [:], STOP_ON_FAILURE)",,,,2023-03-08 12:49:17,2023-03-08 12:49:21,3.912s,PASSED
+"tap(findTestObject(""3.Payments/Payment Confirmation Page/Button_Verify""), 0)",,,,2023-03-08 12:49:21,2023-03-08 12:49:22,0.808s,PASSED
+delay(5),,,,2023-03-08 12:49:22,2023-03-08 12:49:27,5.014s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_OTP""), [:], STOP_ON_FAILURE)",,,,2023-03-08 12:49:27,2023-03-08 12:49:35,7.854s,PASSED
+"tap(findTestObject(""4.Transfers/Button_VerifyOTP""), 0)",,,,2023-03-08 12:49:35,2023-03-08 12:49:37,1.434s,PASSED
+"waitForElementPresent(findTestObject(""3.Payments/Payment Success page/Button_Back To Payment""), 180)",,,,2023-03-08 12:49:37,2023-03-08 12:49:48,11.089s,PASSED
+takeScreenshot(),,,,2023-03-08 12:49:48,2023-03-08 12:49:49,1.243s,PASSED
+"if (verifyElementExist(findTestObject(""3.Payments/Payment Success page/Button_Share""), 5, CONTINUE_ON_FAILURE))",,,,2023-03-08 12:49:49,2023-03-08 12:49:51,2.233s,PASSED
+"tap(findTestObject(""3.Payments/Payment Success page/Button_Back To Payment""), 0)",,,,2023-03-08 12:49:51,2023-03-08 12:49:52,0.984s,PASSED
+"callTestCase(findTestCase(""Utilities/Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-03-08 12:49:52,2023-03-08 12:50:03,11.062s,PASSED
+Start listener action : autoUpdateJobStatus,,,,2023-03-08 12:50:03,2023-03-08 12:50:03,0.000s,PASSED
+,,,,,,,
+Test Cases/Payments/TC 01 - New Bill Payment,,,,2023-03-08 12:50:03,2023-03-08 12:51:51,1m - 48.092s,PASSED
+Start listener action : enableSauceLabs,,,,2023-03-08 12:50:03,2023-03-08 12:50:03,0.000s,PASSED
+"callTestCase(findTestCase(""Utilities/Login""), [:], CONTINUE_ON_FAILURE)",,,,2023-03-08 12:50:03,2023-03-08 12:50:34,30.650s,PASSED
+"dirName = System.getProperty(""user.dir"")",,,,2023-03-08 12:50:34,2023-03-08 12:50:34,0.000s,PASSED
+filePath = dirName + ExcelPath,,,,2023-03-08 12:50:34,2023-03-08 12:50:34,0.000s,PASSED
+rowNum = rowNum.toInteger() + 1,,,,2023-03-08 12:50:34,2023-03-08 12:50:34,0.000s,PASSED
+"tap(findTestObject(""3.Payments/Payments_page/tab_PAY""), 0)",,,,2023-03-08 12:50:34,2023-03-08 12:50:35,0.873s,PASSED
+"tap(findTestObject(""3.Payments/Payments_page/tab_Bills""), 0)",,,,2023-03-08 12:50:35,2023-03-08 12:50:38,2.809s,PASSED
+"tap(findTestObject(""3.Payments/Payments_page/button_NewBill""), 0)",,,,2023-03-08 12:50:38,2023-03-08 12:50:39,0.850s,PASSED
+delay(2),,,,2023-03-08 12:50:39,2023-03-08 12:50:41,2.018s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Label_Select Biller"", [""biller"":biller]), 0)",,,,2023-03-08 12:50:41,2023-03-08 12:50:42,0.917s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Label_Select Sub Biller"", [""subBiller"":subBiller]), 0)",,,,2023-03-08 12:50:42,2023-03-08 12:50:42,0.944s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,,2023-03-08 12:50:42,2023-03-08 12:50:47,5.008s,PASSED
+"callTestCase(findTestCase(""Utilities/Account Selection Based on AccountNumber""), [""accountNumber"":accountNumber], OPTIONAL)",,,,2023-03-08 12:50:47,2023-03-08 12:50:52,4.113s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Text Box_Account Number Entry""), 0)",,,,2023-03-08 12:50:52,2023-03-08 12:50:52,0.449s,PASSED
+"setText(findTestObject(""3.Payments/Pay To New Biller/Text Box_Account Number Entry""), consumerNumber, 0)",,,,2023-03-08 12:50:52,2023-03-08 12:50:52,0.428s,PASSED
+pressBack(),,,,2023-03-08 12:50:52,2023-03-08 12:50:53,0.721s,PASSED
+"if (biller == ""Salik"")",,,,2023-03-08 12:50:53,2023-03-08 12:50:53,0.001s,PASSED
+takeScreenshot(),,,,2023-03-08 12:50:53,2023-03-08 12:50:55,1.507s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Button_Next""), 0)",,,,2023-03-08 12:50:55,2023-03-08 12:50:56,0.865s,PASSED
+"waitForElementPresent(findTestObject(""3.Payments/Amount/Text Box_Amount Entry""), 0, OPTIONAL)",,,,2023-03-08 12:50:56,2023-03-08 12:51:00,4.057s,PASSED
+due = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2023-03-08 12:51:00,2023-03-08 12:51:00,0.000s,PASSED
+"if (paymentType.equals(""partial""))",,,,2023-03-08 12:51:00,2023-03-08 12:51:01,1.860s,PASSED
+takeScreenshot(),,,,2023-03-08 12:51:01,2023-03-08 12:51:02,0.688s,PASSED
+"tap(findTestObject(""3.Payments/Amount/Button_Next""), 2, OPTIONAL)",,,,2023-03-08 12:51:02,2023-03-08 12:51:03,1.252s,PASSED
+"waitForElementPresent(findTestObject(""3.Payments/Payment Confirmation Page/Button_Confirm""), 0)",,,,2023-03-08 12:51:03,2023-03-08 12:51:04,0.223s,PASSED
+"tap(findTestObject(""3.Payments/Payment Confirmation Page/Button_Confirm""), 0)",,,,2023-03-08 12:51:04,2023-03-08 12:51:05,1.258s,PASSED
+delay(5),,,,2023-03-08 12:51:05,2023-03-08 12:51:10,5.007s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_mPIN""), [:], STOP_ON_FAILURE)",,,,2023-03-08 12:51:10,2023-03-08 12:51:15,5.218s,PASSED
+"tap(findTestObject(""3.Payments/Payment Confirmation Page/Button_Verify""), 0)",,,,2023-03-08 12:51:15,2023-03-08 12:51:16,1.003s,PASSED
+delay(5),,,,2023-03-08 12:51:16,2023-03-08 12:51:21,5.015s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_OTP""), [:], STOP_ON_FAILURE)",,,,2023-03-08 12:51:21,2023-03-08 12:51:28,6.728s,PASSED
+"tap(findTestObject(""4.Transfers/Button_VerifyOTP""), 0)",,,,2023-03-08 12:51:28,2023-03-08 12:51:29,1.361s,PASSED
+"waitForElementPresent(findTestObject(""3.Payments/Payment Success page/Button_Back To Payment""), 180)",,,,2023-03-08 12:51:29,2023-03-08 12:51:39,9.469s,PASSED
+takeScreenshot(),,,,2023-03-08 12:51:39,2023-03-08 12:51:39,0.672s,PASSED
+"if (verifyElementExist(findTestObject(""3.Payments/Payment Success page/Button_Share""), 5, CONTINUE_ON_FAILURE))",,,,2023-03-08 12:51:39,2023-03-08 12:51:40,0.731s,PASSED
+"tap(findTestObject(""3.Payments/Payment Success page/Button_Back To Payment""), 0)",,,,2023-03-08 12:51:40,2023-03-08 12:51:41,0.971s,PASSED
+"callTestCase(findTestCase(""Utilities/Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-03-08 12:51:41,2023-03-08 12:51:51,10.348s,PASSED
+Start listener action : autoUpdateJobStatus,,,,2023-03-08 12:51:51,2023-03-08 12:51:51,0.001s,PASSED
+,,,,,,,
+Test Cases/Payments/TC 01 - New Bill Payment,,,,2023-03-08 12:51:52,2023-03-08 12:53:36,1m - 44.438s,PASSED
+Start listener action : enableSauceLabs,,,,2023-03-08 12:51:52,2023-03-08 12:51:52,0.000s,PASSED
+"callTestCase(findTestCase(""Utilities/Login""), [:], CONTINUE_ON_FAILURE)",,,,2023-03-08 12:51:52,2023-03-08 12:52:20,28.064s,PASSED
+"dirName = System.getProperty(""user.dir"")",,,,2023-03-08 12:52:20,2023-03-08 12:52:20,0.000s,PASSED
+filePath = dirName + ExcelPath,,,,2023-03-08 12:52:20,2023-03-08 12:52:20,0.000s,PASSED
+rowNum = rowNum.toInteger() + 1,,,,2023-03-08 12:52:20,2023-03-08 12:52:20,0.000s,PASSED
+"tap(findTestObject(""3.Payments/Payments_page/tab_PAY""), 0)",,,,2023-03-08 12:52:20,2023-03-08 12:52:21,0.961s,PASSED
+"tap(findTestObject(""3.Payments/Payments_page/tab_Bills""), 0)",,,,2023-03-08 12:52:21,2023-03-08 12:52:23,2.120s,PASSED
+"tap(findTestObject(""3.Payments/Payments_page/button_NewBill""), 0)",,,,2023-03-08 12:52:23,2023-03-08 12:52:23,0.347s,PASSED
+delay(2),,,,2023-03-08 12:52:23,2023-03-08 12:52:25,2.008s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Label_Select Biller"", [""biller"":biller]), 0)",,,,2023-03-08 12:52:25,2023-03-08 12:52:27,1.518s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Label_Select Sub Biller"", [""subBiller"":subBiller]), 0)",,,,2023-03-08 12:52:27,2023-03-08 12:52:31,3.957s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",,,,2023-03-08 12:52:31,2023-03-08 12:52:36,5.007s,PASSED
+"callTestCase(findTestCase(""Utilities/Account Selection Based on AccountNumber""), [""accountNumber"":accountNumber], OPTIONAL)",,,,2023-03-08 12:52:36,2023-03-08 12:52:36,0.498s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Text Box_Account Number Entry""), 0)",,,,2023-03-08 12:52:36,2023-03-08 12:52:37,0.369s,PASSED
+"setText(findTestObject(""3.Payments/Pay To New Biller/Text Box_Account Number Entry""), consumerNumber, 0)",,,,2023-03-08 12:52:37,2023-03-08 12:52:38,1.138s,PASSED
+pressBack(),,,,2023-03-08 12:52:38,2023-03-08 12:52:38,0.743s,PASSED
+"if (biller == ""Salik"")",,,,2023-03-08 12:52:38,2023-03-08 12:52:38,0.001s,PASSED
+takeScreenshot(),,,,2023-03-08 12:52:38,2023-03-08 12:52:39,0.920s,PASSED
+"tap(findTestObject(""3.Payments/Pay To New Biller/Button_Next""), 0)",,,,2023-03-08 12:52:39,2023-03-08 12:52:40,0.466s,PASSED
+"waitForElementPresent(findTestObject(""3.Payments/Amount/Text Box_Amount Entry""), 0, OPTIONAL)",,,,2023-03-08 12:52:40,2023-03-08 12:52:45,4.811s,PASSED
+due = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,,,,2023-03-08 12:52:45,2023-03-08 12:52:45,0.000s,PASSED
+"if (paymentType.equals(""partial""))",,,,2023-03-08 12:52:45,2023-03-08 12:52:45,0.000s,PASSED
+else,,,,2023-03-08 12:52:45,2023-03-08 12:52:45,0.358s,PASSED
+takeScreenshot(),,,,2023-03-08 12:52:45,2023-03-08 12:52:46,0.784s,PASSED
+"tap(findTestObject(""3.Payments/Amount/Button_Next""), 2, OPTIONAL)",,,,2023-03-08 12:52:46,2023-03-08 12:52:47,1.285s,PASSED
+"waitForElementPresent(findTestObject(""3.Payments/Payment Confirmation Page/Button_Confirm""), 0)",,,,2023-03-08 12:52:47,2023-03-08 12:52:47,0.336s,PASSED
+"tap(findTestObject(""3.Payments/Payment Confirmation Page/Button_Confirm""), 0)",,,,2023-03-08 12:52:47,2023-03-08 12:52:49,1.224s,PASSED
+delay(5),,,,2023-03-08 12:52:49,2023-03-08 12:52:54,5.006s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_mPIN""), [:], STOP_ON_FAILURE)",,,,2023-03-08 12:52:54,2023-03-08 12:52:58,4.038s,PASSED
+"tap(findTestObject(""3.Payments/Payment Confirmation Page/Button_Verify""), 0)",,,,2023-03-08 12:52:58,2023-03-08 12:52:59,0.908s,PASSED
+delay(5),,,,2023-03-08 12:52:59,2023-03-08 12:53:04,5.011s,PASSED
+"callTestCase(findTestCase(""Utilities/Enter_OTP""), [:], STOP_ON_FAILURE)",,,,2023-03-08 12:53:04,2023-03-08 12:53:11,7.028s,PASSED
+"tap(findTestObject(""4.Transfers/Button_VerifyOTP""), 0)",,,,2023-03-08 12:53:11,2023-03-08 12:53:12,1.394s,PASSED
+"waitForElementPresent(findTestObject(""3.Payments/Payment Success page/Button_Back To Payment""), 180)",,,,2023-03-08 12:53:12,2023-03-08 12:53:23,10.658s,PASSED
+takeScreenshot(),,,,2023-03-08 12:53:23,2023-03-08 12:53:23,0.691s,PASSED
+"if (verifyElementExist(findTestObject(""3.Payments/Payment Success page/Button_Share""), 5, CONTINUE_ON_FAILURE))",,,,2023-03-08 12:53:23,2023-03-08 12:53:24,0.654s,PASSED
+"tap(findTestObject(""3.Payments/Payment Success page/Button_Back To Payment""), 0)",,,,2023-03-08 12:53:24,2023-03-08 12:53:25,0.959s,PASSED
+"callTestCase(findTestCase(""Utilities/Logout""), [:], CONTINUE_ON_FAILURE)",,,,2023-03-08 12:53:25,2023-03-08 12:53:36,11.032s,PASSED
+Start listener action : autoUpdateJobStatus,,,,2023-03-08 12:53:36,2023-03-08 12:53:36,0.000s,PASSED

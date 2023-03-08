@@ -71,7 +71,7 @@
       <guid>4faaab6e-8e61-42dc-83a9-b904d2070309</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payments/TC 01 - New Bill Payment</testCaseId>
+      <testCaseId>Test Cases/Demo/TC 01 - New Bill Payment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>de2187dd-e284-40f3-a0fc-7693946e42d5</id>
@@ -86,50 +86,50 @@
          <testDataLinkId>de2187dd-e284-40f3-a0fc-7693946e42d5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>biller</value>
-         <variableId>1c8a173e-7715-4f25-bbf1-de867014e02a</variableId>
+         <variableId>0ddf44e5-5f6e-4be0-9845-932376321931</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>de2187dd-e284-40f3-a0fc-7693946e42d5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>subBiller</value>
-         <variableId>d11737e7-2878-4def-b4d3-bf4e4fb43312</variableId>
+         <variableId>43c5acd9-bae7-40e2-ab84-e5c767c74098</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>de2187dd-e284-40f3-a0fc-7693946e42d5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>consumerNumber</value>
-         <variableId>23c0b761-7e7d-404d-961d-d041e2b58226</variableId>
+         <variableId>d1340fb3-085b-43e8-b71b-8a9bdef6a54f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>de2187dd-e284-40f3-a0fc-7693946e42d5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>amount</value>
-         <variableId>9c03eab2-d1d7-450b-a579-9270ecbff602</variableId>
+         <variableId>b9dfa51c-6aef-4bd4-b702-b49dfc71db01</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>de2187dd-e284-40f3-a0fc-7693946e42d5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>accountNumber</value>
-         <variableId>aac7a7e2-bf4b-46ad-b9fa-6935519ddf2a</variableId>
+         <variableId>23c9a609-662f-452f-9bbf-886fc88f52a5</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>de2187dd-e284-40f3-a0fc-7693946e42d5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>paymentType</value>
-         <variableId>f97d2022-9e31-426a-91d2-ae473ae1439e</variableId>
+         <variableId>b686aece-1daf-4fde-94e1-d7da70edf937</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>de2187dd-e284-40f3-a0fc-7693946e42d5</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>SalikPIN</value>
-         <variableId>d9a96f7b-76e2-40fc-b163-5df875286196</variableId>
+         <variableId>1e96ef8d-f9a1-4325-b787-d3e4b0d848aa</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>4bd6b25c-eebf-4944-89da-e0253e6460f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payments/TC 01 - Saved Bill Payment</testCaseId>
+      <testCaseId>Test Cases/Demo/TC 01 - Saved Bill Payment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>fd269f35-3315-4c1b-9304-e06398b6dde2</id>
@@ -144,43 +144,43 @@
          <testDataLinkId>fd269f35-3315-4c1b-9304-e06398b6dde2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>biller</value>
-         <variableId>85041eb0-2d87-4fe4-82d2-fb83c1a49667</variableId>
+         <variableId>90309a4d-52ca-453b-bff3-93473a9724df</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>fd269f35-3315-4c1b-9304-e06398b6dde2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>subBiller</value>
-         <variableId>189fc30b-86f3-4c57-939e-9dc855f26a26</variableId>
+         <variableId>4a65a396-6428-421e-8475-98ce41e755fd</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>fd269f35-3315-4c1b-9304-e06398b6dde2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>consumerNumber</value>
-         <variableId>ac0a1a7f-74d4-4438-a91b-30619783ff18</variableId>
+         <variableId>0922635a-a686-4153-af15-9d113f850709</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>fd269f35-3315-4c1b-9304-e06398b6dde2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>amount</value>
-         <variableId>001f7ea8-4cdf-4217-bc5f-eeb47206ac88</variableId>
+         <variableId>cc0ecdb2-b6da-4312-8098-8d9d659d431f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>fd269f35-3315-4c1b-9304-e06398b6dde2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>accountNumber</value>
-         <variableId>1a2ddd40-50c6-4623-936d-b3c826a87b06</variableId>
+         <variableId>3c7b5b5f-2f30-45e0-b78e-2134731e3627</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>fd269f35-3315-4c1b-9304-e06398b6dde2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>paymentType</value>
-         <variableId>ac954bf5-415d-4cc9-8c5a-fae8b0e81540</variableId>
+         <variableId>3ca33e16-797a-4c8d-b6fd-60fd07dc9ed3</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>fd269f35-3315-4c1b-9304-e06398b6dde2</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>SalikPIN</value>
-         <variableId>a764488d-20f6-4993-bf81-2934c94b3de4</variableId>
+         <variableId>4f282fc0-22ee-4ae5-b9eb-52c60278c20d</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
