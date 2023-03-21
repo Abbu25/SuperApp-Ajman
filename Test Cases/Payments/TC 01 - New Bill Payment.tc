@@ -135,14 +135,14 @@
       <name>ActualResult</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'/Test Data/Ajman SuperApp - Test Data.xlsx'</defaultValue>
       <description></description>
       <id>7ac455a2-a96c-4ee7-80b2-9f973534dfc4</id>
       <masked>false</masked>
       <name>ExcelPath</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'NewBillPayment'</defaultValue>
       <description></description>
       <id>c49e571f-8ef2-4be4-8d05-b0bade7b837c</id>
       <masked>false</masked>

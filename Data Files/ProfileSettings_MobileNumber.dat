@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Registration</name>
+   <name>ProfileSettings_MobileNumber</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>46af751b-c392-473b-9033-7713c821c09f</dataFileGUID>
+   <dataFileGUID>9a1eae0c-8333-4c98-ab60-e1541c6cc76f</dataFileGUID>
    <dataSourceUrl>Test Data/Ajman SuperApp - Test Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Registration</sheetName>
+   <sheetName>ProfileSettings_MobileNumber</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Registration</name>
+   <name>TransferWithInAjman</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>46af751b-c392-473b-9033-7713c821c09f</dataFileGUID>
+   <dataFileGUID>ff4be2a9-1d07-4997-84a8-6262a3ed4fb7</dataFileGUID>
    <dataSourceUrl>Test Data/Ajman SuperApp - Test Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Registration</sheetName>
+   <sheetName>TransferWithInAjman</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

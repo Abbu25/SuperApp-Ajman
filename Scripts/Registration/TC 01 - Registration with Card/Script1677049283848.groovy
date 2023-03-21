@@ -28,6 +28,12 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 Mobile.startExistingApplication('com.cbt.ajmandigital', FailureHandling.CONTINUE_ON_FAILURE)
 
+String dirName = System.getProperty('user.dir')
+
+filePath = (dirName + ExcelPath)
+
+int rowNum = RowNum.toInteger() + 1
+
 Mobile.waitForElementPresent(findTestObject('1.Registration and Login/Welcome Page/button_Skip'), 30, FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('1.Registration and Login/Welcome Page/button_Skip'), 0)
@@ -54,7 +60,7 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('1.Registration and Login/Card Details Page/Button_Next on Card details'), 0)
 
-Mobile.waitForElementPresent(findTestObject('1.Registration and Login/OTP Page/label_Enter OTP'), 0)
+Mobile.waitForElementPresent(findTestObject('1.Registration and Login/OTP Page/label_Enter OTP'), 60)
 
 WebUI.callTestCase(findTestCase('Utilities/Enter_OTP'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -74,8 +80,12 @@ Mobile.tap(findTestObject('1.Registration and Login/mPIN Page/Button_Maybe later
 
 if (Mobile.waitForElementPresent(findTestObject('2.Dashboard/Accounts/AccountDetails'), 0)) {
     KeywordUtil.markPassed("User Registered Successfully with $cardType")
+	
+	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'User Successfully Registered', filePath)
 } else {
     KeywordUtil.markFailed('User registration faild')
+	
+	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'User Registration Failed', filePath)
 }
 
 Mobile.takeScreenshot()

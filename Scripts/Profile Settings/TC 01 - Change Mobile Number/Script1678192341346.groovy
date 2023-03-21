@@ -16,12 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.callTestCase(findTestCase('Utilities/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+String dirName = System.getProperty("user.dir")
+
+filePath = dirName + ExcelPath
+
+int rowNum=(RowNum.toInteger())+1
 
 Mobile.tap(findTestObject('2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'), 0)
 
 Mobile.waitForElementPresent(findTestObject('2.Dashboard/Profile Settings/Button_Change Mobile Number'), 0)
+
+Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('2.Dashboard/Profile Settings/Button_Change Mobile Number'), 0)
 
@@ -41,9 +50,26 @@ WebUI.callTestCase(findTestCase('Utilities/Enter_OTP'), [:], FailureHandling.CON
 
 Mobile.tap(findTestObject('3.Payments/Payment Confirmation Page/Button_Verify'), 0)
 
-Mobile.tap(findTestObject('2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'), 0)
-
 Mobile.waitForElementPresent(findTestObject('2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings'), 0)
+
+Mobile.takeScreenshot()
+
+mobileNumber=Mobile.getAttribute(findTestObject('2.Dashboard/Profile Settings/Button_Change Mobile Number'), 'contentDescription', 0)
+
+String[] list = mobileNumber.split('\\R')
+
+ActualResult = (list[1]).replaceAll('\\s', '')
+
+
+if (ActualResult.contains(MobileNumber)) {
+	KeywordUtil.markPassed("Mobile Number Updated Successfully")
+	
+	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, "Mobile Number Updated Successfully", filePath)
+} else {
+	KeywordUtil.markFailed("Mobile Number Not Updated. Please Try Again")
+	
+	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, "Mobile Number Not Updated. Please Try Again", filePath)
+}
 
 Mobile.swipe(135, 1840, 447, 259)
 

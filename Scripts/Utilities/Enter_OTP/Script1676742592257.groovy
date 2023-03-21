@@ -26,6 +26,8 @@ import io.appium.java_client.android.nativekey.AndroidKey as AndroidKey
 import io.appium.java_client.android.nativekey.KeyEvent as KeyEvent
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+Mobile.waitForElementPresent(findTestObject('1.Registration and Login/OTP Page/label_Enter OTP'), 0)
+
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_6))
@@ -41,3 +43,4 @@ driver.pressKey(new KeyEvent(AndroidKey.DIGIT_2))
 driver.pressKey(new KeyEvent(AndroidKey.DIGIT_1))
 
 driver.pressKey(new KeyEvent(AndroidKey.ENTER))
+

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Registration</name>
+   <name>ProfileSettings_Email</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>46af751b-c392-473b-9033-7713c821c09f</dataFileGUID>
+   <dataFileGUID>2cadef1a-5167-469e-9dff-34ed6b2303dc</dataFileGUID>
    <dataSourceUrl>Test Data/Ajman SuperApp - Test Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Registration</sheetName>
+   <sheetName>ProfileSettings_EmailAddress</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

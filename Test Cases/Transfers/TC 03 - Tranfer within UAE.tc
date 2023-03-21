@@ -1,99 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC 01 - Registration with Card</name>
+   <name>TC 03 - Tranfer within UAE</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ed7543c9-fc40-4979-aa38-7fedda9ef2bd</testCaseGuid>
+   <testCaseGuid>6a2b4797-c0b2-4d63-b5b3-25de430c5237</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>04a982d8-296b-4290-9652-7c0d630842ff</variableId>
+      <variableId>2b2451f6-b060-4589-b052-dcc37dd23169</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0f48f02a-3167-436d-9073-cf5abb8b6f08</variableId>
+      <variableId>5072c374-d0fd-4278-ade3-e62c8d3ccc60</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0ef63e07-07b4-4ead-838d-e304b79289ee</variableId>
+      <variableId>918413ec-1072-48e2-9459-7552a6e10e17</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c4e3cad5-aaf2-4bed-a0b0-d2133ea45e61</variableId>
+      <variableId>d4f6299d-eeb6-4f29-b9e1-4ffbcefddabb</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>470ba40d-deab-4380-9dbe-a06a2cec4534</variableId>
+      <variableId>67abe223-5482-4e12-90ac-1178a00de4f3</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a483930b-dda3-4d04-989f-b2573f1400ff</variableId>
+      <variableId>0f67c293-d544-49ed-9d08-aa90fc615add</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>cb609582-e427-49ad-aa2a-6105242305d0</variableId>
+      <variableId>b8032b3b-5a77-4adb-ae9c-3a5c484f5114</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a0d196c8-288f-4fe5-bca5-28c959de58eb</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Debit Card'</defaultValue>
+      <defaultValue>'AE400211000000220294021'</defaultValue>
       <description></description>
-      <id>04a982d8-296b-4290-9652-7c0d630842ff</id>
+      <id>2b2451f6-b060-4589-b052-dcc37dd23169</id>
       <masked>false</masked>
-      <name>cardType</name>
+      <name>IBANNumber</name>
    </variable>
    <variable>
-      <defaultValue>'5244550100131688'</defaultValue>
+      <defaultValue>'100.00'</defaultValue>
       <description></description>
-      <id>0f48f02a-3167-436d-9073-cf5abb8b6f08</id>
+      <id>5072c374-d0fd-4278-ade3-e62c8d3ccc60</id>
       <masked>false</masked>
-      <name>cardNumber</name>
+      <name>Amount</name>
    </variable>
    <variable>
-      <defaultValue>'1234'</defaultValue>
+      <defaultValue>'011000366010'</defaultValue>
       <description></description>
-      <id>0ef63e07-07b4-4ead-838d-e304b79289ee</id>
+      <id>918413ec-1072-48e2-9459-7552a6e10e17</id>
       <masked>false</masked>
-      <name>cardPin</name>
+      <name>AccountNumber</name>
    </variable>
    <variable>
-      <defaultValue>'102030'</defaultValue>
+      <defaultValue>'test'</defaultValue>
       <description></description>
-      <id>c4e3cad5-aaf2-4bed-a0b0-d2133ea45e61</id>
+      <id>d4f6299d-eeb6-4f29-b9e1-4ffbcefddabb</id>
       <masked>false</masked>
-      <name>mPIN</name>
+      <name>AccountHolderName</name>
    </variable>
    <variable>
       <defaultValue>'/Test Data/Ajman SuperApp - Test Data.xlsx'</defaultValue>
       <description></description>
-      <id>470ba40d-deab-4380-9dbe-a06a2cec4534</id>
+      <id>67abe223-5482-4e12-90ac-1178a00de4f3</id>
       <masked>false</masked>
       <name>ExcelPath</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>a483930b-dda3-4d04-989f-b2573f1400ff</id>
+      <id>0f67c293-d544-49ed-9d08-aa90fc615add</id>
       <masked>false</masked>
       <name>RowNum</name>
    </variable>
    <variable>
-      <defaultValue>'Registration'</defaultValue>
+      <defaultValue>'TransferWithInUAE'</defaultValue>
       <description></description>
-      <id>cb609582-e427-49ad-aa2a-6105242305d0</id>
+      <id>b8032b3b-5a77-4adb-ae9c-3a5c484f5114</id>
       <masked>false</masked>
       <name>SheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Educational Support'</defaultValue>
+      <description></description>
+      <id>a0d196c8-288f-4fe5-bca5-28c959de58eb</id>
+      <masked>false</masked>
+      <name>Purpose</name>
    </variable>
 </TestCaseEntity>

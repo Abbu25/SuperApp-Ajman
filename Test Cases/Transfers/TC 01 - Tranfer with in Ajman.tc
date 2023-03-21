@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC 01 - Login with mPIN</name>
+   <name>TC 01 - Tranfer with in Ajman</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9743684a-d7b4-4f43-a0b7-3c2f8a6bec3c</testCaseGuid>
+   <testCaseGuid>458023ed-653e-455a-9de7-1fd3988bac35</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4a5e69cd-4761-4fcd-81bf-9924e421af39</variableId>
+      <variableId>b89c33e6-94d2-461f-82c9-f94b15b13181</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>76a1e8e2-0a8c-4614-bed6-74b0fb4a024c</variableId>
+      <variableId>bdf947ed-67a4-403c-b2c6-cf793becaa71</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ea20256d-c8aa-4cac-a120-f559fa24bc05</variableId>
+      <variableId>93935a2e-756e-4a98-879c-2722ec3cc59d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8bb81ce1-a7c4-441a-8c2d-5933bb68111b</variableId>
+      <variableId>1f771caf-b130-4977-8cd5-1cbaa04d3ea4</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>711db880-d39e-497e-94d0-3776b409e7a3</variableId>
+      <variableId>6f7fec6c-7448-4373-98f3-970ede6b44fd</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3512963d-f0d0-4086-9ce6-aa042f66ab56</variableId>
+      <variableId>95b18eee-db13-4c65-a7f9-7e064df1bc3b</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'011000366022'</defaultValue>
+      <defaultValue>'011074784027'</defaultValue>
       <description></description>
-      <id>4a5e69cd-4761-4fcd-81bf-9924e421af39</id>
+      <id>b89c33e6-94d2-461f-82c9-f94b15b13181</id>
       <masked>false</masked>
-      <name>VerifyAccountNumber</name>
+      <name>IBANNumber</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'100.00'</defaultValue>
       <description></description>
-      <id>76a1e8e2-0a8c-4614-bed6-74b0fb4a024c</id>
+      <id>bdf947ed-67a4-403c-b2c6-cf793becaa71</id>
       <masked>false</masked>
-      <name>VerifyFinanceAccountNumber</name>
+      <name>Amount</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'011000366010'</defaultValue>
       <description></description>
-      <id>ea20256d-c8aa-4cac-a120-f559fa24bc05</id>
+      <id>93935a2e-756e-4a98-879c-2722ec3cc59d</id>
       <masked>false</masked>
-      <name>VerifyDepositAccountNumber</name>
+      <name>AccountNumber</name>
    </variable>
    <variable>
       <defaultValue>'/Test Data/Ajman SuperApp - Test Data.xlsx'</defaultValue>
       <description></description>
-      <id>8bb81ce1-a7c4-441a-8c2d-5933bb68111b</id>
+      <id>1f771caf-b130-4977-8cd5-1cbaa04d3ea4</id>
       <masked>false</masked>
       <name>ExcelPath</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>711db880-d39e-497e-94d0-3776b409e7a3</id>
+      <id>6f7fec6c-7448-4373-98f3-970ede6b44fd</id>
       <masked>false</masked>
       <name>RowNum</name>
    </variable>
    <variable>
-      <defaultValue>'Login'</defaultValue>
+      <defaultValue>'TransferWithInAjman'</defaultValue>
       <description></description>
-      <id>3512963d-f0d0-4086-9ce6-aa042f66ab56</id>
+      <id>95b18eee-db13-4c65-a7f9-7e064df1bc3b</id>
       <masked>false</masked>
       <name>SheetName</name>
    </variable>

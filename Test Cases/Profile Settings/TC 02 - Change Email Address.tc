@@ -11,11 +11,50 @@
       <value></value>
       <variableId>fe84f5b9-7949-4370-966d-2584405ce30b</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40945883-858f-4d54-819d-c70e3d63c4ef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3e85a9f3-baf4-4a57-a83f-c8b47a4d67e2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cdb5bfb4-e686-47e2-8748-2ee00cc62561</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'abdullah@testing.com'</defaultValue>
+      <defaultValue>'testHastraa@gmail.com'</defaultValue>
       <description></description>
       <id>fe84f5b9-7949-4370-966d-2584405ce30b</id>
       <masked>false</masked>
       <name>EmailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'ProfileSettings_EmailAddress'</defaultValue>
+      <description></description>
+      <id>40945883-858f-4d54-819d-c70e3d63c4ef</id>
+      <masked>false</masked>
+      <name>SheetName</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>3e85a9f3-baf4-4a57-a83f-c8b47a4d67e2</id>
+      <masked>false</masked>
+      <name>RowNum</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Test Data/Ajman SuperApp - Test Data.xlsx'</defaultValue>
+      <description></description>
+      <id>cdb5bfb4-e686-47e2-8748-2ee00cc62561</id>
+      <masked>false</masked>
+      <name>ExcelPath</name>
    </variable>
 </TestCaseEntity>
