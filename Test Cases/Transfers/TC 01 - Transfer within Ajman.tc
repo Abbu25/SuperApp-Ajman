@@ -1,112 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC 03 - Tranfer within UAE</name>
+   <name>TC 01 - Transfer within Ajman</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6a2b4797-c0b2-4d63-b5b3-25de430c5237</testCaseGuid>
+   <testCaseGuid>458023ed-653e-455a-9de7-1fd3988bac35</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>2b2451f6-b060-4589-b052-dcc37dd23169</variableId>
+      <variableId>b89c33e6-94d2-461f-82c9-f94b15b13181</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5072c374-d0fd-4278-ade3-e62c8d3ccc60</variableId>
+      <variableId>bdf947ed-67a4-403c-b2c6-cf793becaa71</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>918413ec-1072-48e2-9459-7552a6e10e17</variableId>
+      <variableId>93935a2e-756e-4a98-879c-2722ec3cc59d</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d4f6299d-eeb6-4f29-b9e1-4ffbcefddabb</variableId>
+      <variableId>1f771caf-b130-4977-8cd5-1cbaa04d3ea4</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>67abe223-5482-4e12-90ac-1178a00de4f3</variableId>
+      <variableId>6f7fec6c-7448-4373-98f3-970ede6b44fd</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0f67c293-d544-49ed-9d08-aa90fc615add</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>b8032b3b-5a77-4adb-ae9c-3a5c484f5114</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>a0d196c8-288f-4fe5-bca5-28c959de58eb</variableId>
+      <variableId>95b18eee-db13-4c65-a7f9-7e064df1bc3b</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'AE400211000000220294021'</defaultValue>
+      <defaultValue>'011074784027'</defaultValue>
       <description></description>
-      <id>2b2451f6-b060-4589-b052-dcc37dd23169</id>
+      <id>b89c33e6-94d2-461f-82c9-f94b15b13181</id>
       <masked>false</masked>
       <name>IBANNumber</name>
    </variable>
    <variable>
       <defaultValue>'100.00'</defaultValue>
       <description></description>
-      <id>5072c374-d0fd-4278-ade3-e62c8d3ccc60</id>
+      <id>bdf947ed-67a4-403c-b2c6-cf793becaa71</id>
       <masked>false</masked>
       <name>Amount</name>
    </variable>
    <variable>
       <defaultValue>'011000366010'</defaultValue>
       <description></description>
-      <id>918413ec-1072-48e2-9459-7552a6e10e17</id>
+      <id>93935a2e-756e-4a98-879c-2722ec3cc59d</id>
       <masked>false</masked>
       <name>AccountNumber</name>
    </variable>
    <variable>
-      <defaultValue>'test'</defaultValue>
-      <description></description>
-      <id>d4f6299d-eeb6-4f29-b9e1-4ffbcefddabb</id>
-      <masked>false</masked>
-      <name>AccountHolderName</name>
-   </variable>
-   <variable>
       <defaultValue>'/Test Data/Ajman SuperApp - Test Data.xlsx'</defaultValue>
       <description></description>
-      <id>67abe223-5482-4e12-90ac-1178a00de4f3</id>
+      <id>1f771caf-b130-4977-8cd5-1cbaa04d3ea4</id>
       <masked>false</masked>
       <name>ExcelPath</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>0f67c293-d544-49ed-9d08-aa90fc615add</id>
+      <id>6f7fec6c-7448-4373-98f3-970ede6b44fd</id>
       <masked>false</masked>
       <name>RowNum</name>
    </variable>
    <variable>
-      <defaultValue>'TransferWithInUAE'</defaultValue>
+      <defaultValue>'TransferWithInAjman'</defaultValue>
       <description></description>
-      <id>b8032b3b-5a77-4adb-ae9c-3a5c484f5114</id>
+      <id>95b18eee-db13-4c65-a7f9-7e064df1bc3b</id>
       <masked>false</masked>
       <name>SheetName</name>
-   </variable>
-   <variable>
-      <defaultValue>'Educational Support'</defaultValue>
-      <description></description>
-      <id>a0d196c8-288f-4fe5-bca5-28c959de58eb</id>
-      <masked>false</masked>
-      <name>Purpose</name>
    </variable>
 </TestCaseEntity>

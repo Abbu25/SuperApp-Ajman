@@ -88,10 +88,10 @@ if (VerifyDepositAccountNumber == (line2[4])) {
 
 if(count==0) {
 	
-	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'Dashboard Vrified Successfully Successfully', filePath)
+	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'Dashboard Details Verified Successfully', filePath)
 	
 }else {
-	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'Dashboard Vrification failed', filePath)
+	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'Dashboard Details Not Verified', filePath)
 }
 
 WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)

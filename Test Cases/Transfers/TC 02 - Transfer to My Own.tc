@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC 02 - Transfer My Own</name>
+   <name>TC 02 - Transfer to My Own</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>962b8c14-2f43-412c-a6d1-cf9412bfe90c</testCaseGuid>

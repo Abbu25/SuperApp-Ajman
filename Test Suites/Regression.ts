@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Reggression</name>
+   <name>Regression</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -265,7 +265,7 @@
       <guid>542c7609-a257-4544-b203-7c74a680adfa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Transfers/TC 01 - Tranfer with in Ajman</testCaseId>
+      <testCaseId>Test Cases/Transfers/TC 01 - Transfer within Ajman</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c0987db3-26f2-4dfa-887d-af53e3e39f94</id>
@@ -317,7 +317,7 @@
       <guid>86258435-0755-4a6a-a022-2c74127d1f81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Transfers/TC 02 - Transfer My Own</testCaseId>
+      <testCaseId>Test Cases/Transfers/TC 02 - Transfer to My Own</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0c498c3e-e0d6-4fe2-866e-a46f59ff14c5</id>
@@ -369,7 +369,7 @@
       <guid>387d1250-3866-442c-80f5-798decff1872</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Transfers/TC 03 - Tranfer within UAE</testCaseId>
+      <testCaseId>Test Cases/Transfers/TC 03 - Transfer within UAE</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>77feeb68-ffe9-495e-8a6f-6429f626258d</id>
