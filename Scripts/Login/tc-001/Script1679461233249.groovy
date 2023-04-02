@@ -28,7 +28,14 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 Mobile.startExistingApplication('com.cbt.ajmandigital', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
-WebUI.callTestCase(findTestCase('Utilities/KeyboardFunction'), [('text') : '10,000.00'], FailureHandling.STOP_ON_FAILURE)
+ dueamount = Mobile.getAttribute(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 'text', 30, FailureHandling.OPTIONAL)
+
+println(dueamount)
+
+for (int i = 0; i < dueamount.length(); i++) {
+	
+    driver.pressKey(new KeyEvent(AndroidKey.DEL))
+}
 

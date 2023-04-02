@@ -3,9 +3,9 @@
    <description></description>
    <name>textBox_Account Number</name>
    <tag></tag>
-   <elementGuidId>dda6f4dc-4166-45e0-b2f9-51e1a589ab33</elementGuidId>
+   <elementGuidId>b1508da7-704a-4e7a-b304-35bc763c8f0d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//*[contains(@text, 'Account Number')]</locator>
+   <locator>(//android.widget.EditText)[1]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

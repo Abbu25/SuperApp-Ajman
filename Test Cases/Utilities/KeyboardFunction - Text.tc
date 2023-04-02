@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>KeyboardFunction - Text</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2780015-296d-4923-a31f-747623ac2ffe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff11202e-e7f9-46cf-b01e-aeacbd6efe00</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff11202e-e7f9-46cf-b01e-aeacbd6efe00</id>
+      <masked>false</masked>
+      <name>text</name>
+   </variable>
+</TestCaseEntity>

@@ -43,56 +43,57 @@ Mobile.waitForElementPresent(findTestObject('2.Dashboard/Accounts/AccountDetails
 Mobile.takeScreenshot()
 
 content = Mobile.getAttribute(findTestObject('2.Dashboard/Accounts/AccountDetails'), 'contentDescription', 0)
+
 String[] line = content.split('\\R')
-count=0
+
+count = 0
+
 if (VerifyAccountNumber == (line[4])) {
-	KeywordUtil.markPassed("Account Number - ${VerifyAccountNumber} Verified Successfully")
+    KeywordUtil.markPassed("Account Number - $VerifyAccountNumber Verified Successfully")
 } else {
-	KeywordUtil.markFailed("Account Number - ${VerifyAccountNumber} Verification Fail")
-	count++
+    KeywordUtil.markFailed("Account Number - $VerifyAccountNumber Verification Fail")
+
+    count++
 }
 
-if(VerifyFinanceAccountNumber!="") {
+if (VerifyFinanceAccountNumber != '') {
+    Mobile.tap(findTestObject('2.Dashboard/Accounts/label_Finances'), 0)
 
-Mobile.tap(findTestObject('2.Dashboard/Accounts/label_Finances'), 0)
+    content1 = Mobile.getAttribute(findTestObject('2.Dashboard/Accounts/Finance Account Details'), 'contentDescription', 
+        0)
 
-content1 = Mobile.getAttribute(findTestObject('2.Dashboard/Accounts/Finance Account Details'), 'contentDescription', 0)
+    String[] line1 = content1.split('\\R')
 
-String[] line1 = content1.split('\\R')
-if (VerifyFinanceAccountNumber == (line1[4])) {
-	KeywordUtil.markPassed("Finance Account Number - ${VerifyFinanceAccountNumber} Verified Successfully")
+    if (VerifyFinanceAccountNumber == (line1[4])) {
+        KeywordUtil.markPassed("Finance Account Number - $VerifyFinanceAccountNumber Verified Successfully")
+    } else {
+        KeywordUtil.markFailed("Finance Account Number - $VerifyFinanceAccountNumber Verification Fail")
+
+        count++
+    }
+}
+
+if (VerifyDepositAccountNumber != '') {
+    Mobile.tap(findTestObject('2.Dashboard/Accounts/label_Deposits'), 0)
+
+    content2 = Mobile.getAttribute(findTestObject('2.Dashboard/Accounts/AccountDetails'), 'contentDescription', 0)
+
+    String[] line2 = content2.split('\\R')
+
+    if (VerifyDepositAccountNumber == (line2[4])) {
+        KeywordUtil.markPassed("Deposit Account Number - $VerifyDepositAccountNumber Verified Successfully")
+    } else {
+        KeywordUtil.markFailed("Deposit Account Number - $VerifyDepositAccountNumber Verification Fail")
+
+        count++
+    }
+}
+
+if (count == 0) {
+    CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'Dashboard Details Verified Successfully', filePath)
 } else {
-	KeywordUtil.markFailed("Finance Account Number - ${VerifyFinanceAccountNumber} Verification Fail")
-	count++
+    CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'Dashboard Details Not Verified', filePath)
 }
 
-}
-
-if(VerifyDepositAccountNumber!="") {
-	
-Mobile.tap(findTestObject('2.Dashboard/Accounts/label_Deposits'), 0)
-
-content2 = Mobile.getAttribute(findTestObject('2.Dashboard/Accounts/AccountDetails'), 'contentDescription', 0)
-
-String[] line2 = content2.split('\\R')
-
-if (VerifyDepositAccountNumber == (line2[4])) {
-	KeywordUtil.markPassed("Deposit Account Number - ${VerifyDepositAccountNumber} Verified Successfully")
-	
-} else {
-	KeywordUtil.markFailed("Deposit Account Number - ${VerifyDepositAccountNumber} Verification Fail")
-	count++
-}
-
-}
-
-if(count==0) {
-	
-	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'Dashboard Details Verified Successfully', filePath)
-	
-}else {
-	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'Dashboard Details Not Verified', filePath)
-}
-
-WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

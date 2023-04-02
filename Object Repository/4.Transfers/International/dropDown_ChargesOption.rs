@@ -3,9 +3,9 @@
    <description></description>
    <name>dropDown_ChargesOption</name>
    <tag></tag>
-   <elementGuidId>9854132e-62fb-46ac-a17d-6315143324b5</elementGuidId>
+   <elementGuidId>757517a9-0db9-433e-98fe-93968d64bc75</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>(//*[contains(@text, 'Please select')])[1]</locator>
+   <locator>//*[contains(@content-desc, 'Charges')]/following-sibling::android.widget.ImageView</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

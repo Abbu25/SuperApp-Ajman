@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC 01 - New Bill Payment</name>
+   <name>TC 01 - New Bill Payment with Accounts</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a5901229-0059-4a79-95f6-79eec1aaee71</testCaseGuid>
@@ -72,21 +72,21 @@
       <variableId>c49e571f-8ef2-4be4-8d05-b0bade7b837c</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'FEWA'</defaultValue>
+      <defaultValue>'Salik'</defaultValue>
       <description></description>
       <id>1c8a173e-7715-4f25-bbf1-de867014e02a</id>
       <masked>false</masked>
       <name>biller</name>
    </variable>
    <variable>
-      <defaultValue>'FEWA'</defaultValue>
+      <defaultValue>'SALIK'</defaultValue>
       <description></description>
       <id>d11737e7-2878-4def-b4d3-bf4e4fb43312</id>
       <masked>false</masked>
       <name>subBiller</name>
    </variable>
    <variable>
-      <defaultValue>'210000137777'</defaultValue>
+      <defaultValue>'32100001'</defaultValue>
       <description></description>
       <id>23c0b761-7e7d-404d-961d-d041e2b58226</id>
       <masked>false</masked>
@@ -100,7 +100,7 @@
       <name>amount</name>
    </variable>
    <variable>
-      <defaultValue>'011074763011'</defaultValue>
+      <defaultValue>'011103138011'</defaultValue>
       <description></description>
       <id>aac7a7e2-bf4b-46ad-b9fa-6935519ddf2a</id>
       <masked>false</masked>

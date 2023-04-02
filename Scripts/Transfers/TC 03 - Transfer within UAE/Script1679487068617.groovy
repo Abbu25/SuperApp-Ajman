@@ -42,9 +42,6 @@ Mobile.tap(findTestObject('4.Transfers/UAE Bank/tab_UAE Bank'), 0)
 
 Mobile.waitForElementPresent(findTestObject('4.Transfers/Text Box_ IBAN Account Number'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber'), [('accountNumber') : AccountNumber], 
-    FailureHandling.OPTIONAL)
-
 Mobile.tap(findTestObject('4.Transfers/Text Box_ IBAN Account Number'), 0)
 
 Mobile.setText(findTestObject('4.Transfers/Text Box_ IBAN Account Number'), IBANNumber, 0)
@@ -57,9 +54,12 @@ Mobile.setText(findTestObject('4.Transfers/UAE Bank/taxtBox_Account Holder Name'
 
 Mobile.tap(findTestObject('4.Transfers/Button_Next'), 0)
 
-Mobile.tap(findTestObject('4.Transfers/Text Box_Amount'), 0)
+WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber - Copy'), [('accountNumber') : AccountNumber], 
+    FailureHandling.OPTIONAL)
 
-Mobile.setText(findTestObject('4.Transfers/Text Box_Amount'), Amount, 0)
+Mobile.waitForElementPresent(findTestObject('4.Transfers/Text Box_Amount'), 0)
+
+WebUI.callTestCase(findTestCase('Utilities/KeyboardFunction'), [('text') : Amount], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('4.Transfers/Button_Next'), 0)
 
@@ -112,8 +112,6 @@ if (Mobile.verifyElementExist(findTestObject('3.Payments/Payment Success page/Bu
 
     println(line[0])
 
-    String Amount = Float.parseFloat(Amount) + 1.05
-
     println(Amount)
 
     if (Amount == (line[0])) {
@@ -133,5 +131,5 @@ if (Mobile.verifyElementExist(findTestObject('3.Payments/Payment Success page/Bu
 
 Mobile.tap(findTestObject('4.Transfers/Button_BackToPayment'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.STOP_ON_FAILURE)
 

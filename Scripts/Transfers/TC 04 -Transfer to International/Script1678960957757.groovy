@@ -44,22 +44,21 @@ Mobile.tap(findTestObject('4.Transfers/International/tab_Overseas'), 0)
 
 Mobile.waitForElementPresent(findTestObject('4.Transfers/International/dropdown_Country'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber'), [('accountNumber') : SelectAccount], 
-    FailureHandling.OPTIONAL)
-
 Mobile.tap(findTestObject('4.Transfers/International/dropdown_Country'), 0)
 
 Mobile.tap(findTestObject('4.Transfers/International/textBox_Search'), 0)
 
-Mobile.setText(findTestObject('4.Transfers/International/textBox_Search'), Contry, 0)
+WebUI.callTestCase(findTestCase('Utilities/KeyboardFunction - Text'), [('text') : Contry], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('4.Transfers/International/Select Country From DropDown', [('country') : Contry]), 0)
+
+WebUI.delay(2)
 
 Mobile.tap(findTestObject('4.Transfers/International/dropdown_Bank Name'), 0)
 
 Mobile.tap(findTestObject('4.Transfers/International/textBox_Search'), 0)
 
-Mobile.setText(findTestObject('4.Transfers/International/textBox_Search'), BankName, 0)
+WebUI.callTestCase(findTestCase('Utilities/KeyboardFunction - Text'), [('text') : BankName], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('4.Transfers/International/Select Bank from DropDown', [('bankName') : BankName]), 0)
 
@@ -103,21 +102,23 @@ if (RoutingNumber != '') {
     driver.pressKey(new KeyEvent(AndroidKey.ENTER))
 }
 
-if (BankAddress != '') {
-    Mobile.tap(findTestObject('4.Transfers/International/textBox_Bank Address'), 0)
-
-    Mobile.setText(findTestObject('4.Transfers/International/textBox_Bank Address'), BankAddress, 0)
-
-    driver.pressKey(new KeyEvent(AndroidKey.ENTER))
-}
-
+//if (BankAddress != '') {
+//    Mobile.tap(findTestObject('4.Transfers/International/textBox_Bank Address'), 0)
+//
+//    Mobile.setText(findTestObject('4.Transfers/International/textBox_Bank Address'), BankAddress, 0)
+//
+//    driver.pressKey(new KeyEvent(AndroidKey.ENTER))
+//}
 Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('4.Transfers/Button_Next'), 0)
 
-Mobile.tap(findTestObject('4.Transfers/Text Box_Amount'), 0)
+WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber - Copy'), [('accountNumber') : SelectAccount], 
+    FailureHandling.OPTIONAL)
 
-Mobile.setText(findTestObject('4.Transfers/Text Box_Amount'), Amount, 0)
+Mobile.tap(findTestObject('4.Transfers/International/Text Box_Amount'), 0)
+
+WebUI.callTestCase(findTestCase('Utilities/KeyboardFunction'), [('text') : Amount], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('4.Transfers/Button_Next'), 0)
 
@@ -175,7 +176,7 @@ if (Mobile.verifyElementExist(findTestObject('4.Transfers/International/Label_In
     content = Mobile.getAttribute(findTestObject('4.Transfers/International/Label_Inter_Success Page'), 'contentDescription', 
         0)
 } else {
-	content= Mobile.getAttribute(findTestObject('4.Transfers/International/label_Faild Page'), 'contentDescription', 0)
+    content = Mobile.getAttribute(findTestObject('4.Transfers/International/label_Faild Page'), 'contentDescription', 0)
 }
 
 println(content)
@@ -188,7 +189,7 @@ println(line[0])
 
 println(Amount)
 
-if (Amount == (line[0]) && line[3]!="Transfer Failed") {
+if ((Amount == (line[0])) && ((line[3]) != 'Transfer Failed')) {
     KeywordUtil.markPassed("Transfer To $Contry - $AccountNumber Successfull")
 
     CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, ActualResult, filePath)
@@ -200,7 +201,5 @@ if (Amount == (line[0]) && line[3]!="Transfer Failed") {
 
 Mobile.tap(findTestObject('4.Transfers/Button_BackToPayment'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
-
-
+WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.STOP_ON_FAILURE)
 

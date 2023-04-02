@@ -42,9 +42,6 @@ Mobile.tap(findTestObject('4.Transfers/Button_Ajman Transfer'), 0)
 
 Mobile.waitForElementPresent(findTestObject('4.Transfers/Text Box_ IBAN Account Number'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber'), [('accountNumber') : AccountNumber], 
-    FailureHandling.OPTIONAL)
-
 Mobile.tap(findTestObject('4.Transfers/Text Box_ IBAN Account Number'), 0)
 
 Mobile.setText(findTestObject('4.Transfers/Text Box_ IBAN Account Number'), IBANNumber, 0)
@@ -53,9 +50,12 @@ Mobile.tap(findTestObject('4.Transfers/Button_Verify mPIN'), 0)
 
 Mobile.tap(findTestObject('4.Transfers/Button_Next'), 0)
 
-Mobile.tap(findTestObject('4.Transfers/Text Box_Amount'), 0)
+WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber - Copy'), [('accountNumber') : AccountNumber], 
+    FailureHandling.OPTIONAL)
 
-Mobile.setText(findTestObject('4.Transfers/Text Box_Amount'), Amount, 0)
+Mobile.waitForElementPresent(findTestObject('4.Transfers/Text Box_Amount'), 0)
+
+WebUI.callTestCase(findTestCase('Utilities/KeyboardFunction'), [('text') : Amount], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('4.Transfers/Button_Next'), 0)
 
@@ -110,5 +110,5 @@ if (Mobile.verifyElementExist(findTestObject('3.Payments/Payment Success page/Bu
 
 Mobile.tap(findTestObject('4.Transfers/Button_BackToPayment'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.STOP_ON_FAILURE)
 

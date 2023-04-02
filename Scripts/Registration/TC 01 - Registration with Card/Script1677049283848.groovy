@@ -70,7 +70,7 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('1.Registration and Login/mPIN Page/Text Box_Create mPIN'), mPIN, 0)
 
-Mobile.setText(findTestObject('1.Registration and Login/mPIN Page/Text Box_Confirm mPIN Entry'), mPIN, 0)
+Mobile.setText(findTestObject('1.Registration and Login/mPIN Page/Text Box_Confirm mPIN'), mPIN, 0)
 
 Mobile.tap(findTestObject('1.Registration and Login/mPIN Page/Button_Next mPIN Page'), 0)
 
@@ -80,15 +80,15 @@ Mobile.tap(findTestObject('1.Registration and Login/mPIN Page/Button_Maybe later
 
 if (Mobile.waitForElementPresent(findTestObject('2.Dashboard/Accounts/AccountDetails'), 0)) {
     KeywordUtil.markPassed("User Registered Successfully with $cardType")
-	
-	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'User Successfully Registered', filePath)
+
+    CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'User Successfully Registered', filePath)
 } else {
     KeywordUtil.markFailed('User registration faild')
-	
-	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'User Registration Failed', filePath)
+
+    CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'User Registration Failed', filePath)
 }
 
 Mobile.takeScreenshot()
 
-WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

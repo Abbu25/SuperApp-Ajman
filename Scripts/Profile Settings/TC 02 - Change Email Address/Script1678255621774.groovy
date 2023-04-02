@@ -75,9 +75,6 @@ if (ActualResult.contains(EmailAddress)) {
     CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'Email Address Not Updated. Please Try Again', filePath)
 }
 
-Mobile.swipe(135, 1840, 447, 259)
-
-Mobile.swipe(135, 1840, 447, 259)
-
-Mobile.tap(findTestObject('2.Dashboard/Profile Settings/Button_Logout'), 0)
+Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('2.Dashboard/Profile Settings/Button_Logout-newApp'), 0)
 

@@ -3,9 +3,9 @@
    <description></description>
    <name>textBox_Nickname</name>
    <tag></tag>
-   <elementGuidId>79adbff9-9aea-4baf-a989-e29b4fbfc856</elementGuidId>
+   <elementGuidId>cb7c7345-288a-4f0e-9713-0716020b40e1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//*[contains(@text, 'Nickname')]</locator>
+   <locator>//android.widget.EditText</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Card Selection Based on CardNumber</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe20ac8b-2d8d-490d-927c-8b388501ba47</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bbc9bd3f-4ca7-4d5e-86f4-4993e3c50f60</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bbc9bd3f-4ca7-4d5e-86f4-4993e3c50f60</id>
+      <masked>false</masked>
+      <name>cardLastFourDigits</name>
+   </variable>
+</TestCaseEntity>

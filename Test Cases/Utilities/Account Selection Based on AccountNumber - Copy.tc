@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Account Selection Based on AccountNumber - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e381c907-4941-4a8a-8765-b54e34f5dabe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b878c8b1-3a81-4fb4-9a6d-d0d0b5aad502</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b878c8b1-3a81-4fb4-9a6d-d0d0b5aad502</id>
+      <masked>false</masked>
+      <name>accountNumber</name>
+   </variable>
+</TestCaseEntity>

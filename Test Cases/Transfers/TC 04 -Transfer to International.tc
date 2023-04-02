@@ -96,14 +96,14 @@
       <variableId>1a0574b1-2709-46d8-bc64-4d4c431bb625</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'France'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>7fb404fb-243f-463e-ac4a-e351ba86367d</id>
       <masked>false</masked>
       <name>Contry</name>
    </variable>
    <variable>
-      <defaultValue>'NATIXIS FACTOR'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>ba54b384-096b-44d2-b355-658715fb00a1</id>
       <masked>false</masked>
@@ -124,7 +124,7 @@
       <name>AccountNumber</name>
    </variable>
    <variable>
-      <defaultValue>'ICF'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>e9758d2c-8569-46ae-9491-f08eb80be9f6</id>
       <masked>false</masked>
@@ -152,7 +152,7 @@
       <name>BankAddress</name>
    </variable>
    <variable>
-      <defaultValue>'011000366010'</defaultValue>
+      <defaultValue>'011103138011'</defaultValue>
       <description></description>
       <id>037d55d7-9cd4-4e3b-980a-ecc0795a8a2a</id>
       <masked>false</masked>
@@ -180,7 +180,7 @@
       <name>ExcelPath</name>
    </variable>
    <variable>
-      <defaultValue>'4'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>89ec3ca2-ceec-4ffc-8cec-cc50a57db786</id>
       <masked>false</masked>

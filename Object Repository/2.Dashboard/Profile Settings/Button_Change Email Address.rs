@@ -3,9 +3,9 @@
    <description></description>
    <name>Button_Change Email Address</name>
    <tag></tag>
-   <elementGuidId>fd9c26f3-81ef-48a1-9f67-9e2e2b1e0452</elementGuidId>
+   <elementGuidId>9e903190-0960-4b29-bfdb-d53fb8fd7622</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//*[contains(@content-desc, 'Change Email Address')]</locator>
+   <locator>//*[contains(@content-desc, 'Email Address')]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

@@ -3,9 +3,9 @@
    <description></description>
    <name>textBox_IFSC Number</name>
    <tag></tag>
-   <elementGuidId>de1ddbfc-15d9-4693-900f-6ca467be6754</elementGuidId>
+   <elementGuidId>6bc1d92b-2b96-45b4-8c82-a6424d83553e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.EditText[contains(@text, 'IFSC Code')]</locator>
+   <locator>(//android.widget.EditText)[3]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

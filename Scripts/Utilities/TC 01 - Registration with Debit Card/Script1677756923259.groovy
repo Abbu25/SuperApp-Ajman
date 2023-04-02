@@ -56,7 +56,7 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('1.Registration and Login/mPIN Page/Text Box_Create mPIN'), '102030', 0)
 
-Mobile.setText(findTestObject('1.Registration and Login/mPIN Page/Text Box_Confirm mPIN Entry'), '102030', 0)
+Mobile.setText(findTestObject('1.Registration and Login/mPIN Page/Text Box_Confirm mPIN'), '102030', 0)
 
 Mobile.tap(findTestObject('1.Registration and Login/mPIN Page/Button_Next mPIN Page'), 0)
 

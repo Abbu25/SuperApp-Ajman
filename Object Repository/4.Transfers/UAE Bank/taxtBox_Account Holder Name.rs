@@ -3,9 +3,9 @@
    <description></description>
    <name>taxtBox_Account Holder Name</name>
    <tag></tag>
-   <elementGuidId>03608ce7-9da6-49c6-85fe-82bbaca924be</elementGuidId>
+   <elementGuidId>dfcf87d0-57e8-4a09-a07e-f25d02e316be</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//*[contains(@text, 'Account Holder Name')]</locator>
+   <locator>(//android.widget.EditText)[2]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

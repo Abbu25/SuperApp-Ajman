@@ -55,14 +55,14 @@
       <name>cardType</name>
    </variable>
    <variable>
-      <defaultValue>'5244550100131688'</defaultValue>
+      <defaultValue>'4285720304320212'</defaultValue>
       <description></description>
       <id>0f48f02a-3167-436d-9073-cf5abb8b6f08</id>
       <masked>false</masked>
       <name>cardNumber</name>
    </variable>
    <variable>
-      <defaultValue>'1234'</defaultValue>
+      <defaultValue>'6263'</defaultValue>
       <description></description>
       <id>0ef63e07-07b4-4ead-838d-e304b79289ee</id>
       <masked>false</masked>

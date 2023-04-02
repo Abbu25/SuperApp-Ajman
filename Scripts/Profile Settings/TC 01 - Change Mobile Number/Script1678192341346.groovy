@@ -20,11 +20,11 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.callTestCase(findTestCase('Utilities/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-String dirName = System.getProperty("user.dir")
+String dirName = System.getProperty('user.dir')
 
-filePath = dirName + ExcelPath
+filePath = (dirName + ExcelPath)
 
-int rowNum=(RowNum.toInteger())+1
+int rowNum = RowNum.toInteger() + 1
 
 Mobile.tap(findTestObject('2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'), 0)
 
@@ -54,26 +54,24 @@ Mobile.waitForElementPresent(findTestObject('2.Dashboard/Profile Settings/Image_
 
 Mobile.takeScreenshot()
 
-mobileNumber=Mobile.getAttribute(findTestObject('2.Dashboard/Profile Settings/Button_Change Mobile Number'), 'contentDescription', 0)
+mobileNumber = Mobile.getAttribute(findTestObject('2.Dashboard/Profile Settings/Button_Change Mobile Number'), 'contentDescription', 
+    0)
 
 String[] list = mobileNumber.split('\\R')
 
 ActualResult = (list[1]).replaceAll('\\s', '')
 
-
 if (ActualResult.contains(MobileNumber)) {
-	KeywordUtil.markPassed("Mobile Number Updated Successfully")
-	
-	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, "Mobile Number Updated Successfully", filePath)
+    KeywordUtil.markPassed('Mobile Number Updated Successfully')
+
+    CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'Mobile Number Updated Successfully', filePath)
 } else {
-	KeywordUtil.markFailed("Mobile Number Not Updated. Please Try Again")
-	
-	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, "Mobile Number Not Updated. Please Try Again", filePath)
+    KeywordUtil.markFailed('Mobile Number Not Updated. Please Try Again')
+
+    CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'Mobile Number Not Updated. Please Try Again', filePath)
 }
 
-Mobile.swipe(135, 1840, 447, 259)
+WebUI.delay(5)
 
-Mobile.swipe(135, 1840, 447, 259)
-
-Mobile.tap(findTestObject('2.Dashboard/Profile Settings/Button_Logout'), 0)
+Mobile.tap(findTestObject('2.Dashboard/Profile Settings/Button_Logout-newApp'), 0)
 

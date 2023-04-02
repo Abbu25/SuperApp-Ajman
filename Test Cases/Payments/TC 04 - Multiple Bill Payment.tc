@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 04 - Multiple Bill Payment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73d3d0b9-fa88-4cda-a926-ec5416d5f720</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce2f9dbf-b38b-429f-8024-e5cebc56e722</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a8f01bef-35a0-4b39-8e5e-112797c7a631</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5efbc7de-ed02-4229-926e-57b540f658c7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ab77f6c-9d14-4608-86b5-d6b34e189cd9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'011103138011'</defaultValue>
+      <description></description>
+      <id>ce2f9dbf-b38b-429f-8024-e5cebc56e722</id>
+      <masked>false</masked>
+      <name>AccountNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Test Data/Ajman SuperApp - Test Data.xlsx'</defaultValue>
+      <description></description>
+      <id>a8f01bef-35a0-4b39-8e5e-112797c7a631</id>
+      <masked>false</masked>
+      <name>ExcelPath</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>5efbc7de-ed02-4229-926e-57b540f658c7</id>
+      <masked>false</masked>
+      <name>RowNum</name>
+   </variable>
+   <variable>
+      <defaultValue>'MultipleBillPayment'</defaultValue>
+      <description></description>
+      <id>0ab77f6c-9d14-4608-86b5-d6b34e189cd9</id>
+      <masked>false</masked>
+      <name>SheetName</name>
+   </variable>
+</TestCaseEntity>

@@ -3,9 +3,9 @@
    <description></description>
    <name>dropdown_Purpose</name>
    <tag></tag>
-   <elementGuidId>db937c5e-5a9f-409a-ae9a-5dde38a0fa9a</elementGuidId>
+   <elementGuidId>b5c6fb91-dcea-462c-aa03-6e1e7dc7d6bc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>(//*[contains(@text, 'Please select')])[2]</locator>
+   <locator>//*[contains(@content-desc, 'Purpose')]/following-sibling::android.widget.ImageView</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

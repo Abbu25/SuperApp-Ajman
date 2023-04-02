@@ -40,9 +40,9 @@ Mobile.waitForElementPresent(findTestObject('4.Transfers/My Own/Label_Transfer f
 
 Mobile.tap(findTestObject('4.Transfers/My Own/Select_Account', [('accountNumber') : TransferFromAccount]), 0)
 
-Mobile.tap(findTestObject('4.Transfers/Text Box_Amount'), 0)
+Mobile.waitForElementPresent(findTestObject('4.Transfers/Text Box_Amount'), 0)
 
-Mobile.setText(findTestObject('4.Transfers/Text Box_Amount'), Amount, 0)
+WebUI.callTestCase(findTestCase('Utilities/KeyboardFunction'), [('text') : Amount], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('4.Transfers/Button_Next'), 0)
 
@@ -51,6 +51,10 @@ WebUI.delay(2)
 Mobile.swipe(135, 1840, 447, 259)
 
 Mobile.takeScreenshot()
+
+WebUI.delay(2)
+
+Mobile.swipe(135, 1840, 447, 259)
 
 Mobile.tap(findTestObject('4.Transfers/Button_Confirm'), 0)
 
@@ -87,5 +91,5 @@ if (Mobile.verifyElementExist(findTestObject('3.Payments/Payment Success page/Bu
 
 Mobile.tap(findTestObject('4.Transfers/Button_BackToPayment'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.STOP_ON_FAILURE)
 

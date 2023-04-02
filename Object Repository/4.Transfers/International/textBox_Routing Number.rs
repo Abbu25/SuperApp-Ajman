@@ -3,9 +3,9 @@
    <description></description>
    <name>textBox_Routing Number</name>
    <tag></tag>
-   <elementGuidId>44c3fa71-8639-49c1-b132-6702c025c180</elementGuidId>
+   <elementGuidId>7bdfd577-09de-4091-be2b-7f01dfe2870c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.EditText[contains(@text, 'Routing Number')]</locator>
+   <locator>(//android.widget.EditText)[3]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

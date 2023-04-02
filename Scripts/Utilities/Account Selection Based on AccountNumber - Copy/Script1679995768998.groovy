@@ -17,3 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String text = Mobile.verifyElementExist(findTestObject('3.Payments/AccountSelection/AccountSelection', [('accountNumber') : accountNumber]), 
+    10, FailureHandling.OPTIONAL)
+
+count=1
+
+while (text != 'true') {
+	
+    Mobile.swipe(135, 1840, 447, 259)
+
+    text = Mobile.verifyElementExist(findTestObject('3.Payments/AccountSelection/AccountSelection', [('accountNumber') : accountNumber]), 
+        2, FailureHandling.OPTIONAL)
+	
+	if(count==3) {
+		break
+	}
+}
+
+Mobile.tap(findTestObject('3.Payments/AccountSelection/AccountSelection', [('accountNumber') : accountNumber]), 0, FailureHandling.OPTIONAL)
+
+println(text)
+

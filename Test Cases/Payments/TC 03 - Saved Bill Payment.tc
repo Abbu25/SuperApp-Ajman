@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC 01 - Saved Bill Payment</name>
+   <name>TC 03 - Saved Bill Payment</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c2cf7f09-1387-43b7-879b-09afd19573f2</testCaseGuid>
@@ -47,47 +47,65 @@
       <value></value>
       <variableId>a764488d-20f6-4993-bf81-2934c94b3de4</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2f6cc300-9c66-4e72-a326-0bc09bfd93e7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b32d17f7-9f47-4cad-b82f-2aa269f9b3a4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1781964d-d7d5-457e-b88e-b731499d7186</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'FEWA'</defaultValue>
       <description></description>
       <id>85041eb0-2d87-4fe4-82d2-fb83c1a49667</id>
       <masked>false</masked>
-      <name>biller</name>
+      <name>Biller</name>
    </variable>
    <variable>
       <defaultValue>'FEWA'</defaultValue>
       <description></description>
       <id>189fc30b-86f3-4c57-939e-9dc855f26a26</id>
       <masked>false</masked>
-      <name>subBiller</name>
+      <name>SubBiller</name>
    </variable>
    <variable>
       <defaultValue>'210000137777'</defaultValue>
       <description></description>
       <id>ac0a1a7f-74d4-4438-a91b-30619783ff18</id>
       <masked>false</masked>
-      <name>consumerNumber</name>
+      <name>ConsumerNumber</name>
    </variable>
    <variable>
       <defaultValue>'1.00'</defaultValue>
       <description></description>
       <id>001f7ea8-4cdf-4217-bc5f-eeb47206ac88</id>
       <masked>false</masked>
-      <name>amount</name>
+      <name>Amount</name>
    </variable>
    <variable>
-      <defaultValue>'011074763023'</defaultValue>
+      <defaultValue>'011103138011'</defaultValue>
       <description></description>
       <id>1a2ddd40-50c6-4623-936d-b3c826a87b06</id>
       <masked>false</masked>
-      <name>accountNumber</name>
+      <name>AccountNumber</name>
    </variable>
    <variable>
       <defaultValue>'partial'</defaultValue>
       <description></description>
       <id>ac954bf5-415d-4cc9-8c5a-fae8b0e81540</id>
       <masked>false</masked>
-      <name>paymentType</name>
+      <name>PaymentType</name>
    </variable>
    <variable>
       <defaultValue>'6843'</defaultValue>
@@ -95,5 +113,26 @@
       <id>a764488d-20f6-4993-bf81-2934c94b3de4</id>
       <masked>false</masked>
       <name>SalikPIN</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>2f6cc300-9c66-4e72-a326-0bc09bfd93e7</id>
+      <masked>false</masked>
+      <name>RowNum</name>
+   </variable>
+   <variable>
+      <defaultValue>'/Test Data/Ajman SuperApp - Test Data.xlsx'</defaultValue>
+      <description></description>
+      <id>b32d17f7-9f47-4cad-b82f-2aa269f9b3a4</id>
+      <masked>false</masked>
+      <name>ExcelPath</name>
+   </variable>
+   <variable>
+      <defaultValue>'SaveTheBillers'</defaultValue>
+      <description></description>
+      <id>1781964d-d7d5-457e-b88e-b731499d7186</id>
+      <masked>false</masked>
+      <name>SheetName</name>
    </variable>
 </TestCaseEntity>

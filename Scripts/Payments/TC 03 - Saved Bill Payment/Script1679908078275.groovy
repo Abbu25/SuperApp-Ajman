@@ -28,6 +28,11 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.callTestCase(findTestCase('Utilities/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
+String dirName = System.getProperty('user.dir')
+
+filePath = (dirName + ExcelPath)
+
+int rowNum = RowNum.toInteger() + 1
 Mobile.tap(findTestObject('3.Payments/Payments_page/tab_PAY'), 0)
 
 Mobile.tap(findTestObject('3.Payments/Payments_page/tab_Bills'), 0)
@@ -36,22 +41,19 @@ Mobile.tap(findTestObject('3.Payments/Payments_page/button_NewBill'), 0)
 
 WebUI.delay(2)
 
-Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Label_Select Biller', [('biller') : biller]), 0)
+Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Label_Select Biller', [('biller') : Biller]), 0)
 
-Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Label_Select Sub Biller', [('subBiller') : subBiller]), 0)
+Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Label_Select Sub Biller', [('subBiller') : SubBiller]), 0)
 
-Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber'), [('accountNumber') : accountNumber], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.waitForElementPresent(findTestObject('3.Payments/Pay To New Biller/Text Box_Account Number Entry'), 0)
 
 Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Text Box_Account Number Entry'), 0)
 
-Mobile.setText(findTestObject('3.Payments/Pay To New Biller/Text Box_Account Number Entry'), consumerNumber, 0)
+Mobile.setText(findTestObject('3.Payments/Pay To New Biller/Text Box_Account Number Entry'), ConsumerNumber, 0)
 
 Mobile.pressBack()
 
-if (biller == 'Salik') {
+if (Biller == 'Salik') {
     Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Text Box_Salik PIN'), 0)
 
     Mobile.setText(findTestObject('3.Payments/Pay To New Biller/Text Box_Salik PIN'), SalikPIN, 0)
@@ -61,22 +63,27 @@ if (biller == 'Salik') {
 
 Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Button_Next'), 0)
 
-Mobile.waitForElementPresent(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 0)
+WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber - Copy'), [('accountNumber') : AccountNumber], 
+    FailureHandling.OPTIONAL)
+
+Mobile.waitForElementPresent(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 0, FailureHandling.OPTIONAL)
 
 String[] due
 
-if (paymentType.equals('partial')) {
-    Mobile.tap(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 0)
+if (PaymentType.equals('partial')) {
+    AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
-    Mobile.clearText(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 0)
+    dueamount = Mobile.getAttribute(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 'text', 30, FailureHandling.OPTIONAL)
 
-    Mobile.setText(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), amount, 0)
+    println(dueamount)
+
+    for (int i = 0; i < dueamount.length(); i++) {
+        driver.pressKey(new KeyEvent(AndroidKey.DEL))
+    }
+    
+    WebUI.callTestCase(findTestCase('Utilities/KeyboardFunction'), [('text') : Amount], FailureHandling.STOP_ON_FAILURE)
 } else {
-    dueamount = Mobile.getAttribute(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 'text', 0)
-
-    due = dueamount.split(',', 0)
-
-    amount = (due[0])
+    Amount = Mobile.getAttribute(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 'text', 2, FailureHandling.OPTIONAL)
 }
 
 Mobile.tap(findTestObject('3.Payments/Amount/Button_Next'), 0)
@@ -106,7 +113,7 @@ Mobile.waitForElementPresent(findTestObject('3.Payments/Save Bill/textBox_Nickna
 
 Mobile.tap(findTestObject('3.Payments/Save Bill/textBox_Nickname'), 0)
 
-Mobile.setText(findTestObject('3.Payments/Save Bill/textBox_Nickname'), biller, 0)
+Mobile.setText(findTestObject('3.Payments/Save Bill/textBox_Nickname'), Biller, 0)
 
 Mobile.takeScreenshot()
 
@@ -122,12 +129,14 @@ Mobile.waitForElementPresent(findTestObject('3.Payments/Payments_page/button_New
 
 Mobile.takeScreenshot()
 
-if (Mobile.waitForElementPresent(findTestObject('3.Payments/Save Bill/vrify_Saved Biller', [('biller') : biller, ('consumerNumber') : consumerNumber]), 
+if (Mobile.waitForElementPresent(findTestObject('3.Payments/Save Bill/vrify_Saved Biller', [('biller') : Biller, ('consumerNumber') : ConsumerNumber]), 
     0)) {
-    KeywordUtil.markPassed("Biller $biller Saved Successfully with consumer number $consumerNumber")
+    KeywordUtil.markPassed("Biller $Biller Saved Successfully with consumer number $ConsumerNumber")
+	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, "Biller $Biller Saved Successfully with consumer number $ConsumerNumber", filePath)
 } else {
-    KeywordUtil.markFailed('Biller $biller Saved Failed with consumer number $consumerNumber')
+    KeywordUtil.markFailed("Biller $Biller Saved Failed with consumer number $ConsumerNumber")
+	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, "Biller $Biller Saved Failed with consumer number $ConsumerNumber", filePath)
 }
 
-WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

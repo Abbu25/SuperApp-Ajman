@@ -28,11 +28,17 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.callTestCase(findTestCase('Utilities/Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-String dirName = System.getProperty("user.dir")
+String dirName = System.getProperty('user.dir')
 
-filePath = dirName + ExcelPath
+filePath = (dirName + ExcelPath)
 
-int rowNum=(rowNum.toInteger())+1
+int rowNum = rowNum.toInteger() + 1
+
+while (Mobile.verifyElementNotExist(findTestObject('2.Dashboard/Cards/tab_Cards'), 2,, FailureHandling.OPTIONAL)) {
+    Mobile.swipe(135, 200, 135, 2000)
+
+    Mobile.waitForElementPresent(findTestObject('2.Dashboard/Accounts/AccountDetails'), 60)
+}
 
 Mobile.tap(findTestObject('3.Payments/Payments_page/tab_PAY'), 0)
 
@@ -46,10 +52,7 @@ Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Label_Select Biller', [(
 
 Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Label_Select Sub Biller', [('subBiller') : subBiller]), 0)
 
-Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber'), [('accountNumber') : accountNumber], 
-    FailureHandling.OPTIONAL)
+Mobile.waitForElementPresent(findTestObject('3.Payments/Pay To New Biller/Text Box_Account Number Entry'), 0)
 
 Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Text Box_Account Number Entry'), 0)
 
@@ -69,22 +72,29 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Button_Next'), 0)
 
+Mobile.tap(findTestObject('2.Dashboard/Cards/tab_Cards'), 0)
+
+WebUI.callTestCase(findTestCase('Utilities/Card Selection Based on CardNumber'), [('cardLastFourDigits') : cardLastFourDigits], 
+    FailureHandling.OPTIONAL)
+
 Mobile.waitForElementPresent(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 0, FailureHandling.OPTIONAL)
 
 String[] due
 
 if (paymentType.equals('partial')) {
-    Mobile.tap(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 2, FailureHandling.OPTIONAL)
+    AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
-    Mobile.clearText(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 2, FailureHandling.OPTIONAL)
+    dueamount = Mobile.getAttribute(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 'text', 30, FailureHandling.OPTIONAL)
 
-    Mobile.setText(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), amount, 2, FailureHandling.OPTIONAL)
+    println(dueamount)
+
+    for (int i = 0; i < dueamount.length(); i++) {
+        driver.pressKey(new KeyEvent(AndroidKey.DEL))
+    }
+    
+    WebUI.callTestCase(findTestCase('Utilities/KeyboardFunction'), [('text') : amount], FailureHandling.STOP_ON_FAILURE)
 } else {
-    dueamount = Mobile.getAttribute(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 'text', 2, FailureHandling.OPTIONAL)
-
-    due = dueamount.split(',', 0)
-
-    amount = (due[0])
+    amount = Mobile.getAttribute(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 'text', 2, FailureHandling.OPTIONAL)
 }
 
 Mobile.takeScreenshot()
@@ -124,14 +134,14 @@ if (Mobile.verifyElementExist(findTestObject('3.Payments/Payment Success page/Bu
 
     println(line[0])
 
-    if (amount == line[0]) {
+    if (amount == (line[0])) {
         KeywordUtil.markPassed("$biller Bill Payment Successfully")
 
         CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, ActualResult, filePath)
     } else {
         KeywordUtil.markFailed("$biller Bill Payment Faild")
 
-        CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName , rowNum, ActualResult, filePath)
+        CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, ActualResult, filePath)
     }
 } else {
     KeywordUtil.markFailed("$biller Bill Payment Faild")
@@ -139,6 +149,5 @@ if (Mobile.verifyElementExist(findTestObject('3.Payments/Payment Success page/Bu
 
 Mobile.tap(findTestObject('3.Payments/Payment Success page/Button_Back To Payment'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
+WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

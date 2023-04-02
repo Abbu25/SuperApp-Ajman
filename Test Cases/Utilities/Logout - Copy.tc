@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_03 New Bill Payment with cards</name>
+   <name>Logout - Copy</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>53c0d745-e041-41bc-86e7-9aaae9f34f88</testCaseGuid>
+   <testCaseGuid>9dc6084c-09fc-4da9-99c0-6d1adc1ba2e6</testCaseGuid>
 </TestCaseEntity>
