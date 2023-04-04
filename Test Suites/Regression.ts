@@ -705,10 +705,10 @@
       <guid>83d99e42-58cb-463e-9d46-f4006ee2183a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Cards/TC 01 - New Card Payment</testCaseId>
+      <testCaseId>Test Cases/Cards/TC 01 - Pay to New Card or Own Card or Saved Card</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>e2c40aa8-093a-426c-9215-a7067a2586c4</id>
+         <id>21c86665-2899-493c-8c6c-9bc18359f917</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -717,25 +717,25 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>e2c40aa8-093a-426c-9215-a7067a2586c4</testDataLinkId>
+         <testDataLinkId>21c86665-2899-493c-8c6c-9bc18359f917</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CreditCardNumber</value>
          <variableId>17bff9b8-79ea-4c1e-98de-971f8cc4f741</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e2c40aa8-093a-426c-9215-a7067a2586c4</testDataLinkId>
+         <testDataLinkId>21c86665-2899-493c-8c6c-9bc18359f917</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Amount</value>
          <variableId>f4ecee1b-da26-45b4-be7f-e793fd6d968d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e2c40aa8-093a-426c-9215-a7067a2586c4</testDataLinkId>
+         <testDataLinkId>21c86665-2899-493c-8c6c-9bc18359f917</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>AccountNumber</value>
          <variableId>404fd7c0-3d2c-464b-994a-d4b7eeeb2220</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>e2c40aa8-093a-426c-9215-a7067a2586c4</testDataLinkId>
+         <testDataLinkId>21c86665-2899-493c-8c6c-9bc18359f917</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>RowNum</value>
          <variableId>07279b12-1c7d-4ea1-bb20-3819e1ac825b</variableId>
@@ -753,15 +753,15 @@
          <variableId>42b1ffd8-a2c0-4c6f-8258-10b9f243ccae</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>21c86665-2899-493c-8c6c-9bc18359f917</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>NewCardPayment</value>
          <variableId>a7ab81a7-93ca-4da3-ad3b-f8068141cd88</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>21c86665-2899-493c-8c6c-9bc18359f917</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardLastFourDigits</value>
          <variableId>4f98fbcf-37d4-4ae8-93de-f43f95a25dcb</variableId>
       </variableLink>
    </testCaseLink>

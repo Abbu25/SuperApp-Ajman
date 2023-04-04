@@ -149,5 +149,5 @@ if (Mobile.verifyElementExist(findTestObject('3.Payments/Payment Success page/Bu
 
 Mobile.tap(findTestObject('3.Payments/Payment Success page/Button_Back To Payment'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

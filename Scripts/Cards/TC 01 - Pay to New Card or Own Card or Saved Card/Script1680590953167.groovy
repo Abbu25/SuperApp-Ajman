@@ -44,6 +44,8 @@ Mobile.tap(findTestObject('3.Payments/Payments_page/tab_PAY'), 0)
 
 Mobile.tap(findTestObject('2.Dashboard/Cards/tab_Cards'), 0)
 
+println NewCardPayment
+
 if (NewCardPayment.toString().equals('yes')) {
     Mobile.tap(findTestObject('5. Cards/button_New Card'), 0)
 
@@ -69,7 +71,7 @@ if (NewCardPayment.toString().equals('yes')) {
     Mobile.waitForElementPresent(findTestObject('5. Cards/Label_Pay from'), 60)
 }
 
-WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber - Copy'), [('accountNumber') : AccountNumber], 
+WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber'), [('accountNumber') : AccountNumber], 
     FailureHandling.OPTIONAL)
 
 Mobile.waitForElementPresent(findTestObject('5. Cards/textBox_Amount'), 0, FailureHandling.OPTIONAL)
@@ -126,5 +128,5 @@ if (Mobile.verifyElementExist(findTestObject('3.Payments/Payment Success page/Bu
 
 Mobile.tap(findTestObject('3.Payments/Payment Success page/Button_Back To Payment'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

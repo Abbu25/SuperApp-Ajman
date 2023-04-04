@@ -46,7 +46,7 @@ Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Button_Next'), 0)
 
 Mobile.waitForElementPresent(findTestObject('4.Transfers/My Own/Label_Transfer from'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber - Copy'), [('accountNumber') : AccountNumber], 
+WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber'), [('accountNumber') : AccountNumber], 
     FailureHandling.OPTIONAL)
 
 WebUI.delay(2)
@@ -101,5 +101,5 @@ if (Mobile.verifyElementExist(findTestObject('3.Payments/Payment Success page/Bu
 
 Mobile.tap(findTestObject('4.Transfers/Button_BackToPayment'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

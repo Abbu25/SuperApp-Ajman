@@ -113,7 +113,7 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('4.Transfers/Button_Next'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber - Copy'), [('accountNumber') : SelectAccount], 
+WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber'), [('accountNumber') : SelectAccount], 
     FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('4.Transfers/International/Text Box_Amount'), 0)
@@ -201,5 +201,5 @@ if ((Amount == (line[0])) && ((line[3]) != 'Transfer Failed')) {
 
 Mobile.tap(findTestObject('4.Transfers/Button_BackToPayment'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

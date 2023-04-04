@@ -64,5 +64,5 @@ WebUI.delay(5)
 
 Mobile.tap(findTestObject('3.Payments/Manage Bills/button_Back'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

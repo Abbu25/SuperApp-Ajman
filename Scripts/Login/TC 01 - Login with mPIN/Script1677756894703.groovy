@@ -95,5 +95,5 @@ if (count == 0) {
     CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'Dashboard Details Not Verified', filePath)
 }
 
-WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

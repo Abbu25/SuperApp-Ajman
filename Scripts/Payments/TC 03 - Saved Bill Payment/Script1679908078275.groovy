@@ -63,7 +63,7 @@ if (Biller == 'Salik') {
 
 Mobile.tap(findTestObject('3.Payments/Pay To New Biller/Button_Next'), 0)
 
-WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber - Copy'), [('accountNumber') : AccountNumber], 
+WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber'), [('accountNumber') : AccountNumber], 
     FailureHandling.OPTIONAL)
 
 Mobile.waitForElementPresent(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 0, FailureHandling.OPTIONAL)
@@ -138,5 +138,5 @@ if (Mobile.waitForElementPresent(findTestObject('3.Payments/Save Bill/vrify_Save
 	CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, "Biller $Biller Saved Failed with consumer number $ConsumerNumber", filePath)
 }
 
-WebUI.callTestCase(findTestCase('Utilities/Logout - Copy'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
