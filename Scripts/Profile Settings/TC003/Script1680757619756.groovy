@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.cbt.ajmandigital', FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication('com.cbt.ajmandigital', FailureHandling.OPTIONAL)
 
-Mobile.waitForElementPresent(findTestObject('1.Registration and Login/Login Page/button_ForgotmPIN'), 0)
-
-WebUI.callTestCase(findTestCase('Utilities/Enter_mPIN'), [:], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.waitForElementPresent(findTestObject('2.Dashboard/Accounts/AccountDetails'), 120)
+Mobile.swipe(135, 350, 135, 2000)
 

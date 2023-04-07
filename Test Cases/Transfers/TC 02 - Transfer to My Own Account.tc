@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC 05 - Donation Transfer</name>
+   <name>TC 02 - Transfer to My Own Account</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>36dd1347-7c79-48c7-a82a-f41af4c44262</testCaseGuid>
+   <testCaseGuid>962b8c14-2f43-412c-a6d1-cf9412bfe90c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d875980a-195f-4abc-b74d-938569fae704</variableId>
+      <variableId>483c96f1-ec59-4739-af0d-7bbd9fcaf610</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5a00a2dc-d129-4e2b-9874-c13142538b48</variableId>
+      <variableId>abeb38d3-003a-491e-bd68-190b9508d0e7</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>e8f231e4-fc27-4334-97db-b03193d6ad49</variableId>
+      <variableId>fb695f3b-79d7-4989-969a-65ae317cea77</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>35e90e9e-2f70-42c3-bb50-b95719de7800</variableId>
+      <variableId>e2e83694-967b-40c5-a6d7-f39416c29a54</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5413d6b5-2227-48ae-b56c-8daa6d891d62</variableId>
+      <variableId>6f94ed2e-31b7-4af7-897e-12a331a2d651</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ee576f50-1491-45b5-a38c-658f51d891b5</variableId>
+      <variableId>bc025919-0c67-4c36-ad4f-b1923d2490cb</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Humaid Bin Rashid AL Nouimi'</defaultValue>
+      <defaultValue>'011103138023'</defaultValue>
       <description></description>
-      <id>d875980a-195f-4abc-b74d-938569fae704</id>
+      <id>483c96f1-ec59-4739-af0d-7bbd9fcaf610</id>
       <masked>false</masked>
-      <name>DonationName</name>
-   </variable>
-   <variable>
-      <defaultValue>'1.00'</defaultValue>
-      <description></description>
-      <id>5a00a2dc-d129-4e2b-9874-c13142538b48</id>
-      <masked>false</masked>
-      <name>Amount</name>
+      <name>TransferToAccount</name>
    </variable>
    <variable>
       <defaultValue>'011103138011'</defaultValue>
       <description></description>
-      <id>e8f231e4-fc27-4334-97db-b03193d6ad49</id>
+      <id>abeb38d3-003a-491e-bd68-190b9508d0e7</id>
       <masked>false</masked>
-      <name>AccountNumber</name>
+      <name>TransferFromAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'100.00'</defaultValue>
+      <description></description>
+      <id>fb695f3b-79d7-4989-969a-65ae317cea77</id>
+      <masked>false</masked>
+      <name>Amount</name>
    </variable>
    <variable>
       <defaultValue>'/Test Data/Ajman SuperApp - Test Data.xlsx'</defaultValue>
       <description></description>
-      <id>35e90e9e-2f70-42c3-bb50-b95719de7800</id>
+      <id>e2e83694-967b-40c5-a6d7-f39416c29a54</id>
       <masked>false</masked>
       <name>ExcelPath</name>
    </variable>
    <variable>
       <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>5413d6b5-2227-48ae-b56c-8daa6d891d62</id>
+      <id>6f94ed2e-31b7-4af7-897e-12a331a2d651</id>
       <masked>false</masked>
       <name>RowNum</name>
    </variable>
    <variable>
-      <defaultValue>'DonationTransfer'</defaultValue>
+      <defaultValue>'MyOwnAccount'</defaultValue>
       <description></description>
-      <id>ee576f50-1491-45b5-a38c-658f51d891b5</id>
+      <id>bc025919-0c67-4c36-ad4f-b1923d2490cb</id>
       <masked>false</masked>
       <name>SheetName</name>
    </variable>

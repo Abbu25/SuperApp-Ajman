@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC 04 - Multiple Bill Payment</name>
+   <name>TC 04 - Multiple Bills Payment</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>73d3d0b9-fa88-4cda-a926-ec5416d5f720</testCaseGuid>

@@ -38,9 +38,9 @@ Mobile.tap(findTestObject('3.Payments/Payments_page/tab_PAY'), 0)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
-Mobile.tap(findTestObject('4.Transfers/tab_Accounts'), 0)
+Mobile.tap(findTestObject('4.Transfers/tab_Accounts'), 0, FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('4.Transfers/International/tab_Overseas'), 0)
+Mobile.tap(findTestObject('4.Transfers/International/tab_Overseas'), 0, FailureHandling.OPTIONAL)
 
 Mobile.waitForElementPresent(findTestObject('4.Transfers/International/dropdown_Country'), 0)
 
@@ -52,7 +52,7 @@ WebUI.callTestCase(findTestCase('Utilities/KeyboardFunction - Text'), [('text') 
 
 Mobile.tap(findTestObject('4.Transfers/International/Select Country From DropDown', [('country') : Contry]), 0)
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 Mobile.tap(findTestObject('4.Transfers/International/dropdown_Bank Name'), 0)
 

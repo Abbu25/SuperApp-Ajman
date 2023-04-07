@@ -56,6 +56,9 @@ Mobile.tap(findTestObject('3.Payments/Payment Confirmation Page/Button_Verify'),
 
 Mobile.waitForElementPresent(findTestObject('2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings'), 0)
 
+
+Mobile.swipe(135, 450, 135, 2000)
+
 Mobile.takeScreenshot()
 
 email = Mobile.getAttribute(findTestObject('2.Dashboard/Profile Settings/Button_Change Email Address'), 'contentDescription', 
@@ -76,5 +79,6 @@ if (ActualResult.contains(EmailAddress)) {
 }
 
 Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('2.Dashboard/Profile Settings/Button_Logout-newApp'), 0)
 

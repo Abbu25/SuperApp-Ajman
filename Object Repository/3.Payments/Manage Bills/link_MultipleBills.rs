@@ -3,9 +3,9 @@
    <description></description>
    <name>link_MultipleBills</name>
    <tag></tag>
-   <elementGuidId>f02190d7-7fce-4451-b411-e7f6658879a1</elementGuidId>
+   <elementGuidId>54afcecf-35ea-4331-89d8-f1a51c6c10a1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>Pay Multiple Bills</locator>
+   <locator>Pay multiple due bills</locator>
    <locatorStrategy>ACCESSIBILITY</locatorStrategy>
 </MobileElementEntity>

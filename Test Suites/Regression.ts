@@ -207,7 +207,7 @@
       <guid>224c98b0-f759-4e51-bfd1-f4054beb166f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payments/TC 03 - Saved Bill Payment</testCaseId>
+      <testCaseId>Test Cases/Payments/TC 03 - Saving the Bills after Bill Payment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>da806843-1438-4f7e-b2c4-a2e71ee8be4e</id>
@@ -283,7 +283,7 @@
       <guid>71b8e53f-9659-4c06-acfc-25d1459d6f12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Payments/TC 04 - Multiple Bill Payment</testCaseId>
+      <testCaseId>Test Cases/Payments/TC 04 - Multiple Bills Payment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7242c9c2-ddda-4425-a512-c83d749b31ef</id>
@@ -348,58 +348,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>86258435-0755-4a6a-a022-2c74127d1f81</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Transfers/TC 02 - Transfer to My Own</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>0c498c3e-e0d6-4fe2-866e-a46f59ff14c5</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Transfers/MyOwn</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId>0c498c3e-e0d6-4fe2-866e-a46f59ff14c5</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>TransferToAccount</value>
-         <variableId>483c96f1-ec59-4739-af0d-7bbd9fcaf610</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>0c498c3e-e0d6-4fe2-866e-a46f59ff14c5</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>TransferFromAccount</value>
-         <variableId>abeb38d3-003a-491e-bd68-190b9508d0e7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>0c498c3e-e0d6-4fe2-866e-a46f59ff14c5</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Amount</value>
-         <variableId>fb695f3b-79d7-4989-969a-65ae317cea77</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e2e83694-967b-40c5-a6d7-f39416c29a54</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>0c498c3e-e0d6-4fe2-866e-a46f59ff14c5</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>RowNum</value>
-         <variableId>6f94ed2e-31b7-4af7-897e-12a331a2d651</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bc025919-0c67-4c36-ad4f-b1923d2490cb</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>542c7609-a257-4544-b203-7c74a680adfa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -449,6 +397,58 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>95b18eee-db13-4c65-a7f9-7e064df1bc3b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>86258435-0755-4a6a-a022-2c74127d1f81</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Transfers/TC 02 - Transfer to My Own Account</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0c498c3e-e0d6-4fe2-866e-a46f59ff14c5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Transfers/MyOwn</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0c498c3e-e0d6-4fe2-866e-a46f59ff14c5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TransferToAccount</value>
+         <variableId>483c96f1-ec59-4739-af0d-7bbd9fcaf610</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0c498c3e-e0d6-4fe2-866e-a46f59ff14c5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TransferFromAccount</value>
+         <variableId>abeb38d3-003a-491e-bd68-190b9508d0e7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0c498c3e-e0d6-4fe2-866e-a46f59ff14c5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Amount</value>
+         <variableId>fb695f3b-79d7-4989-969a-65ae317cea77</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e2e83694-967b-40c5-a6d7-f39416c29a54</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0c498c3e-e0d6-4fe2-866e-a46f59ff14c5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>RowNum</value>
+         <variableId>6f94ed2e-31b7-4af7-897e-12a331a2d651</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bc025919-0c67-4c36-ad4f-b1923d2490cb</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
@@ -622,6 +622,58 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>f9ec168e-4796-4cc8-9a4c-7ebf0d6f56b6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Transfers/TC 05 - Transfer to Charity Organization (Donation)</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>914fbdd8-eaad-4299-a483-abb900bf0c42</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Transfers/Donation Transfer</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>914fbdd8-eaad-4299-a483-abb900bf0c42</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>DonationName</value>
+         <variableId>d875980a-195f-4abc-b74d-938569fae704</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>914fbdd8-eaad-4299-a483-abb900bf0c42</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Amount</value>
+         <variableId>5a00a2dc-d129-4e2b-9874-c13142538b48</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>914fbdd8-eaad-4299-a483-abb900bf0c42</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AccountNumber</value>
+         <variableId>e8f231e4-fc27-4334-97db-b03193d6ad49</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>35e90e9e-2f70-42c3-bb50-b95719de7800</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>914fbdd8-eaad-4299-a483-abb900bf0c42</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>RowNum</value>
+         <variableId>5413d6b5-2227-48ae-b56c-8daa6d891d62</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ee576f50-1491-45b5-a38c-658f51d891b5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>e8743951-08b9-4efc-8ebd-7f8af36a1cfe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -705,7 +757,7 @@
       <guid>83d99e42-58cb-463e-9d46-f4006ee2183a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Cards/TC 01 - Pay to New Card or Own Card or Saved Card</testCaseId>
+      <testCaseId>Test Cases/Cards/TC 01 - Payment to Cards (New Card, Own Card and Saved Cards)</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>21c86665-2899-493c-8c6c-9bc18359f917</id>

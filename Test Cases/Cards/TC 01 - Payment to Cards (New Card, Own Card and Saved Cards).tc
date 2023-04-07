@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC 01 - Pay to New Card or Own Card or Saved Card</name>
+   <name>TC 01 - Payment to Cards (New Card, Own Card and Saved Cards)</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>712bdb38-702b-423c-8d61-0100d42a8f91</testCaseGuid>

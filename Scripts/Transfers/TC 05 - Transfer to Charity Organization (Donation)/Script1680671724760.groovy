@@ -36,6 +36,10 @@ Mobile.tap(findTestObject('4.Transfers/Donation/tab_Donation'), 0)
 
 Mobile.tap(findTestObject('4.Transfers/Donation/button_SelectDonationType', [('donationType') : DonationName]), 0)
 
+Mobile.waitForElementPresent(findTestObject('4.Transfers/Button_Next'), 0)
+
+Mobile.tap(findTestObject('4.Transfers/Button_Next'), 0)
+
 WebUI.callTestCase(findTestCase('Utilities/Account Selection Based on AccountNumber'), [('accountNumber') : AccountNumber], 
     FailureHandling.OPTIONAL)
 
