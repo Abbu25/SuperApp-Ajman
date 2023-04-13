@@ -42,13 +42,13 @@ Mobile.waitForElementPresent(findTestObject('1.Registration and Login/Welcome Pa
 
 Mobile.tap(findTestObject('1.Registration and Login/Welcome Page/button_Already a Customer'), 0)
 
-Mobile.waitForElementPresent(findTestObject('1.Registration and Login/Card Details Page/Radio Button_Debit Card'), 0)
+Mobile.waitForElementPresent(findTestObject('1.Registration and Login/Card Details Page/Text Box_Card Number'), 0)
 
-if (cardType.equals('Debit Card')) {
-    Mobile.tap(findTestObject('1.Registration and Login/Card Details Page/Radio Button_Debit Card'), 0)
-} else {
-    Mobile.tap(findTestObject('1.Registration and Login/Card Details Page/Radio Button_Credit Card'), 0)
-}
+//if (cardType.equals('Debit Card')) {
+//    Mobile.tap(findTestObject('1.Registration and Login/Card Details Page/Radio Button_Debit Card'), 0)
+//} else {
+//    Mobile.tap(findTestObject('1.Registration and Login/Card Details Page/Radio Button_Credit Card'), 0)
+//}
 
 Mobile.setText(findTestObject('1.Registration and Login/Card Details Page/Text Box_Card Number'), cardNumber, 0)
 
@@ -78,8 +78,12 @@ Mobile.waitForElementPresent(findTestObject('1.Registration and Login/mPIN Page/
 
 Mobile.tap(findTestObject('1.Registration and Login/mPIN Page/Button_Maybe later Biometric'), 0)
 
+Mobile.waitForElementPresent(findTestObject('1.Registration and Login/Welcome Page/button_Skip'), 30, FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('1.Registration and Login/Welcome Page/button_Skip'), 0)
+
 if (Mobile.waitForElementPresent(findTestObject('2.Dashboard/Accounts/AccountDetails'), 0)) {
-    KeywordUtil.markPassed("User Registered Successfully with $cardType")
+    KeywordUtil.markPassed("User Registered Successfully with $cardNumber")
 
     CustomKeywords.'myPack.WriteExcel.writeResult'(SheetName, rowNum, 'User Successfully Registered', filePath)
 } else {
