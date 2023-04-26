@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC 01 - Login with mPIN</name>
+   <name>TC 01 - Login with mPIN and Dashboard Validation</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9743684a-d7b4-4f43-a0b7-3c2f8a6bec3c</testCaseGuid>

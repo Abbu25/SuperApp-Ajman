@@ -9,12 +9,6 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>04a982d8-296b-4290-9652-7c0d630842ff</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>0f48f02a-3167-436d-9073-cf5abb8b6f08</variableId>
    </variableLinks>
    <variableLinks>
@@ -47,13 +41,6 @@
       <value></value>
       <variableId>cb609582-e427-49ad-aa2a-6105242305d0</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>'Debit Card'</defaultValue>
-      <description></description>
-      <id>04a982d8-296b-4290-9652-7c0d630842ff</id>
-      <masked>false</masked>
-      <name>cardType</name>
-   </variable>
    <variable>
       <defaultValue>'4285720304320212'</defaultValue>
       <description></description>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Regression</name>
+   <name>Ajman SuperApp - Regression Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -26,12 +26,6 @@
          <testDataId>Data Files/Registration</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId>5c23b2ac-2e03-4b5c-a991-b51857c28e2a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CardType</value>
-         <variableId>04a982d8-296b-4290-9652-7c0d630842ff</variableId>
-      </variableLink>
       <variableLink>
          <testDataLinkId>5c23b2ac-2e03-4b5c-a991-b51857c28e2a</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -73,7 +67,7 @@
       <guid>c69cfd45-1162-433f-8864-fb14e5335294</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/TC 01 - Login with mPIN</testCaseId>
+      <testCaseId>Test Cases/Login/TC 01 - Login with mPIN and Dashboard Validation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9e6443d3-3ae3-4e01-93bb-754d575af678</id>

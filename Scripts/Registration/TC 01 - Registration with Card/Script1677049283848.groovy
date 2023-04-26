@@ -34,7 +34,7 @@ filePath = (dirName + ExcelPath)
 
 int rowNum = RowNum.toInteger() + 1
 
-Mobile.waitForElementPresent(findTestObject('1.Registration and Login/Welcome Page/button_Skip'), 30, FailureHandling.OPTIONAL)
+Mobile.waitForElementPresent(findTestObject('1.Registration and Login/Welcome Page/button_Skip'), 60, FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('1.Registration and Login/Welcome Page/button_Skip'), 0)
 
@@ -49,7 +49,6 @@ Mobile.waitForElementPresent(findTestObject('1.Registration and Login/Card Detai
 //} else {
 //    Mobile.tap(findTestObject('1.Registration and Login/Card Details Page/Radio Button_Credit Card'), 0)
 //}
-
 Mobile.setText(findTestObject('1.Registration and Login/Card Details Page/Text Box_Card Number'), cardNumber, 0)
 
 Mobile.setText(findTestObject('1.Registration and Login/Card Details Page/Text Box_Card Pin'), cardPin, 0)
