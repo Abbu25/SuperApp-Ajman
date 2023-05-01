@@ -29,9 +29,10 @@ while (text != 'true') {
     text = Mobile.verifyElementExist(findTestObject('3.Payments/AccountSelection/AccountSelection', [('accountNumber') : accountNumber]), 
         2, FailureHandling.OPTIONAL)
 	
-	if(count==3) {
+	if(count==5) {
 		break
 	}
+	count++
 }
 
 Mobile.tap(findTestObject('3.Payments/AccountSelection/AccountSelection', [('accountNumber') : accountNumber]), 0, FailureHandling.OPTIONAL)

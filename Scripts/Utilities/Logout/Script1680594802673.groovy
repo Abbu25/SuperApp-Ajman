@@ -21,8 +21,6 @@ Mobile.waitForElementPresent(findTestObject('2.Dashboard/Profile Settings/Icon_H
 
 Mobile.tap(findTestObject('2.Dashboard/Profile Settings/Icon_Home'), 0)
 
-not_run: Mobile.waitForElementPresent(findTestObject('2.Dashboard/Accounts/AccountDetails'), 0)
-
 Mobile.tap(findTestObject('2.Dashboard/Profile Settings/Image_Profile Picture_DashBoard'), 0)
 
 Mobile.waitForElementPresent(findTestObject('2.Dashboard/Profile Settings/Image_Profile Picture_Profile Settings'), 0)

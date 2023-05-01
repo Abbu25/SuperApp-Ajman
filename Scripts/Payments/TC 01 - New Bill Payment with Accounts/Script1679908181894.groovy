@@ -74,7 +74,6 @@ Mobile.waitForElementPresent(findTestObject('3.Payments/Amount/Text Box_Amount E
 String[] due
 
 if (paymentType.equals('partial')) {
-	
     AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
     dueamount = Mobile.getAttribute(findTestObject('3.Payments/Amount/Text Box_Amount Entry'), 'text', 30, FailureHandling.OPTIONAL)

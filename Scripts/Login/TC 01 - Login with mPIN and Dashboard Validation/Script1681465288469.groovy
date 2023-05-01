@@ -26,7 +26,7 @@ import io.appium.java_client.android.nativekey.AndroidKey as AndroidKey
 import io.appium.java_client.android.nativekey.KeyEvent as KeyEvent
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-Mobile.startExistingApplication('com.cbt.ajmandigital', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.startExistingApplication('com.cbt.ajmantest', FailureHandling.CONTINUE_ON_FAILURE)
 
 String dirName = System.getProperty('user.dir')
 
